@@ -16,3 +16,11 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+# Quarto build
+/_site/
+/.quarto/
+
+# Copied from submodules by scripts/sync-assets.sh
+/img/passap-e6000/
+/skjol/

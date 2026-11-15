@@ -1,0 +1,114 @@
+---
+title: "Hugbúnaður"
+subtitle: "Allur kóði er opinn á GitHub"
+---
+
+Verkefnið byggir á hugmyndafræði frjáls og opins hugbúnaðar (FOSS) [@nsn2024, kafli *Hugverkastefna*]. Hér er hver geymsla, hvað hún gerir og hvernig þú notar hana.
+
+```{mermaid}
+flowchart LR
+  sj["Sjonabok<br/>mynstur sem fylki"] --> my["mynsturgerd<br/>mynd í mynstur"]
+  my -- "netbeiðni" --> pa["passAPI<br/>stýring + Arduino"]
+  pn["passapnext<br/>opið vefviðmót"] -- "gagnagrunnur" --> pa
+  pa --> vel(["Passap E6000"])
+```
+
+::: {.repo}
+## Sjonabok
+
+[github.com/HiDefTextiles/Sjonabok](https://github.com/HiDefTextiles/Sjonabok){.slod} · Python · GNU GPL v3.0
+
+**Hvað:** Mynstur úr *Íslenskri sjónabók* sem fylki af núllum og einum í textaskrám, og kóðinn sem breytir `.eps` skrám í það form.
+
+**Notkun:**
+
+```bash
+git clone https://github.com/HiDefTextiles/Sjonabok.git
+cd Sjonabok
+python3 convert_to_txt.py <path_to_eps_file> <path_to_txt_file>
+python3 convert_to_png.py <path_to_txt_file> <path_to_png_file>
+```
+
+Tilbúin mynstur eru í `patterns/txt`. Nánar: [Stafræn Sjónabók](leidbeiningar/passap-e6000/sjonabok.qmd).
+:::
+
+::: {.repo}
+## mynsturgerd
+
+[github.com/HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd){.slod} · Python
+
+**Hvað:** Sjálfvirk mynsturgerð fyrir prjónavélina. Föll sem breyta myndum í prjónamynstur, bæta við borða og bakgrunni úr *Sjónabók*, skrifa texta og koma mynstri á form vélarinnar.
+
+| Skrá | Föll |
+|---|---|
+| `ImageToPattern.py` | `ImageToMatrix`, `removeSinglePixels`, `viewColoredMatrix` |
+| `AddBackgroundAndBorder.py` | `add_border`, `add_background` |
+| `Write.py` | `write` |
+| `ProcessPatternsForMachine.py` | `separateColors`, `patternMatrixToJson` |
+
+**Notkun:** Dæmi eru í möppunni `examples/` (`ImageWithBorder.py` og `RagnheidurWithBackground.py`). Nánar: [Frá mynd í mynstur](leidbeiningar/passap-e6000/mynstur.qmd).
+:::
+
+::: {.repo}
+## passAPI
+
+[github.com/HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI){.slod} · Node.js (TypeScript og JavaScript) · Arduino (C++)
+
+**Hvað:** Stýringin sem keyrir á tölvu við hlið vélarinnar, vefviðmót stjórnanda og kóðinn fyrir Arduino örtölvuna (í möppunni `arduino/`).
+
+**Notkun:**
+
+```bash
+git clone https://github.com/HiDefTextiles/passAPI.git
+cd passAPI
+npm install
+npm run dev
+```
+
+Tölvan þarf að vera tengd Arduino með USB. Nánar: [Stýrðu nálunum](leidbeiningar/passap-e6000/styring.qmd).
+:::
+
+::: {.repo}
+## passapnext
+
+[github.com/tungufoss/passapnext](https://github.com/tungufoss/passapnext){.slod} · Next.js
+
+**Hvað:** Opið vefviðmót sem tekur við textabeiðnum frá notendum. Það býr til mynd úr textanum með hjálp gervigreindar, staðlar bakgrunninn, breytir myndinni í mynsturfylki og vistar í gagnagrunni. Stýringin sækir mynstrin þaðan.
+
+![Vefviðmótið sem tekur við hugmyndum notenda að mynstrum.](img/passap-e6000/skjar-passapnext.png){fig-alt="Vefsíða með reitum fyrir nafn og skilaboð og takkanum Senda" width=70%}
+
+**Notkun:** Þessar breytur þurfa að vera í keyrsluumhverfinu:
+
+| Breyta | Gildi |
+|---|---|
+| `DATABASE_URL` | Hlekkur fyrir samskipti við PostgreSQL gagnagrunn |
+| `YOUR_ORG_ID` | Fengið frá OpenAI API |
+| `PROJECT_ID` | Fengið frá OpenAI API |
+| `OPENAI_API_KEY` | Fengið frá OpenAI API |
+
+```bash
+git clone https://github.com/tungufoss/passapnext.git
+cd passapnext
+npm run dev
+```
+
+Opnaðu svo <http://localhost:3000> í vafra.
+:::
+
+::: {.repo}
+## NSN-2024
+
+[github.com/HiDefTextiles/NSN-2024](https://github.com/HiDefTextiles/NSN-2024){.slod} · LaTeX
+
+**Hvað:** Lokaskýrsla verkefnisins, heimild alls efnis um Passap E6000 á þessum vef.
+
+**Notkun:** Til að endurgera PDF útgáfuna:
+
+```bash
+latexmk -pdf main.tex && mv main.pdf NSN-report.pdf
+```
+:::
+
+::: {.heimild}
+@nsn2024, kaflinn *Kóði* og README skrár hverrar geymslu [@repo-sjonabok; @repo-mynsturgerd; @repo-passapi; @repo-passapnext]. Skýrslan vísar á mynsturgerðina hjá `snaefi/mynsturgerd`. README skýrslugeymslunnar vísar á `HiDefTextiles/mynsturgerd`, sem er notað hér.
+:::

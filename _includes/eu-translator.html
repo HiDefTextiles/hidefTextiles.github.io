@@ -1,0 +1,38 @@
+<!--
+  EU website translator: WEB-T Universal (European Commission, eTranslation).
+  https://website-translation.language-tools.ec.europa.eu/solutions/universal-plugin_en
+
+  The widget needs a WEB-T Translation Hub. Fill in the two values below with
+  the Hub URL and the Client-ID that the Hub shows under
+  My integrations > Settings > General setup. While either is empty the widget
+  is not loaded and the header keeps the plain "Translate" link.
+-->
+<script>
+  (function () {
+    var WEBT_HUB_URL = "";    // e.g. "https://webt-hub.example.hi.is"
+    var WEBT_CLIENT_ID = "";  // Client-ID of the website translator integration
+
+    if (!WEBT_HUB_URL || !WEBT_CLIENT_ID) return;
+
+    // Put the language selector in the header, in place of the "Translate" link.
+    var slot = document.createElement("div");
+    slot.className = "website-translator";
+    var link = document.querySelector('.navbar a.nav-link[href$="thyding.html"]');
+    if (link && link.parentNode) {
+      link.parentNode.replaceChild(slot, link);
+    } else {
+      var bar = document.querySelector(".navbar .navbar-collapse") || document.body;
+      bar.appendChild(slot);
+    }
+
+    var s = document.createElement("script");
+    s.src = "https://unpkg.com/@tilde-nlp/website-translator/dist/widget.js";
+    s.onload = function () {
+      WebsiteTranslator.Options.api.clientId = WEBT_CLIENT_ID;
+      WebsiteTranslator.Options.api.url = WEBT_HUB_URL;
+      WebsiteTranslator.Options.ui.layout = "menu";
+      WebsiteTranslator.Initialize();
+    };
+    document.body.appendChild(s);
+  })();
+</script>

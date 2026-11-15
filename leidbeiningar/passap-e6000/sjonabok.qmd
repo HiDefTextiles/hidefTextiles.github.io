@@ -1,0 +1,110 @@
+---
+title: "Stafræn Sjónabók"
+subtitle: "Gömul íslensk útsaumsmynstur á tölvutæku formi"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+*Íslensk sjónabók* geymir útsaumsmynstur úr handritum frá 16.–18. öld. Í geymslunni [Sjonabok](https://github.com/HiDefTextiles/Sjonabok) eru mynstrin sem einföld fylki af núllum og einum, tilbúin til notkunar í prjóni og annarri hönnun.
+:::
+
+## Hvað er Sjónabók?
+
+*Íslensk Sjónabók* [@Sjonabok] er safn tíu handrita frá 16.–18. öld sem varðveitt hafa íslensk útsaumsmynstur. Bókin er komin úr prentun og ekki stendur til að endurprenta hana sökum kostnaðar. Markmið útgefanda var að gera mynstrin aðgengileg svo hönnuðir gætu endurnýtt menningararfinn í listsköpun sinni.
+
+::: {.callout-important title="Leyfi"}
+Verkefnið hefur leyfi frá Heimilisiðnaðarfélaginu og Þjóðminjasafni Íslands til að dreifa mynstrum úr *Sjónabók* á stafrænu formi [@nsn2024, kafli *Hugverkastefna*].
+:::
+
+## Frá rúðupappír í fylki
+
+Bókinni fylgir geisladiskur með öllum mynstursíðunum sem `.pdf` eða `.eps` skrár. Þær henta illa til að vinna með í tölvu. Langflest mynstrin eru í tveimur litum, kross og ekki kross, og verkefnið einskorðaði sig við þau.
+
+::: {.par}
+![Fyrir: mynstur úr *Íslenskri sjónabók* í `.eps` skrá.](../../img/passap-e6000/sjonabok-fyrir.png){fig-alt="Mynstur teiknað með krossum á rúðustrikað blað"}
+
+![Eftir: sama mynstur eftir vinnslu, á `.png` formi.](../../img/passap-e6000/sjonabok-eftir.png){.pixel style="max-width:none" fig-alt="Sama mynstur sem hreinir svartir og hvítir reitir"}
+:::
+
+Svona vinnur kóðinn:
+
+::: {.skref}
+1. Hver `.eps` skrá er sótt og sett í grátóna fylki í Python.
+2. Fylkinu er skipt í núll og einn. Pixill sem er yfir ákveðnum þröskuldi af dökkgráu verður svartur (1), restin hvít (0).
+3. Rúðustrikuðu línurnar eru fundnar.
+4. Ef hlutfall svartra pixla innan reits er yfir 0,5 telst vera kross í reitnum.
+5. Upplýsingunum er safnað í nýtt fylki þar sem 1 stendur fyrir kross og 0 fyrir engan kross.
+6. Öllu aukaplássi utan mynstursins er hent og fylkið vistað á tveimur sniðum: sem textaskrá og sem `.png`.
+:::
+
+Textaskrárnar er einfalt að hlaða inn í fylki til að nota síðar. `.png` skrárnar eru þægilegri til að skoða mynstrin.
+
+### Mörg mynstur á einni síðu
+
+Í sumum skrám eru fleiri en eitt mynstur og þá þarf að aðskilja þau.
+
+- **Borðar** aðskiljast einfaldlega, annaðhvort lárétt eða lóðrétt.
+- **Önnur mynstur og stafróf** aðskiljast á flóknari hátt. Þar var notuð útfærsla af DFS.
+- Aðskilin mynstur af sömu síðu eru vistuð saman í möppu.
+- Einnig er til kóði sem finnur endurtekningar í mynstri og geymir minnstu endurtekninguna.
+
+## Notaðu mynstrin
+
+Kóðinn og mynstrin eru í [HiDefTextiles/Sjonabok](https://github.com/HiDefTextiles/Sjonabok), undir GNU GPL v3.0 leyfi.
+
+**Viltu bara mynstrin?** Þau eru tilbúin sem textaskrár í möppunni `patterns/txt` í geymslunni.
+
+```bash
+git clone https://github.com/HiDefTextiles/Sjonabok.git
+```
+
+**Viltu vinna úr `.eps` skrám sjálf(ur)?** Pakkarnir sem þarf eru í `requirements.txt`.
+
+```bash
+# .eps í textaskrá
+python3 convert_to_txt.py <path_to_eps_file> <path_to_txt_file>
+# textaskrá í .png
+python3 convert_to_png.py <path_to_txt_file> <path_to_png_file>
+# aðskilja mörg mynstur í einni skrá
+python3 split_patterns.py --cols_distance <int> --rows_distance <int> <path_to_txt_file>
+```
+
+Notaðu `--help` til að sjá valkosti hvers forrits. Til að umbreyta öllum skrám í möppu:
+
+```bash
+make init
+make all
+```
+
+Þú gætir þurft að breyta slóðinni `EPS_DIR` í `Makefile`.
+
+## Frá bók í band
+
+Þrjár af fyrstu prufum sumarsins. Mynstrið úr *Sjónabók* (Þjms. 5898) og sama mynstur prjónað.
+
+::: {.par}
+![Páfugl, bls. 246.](../../img/passap-e6000/sjonabok-pafugl.png){.pixel fig-alt="Rúðumynstur af páfugli"}
+
+![](../../img/passap-e6000/prjon-pafugl.jpg){fig-alt="Prjónaður páfugl"}
+:::
+
+::: {.par}
+![Blóm, bls. 210.](../../img/passap-e6000/sjonabok-blom.png){.pixel fig-alt="Rúðumynstur af blómi"}
+
+![](../../img/passap-e6000/prjon-blom.jpg){fig-alt="Prjónað blóm"}
+:::
+
+::: {.par}
+![Endurtekið mótíf, bls. 268.](../../img/passap-e6000/sjonabok-endurtekning.png){.pixel fig-alt="Ferningslaga rúðumynstur"}
+
+![](../../img/passap-e6000/prjon-endurtekning.jpg){fig-alt="Prjónað stykki með endurteknu mynstri"}
+:::
+
+::: {.callout-tip title="Ekki bara fyrir prjón"}
+Mynstrin eru ekki einskorðuð við prjónaskap. Grafískir hönnuðir geta nýtt þau í textílvinnu eða öðrum miðlum [@nsn2024, kafli *Afleidd tækifæri*].
+:::
+
+::: {.heimild}
+@nsn2024, kaflarnir *Staða þekkingar*, *Íslenska Sjónabókin nýtt í mynsturgerð*, *Hugverkastefna* og *Menningararfur og tenging við fortíðina*. Skipanirnar eru úr README og Makefile í [HiDefTextiles/Sjonabok](https://github.com/HiDefTextiles/Sjonabok) [@repo-sjonabok]. Snæfríður Ebba Ásgeirsdóttir kom mynstrunum á tölvutækt form.
+:::

@@ -1,0 +1,24 @@
+---
+title: "Verkefni"
+toc: false
+---
+
+HiDef textíll er regnhlíf yfir textílverkefni þar sem tækni, hönnun og menningararfur mætast. Hvert verkefni fær sína síðu og sínar [leiðbeiningar](../leidbeiningar/index.qmd).
+
+::: {.cards}
+::: {.card-hi}
+[2024 · Nýsköpunarsjóður námsmanna]{.num}
+
+### [Tæknivæddar prjónavélar: Passap E6000](passap-e6000.qmd)
+Gömul prjónavél frá 10. áratugnum snjallvædd með netsamskiptum og frjálsum hugbúnaði.
+
+[Verkefnið](passap-e6000.qmd) · [Leiðbeiningar](../leidbeiningar/passap-e6000/index.qmd)
+:::
+
+::: {.card-hi .dashed}
+[Næst?]{.num}
+
+### [Bæta við verkefni](nytt-verkefni.qmd)
+Svona bætist nýtt textílverkefni við vefinn.
+:::
+:::

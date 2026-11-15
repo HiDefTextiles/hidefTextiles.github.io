@@ -1,0 +1,20 @@
+---
+title: "Translation"
+subtitle: "Þýðing · Übersetzung · Traduction"
+toc: false
+---
+
+::: {lang="en"}
+This website is written in **Icelandic**.
+
+Machine translation into other languages will be offered here in the header through **WEB-T**, the European Commission's website translation tool, which uses the EU's eTranslation service. It is being set up.
+
+Until then, your browser's built-in page translation can be used.
+
+- [About WEB-T (European Commission)](https://website-translation.language-tools.ec.europa.eu/solutions/universal-plugin_en)
+- [About eTranslation (European Commission)](https://commission.europa.eu/resources-partners/etranslation_en)
+:::
+
+---
+
+Þessi vefur er skrifaður á **íslensku**. Vélþýðing á önnur tungumál verður í boði hér í hausnum í gegnum **WEB-T**, vefþýðingartól framkvæmdastjórnar Evrópusambandsins sem byggir á eTranslation. Uppsetningin er í vinnslu.

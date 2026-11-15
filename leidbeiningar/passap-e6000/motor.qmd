@@ -1,0 +1,55 @@
+---
+title: "Stýrðu mótornum"
+subtitle: "Rafrás sem ýtir á takkana fyrir þig"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Rafrásir eldri takkastýringar eru enn til staðar inni í *Passap E6000*. Með því að tengja fram hjá stjórnborðinu verða takkarnir aftur starfhæfir. Lítil rafrás með 7407N kubbi leyfir svo Arduino örtölvunni að „ýta" á takkana.
+:::
+
+## Smá saga
+
+Passap vélarnar þróuðust mikið á meðan þær voru í framleiðslu:
+
+::: {.timalina}
+#### Handvirkt
+Notandinn stillti mynstrin sjálfur og færði sleðann.
+
+#### Mótor og seglar
+Snemma kom lausn með mótor og einföldum breytingum á mynstri með seglum. Fyrstu mótorunum var stýrt með fótapedölum.
+
+#### Takkastýring
+Síðan kom takkastýring sem gerði notendum kleift að stýra mótornum á þægilegri máta.
+
+#### Passap E6000
+Stjórnborð með innbyggðri *Form* tölvu sem gat gert alls kyns mynstur. Stjórnborðið tók hins vegar yfir stjórn á tökkunum, svo það þurfti að vera tengt og kveikt á því til að hægt væri að ýta á takkana.
+:::
+
+Þegar vélin var tekin í sundur kom í ljós að rafrásir eldri útgáfnanna eru enn til staðar og hægt er að tengja fram hjá stjórnborðinu. Þá virka takkarnir aftur án stjórnborðsins. Kosturinn við takkastýringuna er að hún er skýr og einföld og notandinn upplifir meiri stjórn á ferlinu.
+
+## Rafrásin
+
+Takkarnir virka þannig að þeir eru alltaf með 5V straum á *high*. Þegar takki er tengdur í *ground* er hann virkur. 7407N kubburinn hermir eftir því.
+
+![Rafrás sem tengir Arduino við 7407N kubb, sem tengist svo við 6 pinna RJ12 tengi til að stýra mótor.](../../img/passap-e6000/rafras-motor.png){fig-alt="Teikning af rafrás með merkingum D10 til D13, GRND, COL, GOSTOP, END og V5"}
+
+Svona lestu myndina:
+
+- **Grænu jaðarpunktarnir** til vinstri og hægri eru tenging við Arduino örtölvuna, sem sendir skilaboð á kubbinn.
+- **Kubburinn** er 14 samhverfu grænu punktarnir um miðjuna. Þeir taka við skipunum frá pinnum örtölvunnar sem lágum straumi. Þá er pinninn fyrir neðan á myndinni tengdur í jörð (GRND).
+- Þeir pinnar tengjast rafrásum sem fara í **6 pinna RJ12 tengi**. Tengið sem fer út er hægra megin við kubbinn. Þaðan fara skilaboðin til mótorstýringarinnar.
+- **Vinstra megin við kubbinn** er annað tengi fyrir takkaborðið. Þá helst virkni takkanna, með viðbættri stýringu í gegnum örtölvuna.
+
+## Skipanir
+
+Í Arduino kóðanum er pláss fyrir skipanir á strengjaformi sem eru 3 stafir eða færri. Nú þegar er skipunin `s` notuð til að slökkva og kveikja á mótornum.
+
+::: {.callout-tip title="Af hverju skiptir mótorinn máli?"}
+Margar prufur sumarsins voru prjónaðar með handafli og það var tímafrekt. Með mótornum verður átakið á prjónið jafnara. Sjá [Prjónaðu](prjon.qmd).
+:::
+
+::: {.heimild}
+@nsn2024, kaflinn *Stýring á mótor*, auk *Prjónaáskoranir* og *Áskoranir og betrumbætur í prjóni* um reynsluna af mótornum. Arduino kóðinn er í möppunni `arduino/` í [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi].
+:::

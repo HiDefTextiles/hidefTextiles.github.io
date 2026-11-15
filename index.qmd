@@ -1,0 +1,79 @@
+---
+title: "HiDef textíll"
+pagetitle: "HiDef textíll – opnar leiðbeiningar um textíl og tækni"
+toc: false
+page-layout: full
+body-classes: forsida
+---
+
+::: {.hero}
+::: {.eyebrow}
+Rannsóknarverkefni við Háskóla Íslands
+:::
+
+# HiDef textíll
+
+::: {.lead}
+Hér mætast textíll, tækni og íslenskur menningararfur. Við skrifum niður hvernig við gerum hlutina, skref fyrir skref, svo aðrir geti gert það sama.
+:::
+
+[Skoða leiðbeiningar](leidbeiningar/index.qmd){.btn .btn-hero}
+[Um verkefnið](um.qmd){.btn .btn-ghost}
+:::
+
+## Hvað finnur þú hér?
+
+::: {.cards}
+::: {.card-hi}
+### [Leiðbeiningar](leidbeiningar/index.qmd)
+Hagnýtar leiðbeiningar, skref fyrir skref. Fyrsta safnið sýnir hvernig gömul Passap E6000 prjónavél er snjallvædd.
+:::
+
+::: {.card-hi .teal}
+### [Verkefni](verkefni/index.qmd)
+Hvert textílverkefni fær sína síðu með markmiðum, teymi, samstarfsaðilum og niðurstöðum.
+:::
+
+::: {.card-hi .pink}
+### [Hugbúnaður](hugbunadur.qmd)
+Allur kóði er opinn á GitHub. Hér sérðu hvaða geymsla gerir hvað og hvernig þú notar hana.
+:::
+:::
+
+## Fyrsta verkefnið: Passap E6000
+
+Sumarið 2024 tóku þrír nemendur úr vélaverkfræði, hagnýttri stærðfræði og fatahönnun gamla prjónavél frá 10. áratugnum og snjallvæddu hana með netsamskiptum og frjálsum hugbúnaði [@nsn2024, ágrip]. Verkefnið var styrkt af Nýsköpunarsjóði námsmanna.
+
+::: {.facts}
+::: {}
+**179** nálar á nálabeði vélarinnar
+:::
+::: {}
+**4** litir í einu prjónamynstri
+:::
+::: {}
+**3** nemendur úr þremur greinum
+:::
+::: {}
+**9** mannmánuðir frá Nýsköpunarsjóði námsmanna
+:::
+:::
+
+::: {.par}
+![Mynstur úr *Sjónabók*, bls. 246 (Þjms. 5898).](img/passap-e6000/sjonabok-pafugl.png){.pixel fig-alt="Svarthvítt rúðumynstur af páfugli"}
+
+![Sama mynstur prjónað á vélinni.](img/passap-e6000/prjon-pafugl.jpg){fig-alt="Prjónað stykki með páfugli í gulu og bláu"}
+
+![Ragnheiður Jónsdóttir, 120 lykkjur á breidd.](img/passap-e6000/prjon-ragnheidur-120.jpg){fig-alt="Prjónuð mynd af konu með hatt"}
+:::
+
+[Lesa um verkefnið](verkefni/passap-e6000.qmd){.btn .btn-primary}
+[Byrja á leiðbeiningunum](leidbeiningar/passap-e6000/index.qmd){.btn .btn-outline-primary}
+
+::: {.heimild}
+Tölur og myndir á þessari síðu eru úr lokaskýrslu verkefnisins [@nsn2024]: ágrip, kaflarnir *Kostnaður og fjármögnun*, *Breytingar á vélbúnaði* og *Prjón- og hönnunarvinna*.
+:::
+
+## Fleiri textílverkefni
+
+Passap prjónavélin er bara byrjunin. Vefurinn er byggður þannig að ný verkefni, vélar og aðferðir bætast við með sama sniði. Sjá [Bæta við verkefni](verkefni/nytt-verkefni.qmd).
