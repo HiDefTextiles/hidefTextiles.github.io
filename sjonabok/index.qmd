@@ -18,7 +18,7 @@ toc: false
 
 ## Hvað er Sjónabók?
 
-*Íslensk Sjónabók* [@Sjonabok] er tímamótaverk sem Heimilisiðnaðarfélagið og Þjóðminjasafn Íslands gáfu út. Hún inniheldur safn tíu handrita frá 16.–18. öld sem varðveitt hafa íslensk útsaumsmynstur.
+*Íslensk Sjónabók* [@Sjonabok] er tímamótaverk sem [Heimilisiðnaðarfélagið](https://www.heimilisidnadur.is/) og [Þjóðminjasafn Íslands](https://www.thjodminjasafn.is/) gáfu út. Hún inniheldur safn tíu handrita frá 16.–18. öld sem varðveitt hafa íslensk útsaumsmynstur.
 
 Bókin er komin úr prentun og ekki stendur til að endurprenta hana sökum kostnaðar. Markmið útgefanda var að gera mynstrin aðgengileg svo hönnuðir gætu endurnýtt ríkan menningararf í listsköpun sinni. Útgefendur tóku því vel í að verkefnið gæfi mynstrunum nýtt líf og útbyggi tól til að vinna með þau á gagnvirkan hátt.
 

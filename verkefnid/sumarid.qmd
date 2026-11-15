@@ -11,13 +11,13 @@ Unnið var í verkefninu frá maí og fram í miðjan ágúst 2024, þegar kenns
 
 ## Hvar?
 
-Prjónavélin var til húsa í vélaskála VR-III við Hjarðarhaga 2 í Reykjavík. Nemendur höfðu einnig aðgang að Sprotamýri, frumkvöðlasetri HÍ í Grósku.
+Prjónavélin var til húsa í vélaskála VR-III við Hjarðarhaga 2 í Reykjavík. Nemendur höfðu einnig aðgang að Sprotamýri, frumkvöðlasetri HÍ í [Grósku](https://groska.is/).
 
 ![Verkefnið var unnið í vélaskála VR-III.](../img/passap-e6000/vinnustofa.jpg){fig-alt="Vinnustofa með prjónavél, garni og prjónaprufum á vegg"}
 
 ## Daglegt stand-up
 
-Til að halda utan um tímalínuna var notað [GeekBot](https://geekbot.com/) á Teams svæði þátttakenda. Á hverjum virkum degi fengu nemendur fjórar spurningar:
+Til að halda utan um tímalínuna var notað [GeekBot](https://geekbot.com/) [@geekbot] á Teams svæði þátttakenda. Á hverjum virkum degi fengu nemendur fjórar spurningar:
 
 1. Slembin spurning svo nemendur kynnist hver öðrum, svokallaður *icebreaker*.
 2. Hvað hefur þú gert síðan síðast? Kerfið sýndi þeim síðasta svar þeirra við spurningu 3.
@@ -43,7 +43,7 @@ Fyrstu skref:
 
 1. Las um virkni *Passap* vélanna, uppfærslur og mismunandi útgáfur sem voru gerðar.
 2. Kynnti sér fyrri útfærslu af tengingu við vélbúnað og möguleika á stýringum.
-3. Fræsti rafrás út frá teikningum frá Bamberg [@bamberg] og náði stjórn á vélbúnaði í gegnum Arduino.
+3. Fræsti rafrás út frá teikningum frá [Backspace í Bamberg](https://www.hackerspace-bamberg.de/Passap_pfaff_e6000) [@bamberg] og náði stjórn á vélbúnaði í gegnum Arduino.
 4. Setti upp JavaScript forrit sem tengist Arduino með serial samskiptum yfir USB tengi.
 
 ##### Guðrún Ísafold og Snæfríður
@@ -60,8 +60,8 @@ Setti upp bakenda sem tekur við beiðnum yfir netsamskipti og stýrir vélinni.
 
 ##### Guðrún Ísafold
 - Prjónaði ýmsar prufur til að kynnast prjónavélunum, fyrst úr handbókinni fyrir *Passap Duomatic 80* og seinna á *Passap Electronic 6000*. Sjá [Prjónaðu](../prjonavel/prjon.qmd#lærðu-á-vélina-fyrst).
-- Skoðaði samskonar verkefni og vann hugmyndavinnu í forritinu Procreate.
-- Heimsótti Heimilisiðnaðarfélagið, Kidka, Textílsetrið á Blönduósi og vinnustofu Ýrar Jóhannsdóttur (Ýrúrarí), þar sem teymið fékk að skoða *Kniterate* vélina hennar.
+- Skoðaði samskonar verkefni og vann hugmyndavinnu í forritinu [Procreate](https://procreate.com/).
+- Heimsótti [Heimilisiðnaðarfélagið](https://www.heimilisidnadur.is/), [Kidka](https://kidka.com/), Textílsetrið á Blönduósi og vinnustofu Ýrar Jóhannsdóttur ([Ýrúrarí](http://www.yrurari.com)), þar sem teymið fékk að skoða [*Kniterate*](https://www.kniterate.com/about/) vélina hennar.
 - Sá um Instagram aðganginn [\@hideftextiles](https://www.instagram.com/hideftextiles/).
 
 ##### Snæfríður
@@ -87,7 +87,7 @@ Lokasprettur:
 
 ##### Guðrún Ísafold
 - Lærði nokkurn veginn á forritin sem Elías og Snæfríður bjuggu til.
-- Teymið heimsótti Þjóðminjasafn Íslands og þar heillaðist hún af Ragnheiði „yngri" Jónsdóttur. Hún heimsótti Landsbókasafn Íslands og kynnti sér rannsóknarefnið betur.
+- Teymið heimsótti [Þjóðminjasafn Íslands](https://www.thjodminjasafn.is/) og þar heillaðist hún af Ragnheiði „yngri" Jónsdóttur. Hún heimsótti [Landsbókasafn Íslands](https://landsbokasafn.is/) og kynnti sér rannsóknarefnið betur.
 - Hélt áfram með hugmyndavinnu og prufur sem tengdust henni.
 - Fljótlega var hægt að prjóna myndir með kóðanum sem Snæfríður skrifaði og Ragnheiður var valin sem fyrsta prjónaða myndin. Notuð var mynd sem máluð var af henni árið 1684 og er til sýnis á Þjóðminjasafninu. Hún er fyrirmynd myndarinnar á íslenska 5.000 króna seðlinum.
 - Leitað var leiða til að nota sjónabókarmynstrin í prjóni í bland við myndir.
@@ -96,7 +96,7 @@ Lokasprettur:
 - Fundað var með Lilju, fyrrum starfsmanni Þjóðminjasafnsins, sem fræddi teymið um *Íslensku sjónabókina* og mikilvægi hennar.
 - Áframhaldandi umsjá með Instagram aðgangi verkefnisins.
 - Vann að tillögum að fatnaði sem prjónaður er á vélinni.
-- Meira einband fékkst frá Ístex, ásamt öðru garni sem hentaði ekki vel.
+- Meira einband fékkst frá [Ístex](https://istex.is/), ásamt öðru garni sem hentaði ekki vel.
 
 ##### Snæfríður
 - Kom sjónabókarmynstrum á tölvutækt form.

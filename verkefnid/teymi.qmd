@@ -62,27 +62,27 @@ Verkefnið er þverfaglegt samstarfsverkefni þar sem ólíkir aðilar, bæði i
 
 ::: {.cards}
 ::: {.card-hi}
-#### Þjóðminjasafn Íslands og Heimilisiðnaðarfélagið
+#### [Þjóðminjasafn Íslands](https://www.thjodminjasafn.is/) og [Heimilisiðnaðarfélagið](https://www.heimilisidnadur.is/)
 Veittu leyfi til að vinna með mynstur úr *Sjónabók* og deila þeim stafrænt með almenningi. Markmiðið er að auka útbreiðslu þessara séríslensku mynstra og gera þau aðgengileg hönnuðum og almenningi.
 :::
 
 ::: {.card-hi}
-#### Marel
+#### [Marel](https://jbtmarel.com/)
 Veitti tæknilega ráðgjöf um breytingar á prjónavélinni. Fyrirtækið vill efla samstarf við háskóla og sá tækifæri í verkefni sem eflir hringrásarhagkerfi. Samstarfið tengir saman iðnað og akademíu.
 :::
 
 ::: {.card-hi}
-#### Ístex
+#### [Ístex](https://istex.is/)
 Lagði til garn. Þannig var stutt við hringrásarhagkerfi með innlendum efnivið: garn úr íslenskri ull í stað innfluttra efna.
 :::
 
 ::: {.card-hi}
-#### Textílmiðstöð Íslands
-Bauð teyminu í heimsókn á Blönduós til að sjá *Kniterate* vél í notkun og kynnast stafrænni textílsmiðju á Íslandi. Þar fékkst líka innsýn í ástand eldri prjónavéla. Stofnunin hefur tekið við mörgum úreltum vélum frá dánarbúum, því erfingjar vita oft ekki hvað má gera við þær.
+#### [Textílmiðstöð Íslands](https://www.textilmidstod.is/)
+Bauð teyminu í heimsókn á Blönduós til að sjá [*Kniterate*](https://www.kniterate.com/about/) vél í notkun og kynnast stafrænni textílsmiðju á Íslandi. Þar fékkst líka innsýn í ástand eldri prjónavéla. Stofnunin hefur tekið við mörgum úreltum vélum frá dánarbúum, því erfingjar vita oft ekki hvað má gera við þær.
 :::
 
 ::: {.card-hi}
-#### Ýr Jóhannsdóttir
+#### Ýr Jóhannsdóttir ([Ýrúrarí](http://www.yrurari.com))
 Íslenskur prjónahönnuður sem deildi reynslu sinni af bæði *Kniterate* og *Passap* vélum. Hún vann á *Passap* vélum áður en hún fékk *Kniterate* vél fyrr á árinu 2024. Samtalið gaf gagnlegar upplýsingar um hvernig best væri að aðlaga lausnirnar að prjónahönnuðum.
 :::
 

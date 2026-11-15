@@ -20,17 +20,17 @@ Teymið vildi einnig **skrásetja ferlið gaumgæfilega** til að veita nemendum
 
 ::: {.cards}
 ::: {.card-hi}
-#### KnitterStream
+#### [KnitterStream](https://www.oneclub.org/awards/theoneshow/-award/19603/knitterstream)
 Listgjörningur á C2-MTL ráðstefnunni í Montréal í Kanada árið 2012. Gömul rafknúin prjónavél breytti tístum af Twitter í refil. Verkefnið tengdi saman gögn og prjónaframleiðslu í rauntíma, en var meira hugsað sem einnota listaverk en kennslutæki eða framleiðslulausn [@knitterstream].
 :::
 
 ::: {.card-hi}
-#### Backspace í Bamberg
+#### [Backspace í Bamberg](https://www.hackerspace-bamberg.de/Passap_pfaff_e6000)
 Hakkarasmiðja í Bamberg í Þýskalandi endurbyggði *Passap E6000* og lagði áherslu á að snjallvæða vélina með tengingu við nútímahugbúnað [@bamberg].
 :::
 
 ::: {.card-hi}
-#### Irene Wolf
+#### [Irene Wolf](https://hackaday.io/project/163701-passap-e6000-rebuilt-and-replaced-console)
 Hefur þýtt og skráð hluta af breytingunum frá Bamberg á ensku [@irene].
 :::
 :::
@@ -45,10 +45,10 @@ Teyminu var kært að nota séríslensk mótíf í prjóninu og sóttist því e
 
 ## Gamlar vélar og nýjar
 
-| | *Kniterate* (ný vél) | *Passap E6000* (gömul vél) |
+| | [*Kniterate*](https://www.kniterate.com/about/) (ný vél) | *Passap E6000* (gömul vél) |
 |---|---|---|
 | **Fyrir hvern?** | Hönnuð sérstaklega fyrir minni hönnuði og smærri framleiðendur [@kniterate] | Enn í notkun hjá áhugafólki |
-| **Verð** | Yfir 16.000 evrur | |
+| **Verð** | Yfir 16.000 evrur [@nsn2024] | |
 | **Notkun** | Tiltölulega flókin að mati innlendra notenda | Tiltölulega einföld |
 | **Það sem vantar** | | Nútíma tengingar og notendavænt viðmót |
 
@@ -64,7 +64,7 @@ Verkefnið bætir við núverandi þekkingu með því að skrásetja ferlið ga
 
 Verkefnið snýst um endurbætur á svissneskum prjónavélum frá 10. áratugnum. Framleiðslu þeirra var hætt um aldamótin þegar *Passap* fór á hausinn. Nýir varahlutir eru því nánast ófáanlegir, nema með því að leita að notuðum vélum og nýta hluti úr þeim sem eru enn í lagi.
 
-Vélarnar eru samt vel gerðar og enn í notkun hjá áhugafólki. Virk netsamfélög eru í kringum þær, eins og Facebook hópar og [Machine Knit Community](https://www.mkc.community/). Auk þess eru til þónokkrar YouTube rásir með leiðbeiningum og stuðningi.
+Vélarnar eru samt vel gerðar og enn í notkun hjá áhugafólki. Virk netsamfélög eru í kringum þær, eins og Facebook hópar og [Machine Knit Community](https://www.mkc.community/) [@mkc]. Auk þess eru til þónokkrar YouTube rásir með leiðbeiningum og stuðningi.
 
 Forkönnun á tæknilegum og markaðslegum þáttum sýndi að þörf er á hagkvæmum lausnum fyrir minni hönnuði sem vilja nýta þessar vélar. Þar sem fyrirtækið er hætt er engin áframhaldandi þróun á þeim. Verkefnið miðar því að því að snjallvæða vélarnar, nýta þær á nýjan hátt, auka sjálfbærni og minnka óþarfa sóun.
 

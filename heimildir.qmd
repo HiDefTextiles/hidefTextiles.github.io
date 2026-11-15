@@ -61,5 +61,7 @@ Myndir af prjóni, mynstrum, rafrásum og skjámyndir eru úr skýrslunni. Ljós
 
 ## Heimildaskrá
 
+Þar sem skýrslan byggir á öðrum heimildum er vísað bæði í skýrsluna og beint í frumheimildina. Þegar fullyrðing kemur aðeins fram í skýrslunni (t.d. verð á *Kniterate* vél) er hún eignuð skýrslunni. Hlekkir sem skýrslan setur beint í textann (Machine Knit Community, GeekBot, Dall-E 2 og Midjourney) eru líka hér. Hlekkir á heimasíður samstarfsaðila og stofnana eru aðeins til að auðvelda lesendum að finna þá og eru ekki heimildir fyrir efninu.
+
 ::: {#refs}
 :::
