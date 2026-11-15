@@ -60,11 +60,9 @@ Teyminu var kært að nota séríslensk mótíf í prjóninu og sóttist því e
 | Verð vélarinnar | 15.999 $ | Vefverslun Kniterate, sótt 15. nóvember 2026 [@kniterate-shop] |
 | Í krónum á tollgengi (122,4 kr./$) | 1.958.278 kr. | Tollgengi Skattsins, sótt 15. nóvember 2026 [@tollgengi] |
 | Virðisaukaskattur, 24% | 469.987 kr. | Skatturinn [@skatturinn-vsk] |
-| **Samtals, án flutnings og tolla** | **um 2,43 milljónir kr.** | |
-| Flutningur | Ekki gefinn upp | Kniterate gefur aðeins tilboð í flutning þegar vélin er tilbúin. Vélin vegur 340 kg í flutningi og er afhent við götu [@kniterate-vara] |
-| Tollar og önnur gjöld | Ekki fundið | Kaupandi greiðir alla skatta, tolla og gjöld [@kniterate-vara]. Tollur á prjónavélar (tollskrárnúmer 8447) hefur ekki verið staðfestur |
+| **Samtals** | **um 2,43 milljónir kr.** auk sendingarkostnaðar, tolla o.fl. | |
 
-Raunverð verður því hærra en 2,43 milljónir kr., því flutningur og tollar bætast við. Gjaldmiðill vefverslunarinnar er sýndur sem „$“ og hér er gert ráð fyrir að það séu Bandaríkjadalir.
+Gjaldmiðill vefverslunarinnar er sýndur sem „$“ og hér er gert ráð fyrir að það séu Bandaríkjadalir.
 :::
 
 Með því að snjallvæða gömlu vélarnar og þróa hugbúnað sem gerir þær samhæfðar nútíma framleiðsluaðferðum er hægt að bjóða hagkvæmari og aðgengilegri lausn fyrir minni hönnuði, þar sem tæknilegt flækjustig er mun lægra.
