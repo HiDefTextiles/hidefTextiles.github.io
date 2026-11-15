@@ -1,0 +1,67 @@
+---
+title: "Stafræn Sjónabók"
+subtitle: "Gömul íslensk útsaumsmynstur, opin öllum á tölvutæku formi"
+toc: false
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+*Íslensk sjónabók* geymir útsaumsmynstur úr handritum frá 16.–18. öld. Hér eru mynstrin sem einföld fylki af núllum og einum, tilbúin til notkunar í prjóni og annarri hönnun. Þetta er sjálfstætt verkefni sem tengist [prjónavélinni](../prjonavel/index.qmd) og [mynsturgerðinni](../mynsturgerd/index.qmd).
+:::
+
+::: {.par}
+![Mynstur úr *Sjónabók*, bls. 246 (Þjms. 5898).](../img/passap-e6000/sjonabok-pafugl.png){.pixel fig-alt="Rúðumynstur af páfugli"}
+
+![Sama mynstur prjónað.](../img/passap-e6000/prjon-pafugl.jpg){fig-alt="Prjónaður páfugl"}
+:::
+
+## Hvað er Sjónabók?
+
+*Íslensk Sjónabók* [@Sjonabok] er tímamótaverk sem Heimilisiðnaðarfélagið og Þjóðminjasafn Íslands gáfu út. Hún inniheldur safn tíu handrita frá 16.–18. öld sem varðveitt hafa íslensk útsaumsmynstur.
+
+Bókin er komin úr prentun og ekki stendur til að endurprenta hana sökum kostnaðar. Markmið útgefanda var að gera mynstrin aðgengileg svo hönnuðir gætu endurnýtt ríkan menningararf í listsköpun sinni. Útgefendur tóku því vel í að verkefnið gæfi mynstrunum nýtt líf og útbyggi tól til að vinna með þau á gagnvirkan hátt.
+
+::: {.callout-important title="Leyfi"}
+Verkefnið hefur leyfi frá Heimilisiðnaðarfélaginu og Þjóðminjasafni Íslands til að dreifa mynstrum úr *Sjónabók* á stafrænu formi [@nsn2024, kafli *Hugverkastefna*]. Markmiðið er að auka útbreiðslu þessara séríslensku mynstra og gera þau aðgengileg hönnuðum og almenningi til nýsköpunar og skapandi nota.
+:::
+
+## Kaflarnir
+
+::: {.cards}
+::: {.card-hi}
+[1]{.num}
+
+#### [Frá rúðupappír í fylki](stafraening.qmd)
+Svona urðu mynstrin tölvutæk.
+:::
+
+::: {.card-hi}
+[2]{.num}
+
+#### [Notaðu mynstrin](nota.qmd)
+Sæktu mynstrin eða vinndu þau sjálf(ur).
+:::
+
+::: {.card-hi .teal}
+[3]{.num}
+
+#### [Borðar, bakgrunnar og letur](skreyta.qmd)
+Skreyttu prjónamynstur með Sjónabók.
+:::
+
+::: {.card-hi .pink}
+[4]{.num}
+
+#### [Frá bók í band](prjonad.qmd)
+Mynstrin, prjónuð.
+:::
+:::
+
+## Ekki bara fyrir prjón
+
+Mynsturgerðin úr *Sjónabók* er ekki einskorðuð við prjónaskap. Grafískir hönnuðir geta nýtt mynstrin í textílvinnu eða öðrum miðlum. Með því að færa þessi séríslensku mynstur yfir í gagnvirkt stafrænt form opnast dyr fyrir fleiri skapandi útfærslur á menningararfinum.
+
+::: {.heimild}
+@nsn2024, kaflarnir *Staða þekkingar*, *Hugverkastefna*, *Samstarf* (Þjóðminjasafn Íslands og Heimilisiðnaðarfélagið) og *Afleidd tækifæri*. Kóði og mynstur: [HiDefTextiles/Sjonabok](https://github.com/HiDefTextiles/Sjonabok) [@repo-sjonabok].
+:::

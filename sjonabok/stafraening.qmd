@@ -1,0 +1,46 @@
+---
+title: "Frá rúðupappír í fylki"
+subtitle: "Svona urðu mynstrin tölvutæk"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Hver mynstursíða er lesin sem mynd, rúðurnar fundnar og athugað hvort kross er í hverri rúðu. Út kemur fylki af núllum og einum.
+:::
+
+Bókinni fylgir geisladiskur með öllum mynstursíðunum sem `.pdf` eða `.eps` skrár. Þær henta illa til að vinna með í tölvu. Langflest mynstrin eru í tveimur litum, kross og ekki kross, og verkefnið einskorðaði sig við þau.
+
+::: {.par}
+![Fyrir: mynstur úr *Íslenskri sjónabók* í `.eps` skrá.](../img/passap-e6000/sjonabok-fyrir.png){fig-alt="Mynstur teiknað með krossum á rúðustrikað blað"}
+
+![Eftir: sama mynstur eftir vinnslu, á `.png` formi.](../img/passap-e6000/sjonabok-eftir.png){.pixel style="max-width:none" fig-alt="Sama mynstur sem hreinir svartir og hvítir reitir"}
+:::
+
+Svona vinnur kóðinn:
+
+::: {.skref}
+1. Hver `.eps` skrá er sótt og sett í grátóna fylki í Python.
+2. Fylkinu er skipt í núll og einn. Pixill sem er yfir ákveðnum þröskuldi af dökkgráu verður svartur (1), restin hvít (0).
+3. Rúðustrikuðu línurnar eru fundnar.
+4. Ef hlutfall svartra pixla innan reits er yfir 0,5 telst vera kross í reitnum.
+5. Upplýsingunum er safnað í nýtt fylki þar sem 1 stendur fyrir kross og 0 fyrir engan kross.
+6. Öllu aukaplássi utan mynstursins er hent og fylkið vistað á tveimur sniðum: sem textaskrá og sem `.png`.
+:::
+
+Textaskrárnar er einfalt að hlaða inn í fylki til að nota síðar. `.png` skrárnar eru þægilegri til að skoða mynstrin.
+
+### Mörg mynstur á einni síðu
+
+Í sumum skrám eru fleiri en eitt mynstur og þá þarf að aðskilja þau.
+
+- **Borðar** aðskiljast einfaldlega, annaðhvort lárétt eða lóðrétt.
+- **Önnur mynstur og stafróf** aðskiljast á flóknari hátt. Þar var notuð útfærsla af DFS.
+- Aðskilin mynstur af sömu síðu eru vistuð saman í möppu.
+- Einnig er til kóði sem finnur endurtekningar í mynstri og geymir minnstu endurtekninguna.
+
+Næst: [notaðu mynstrin](nota.qmd).
+
+::: {.heimild}
+@nsn2024, kaflinn *Íslenska Sjónabókin nýtt í mynsturgerð* og áfanginn *Stafræn Sjónabók* í *Helstu áfangar*. Kóði: [HiDefTextiles/Sjonabok](https://github.com/HiDefTextiles/Sjonabok) [@repo-sjonabok]. Snæfríður Ebba Ásgeirsdóttir kom mynstrunum á tölvutækt form.
+:::

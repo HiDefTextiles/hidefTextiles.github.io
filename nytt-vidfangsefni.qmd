@@ -1,0 +1,84 @@
+---
+title: "Bæta við viðfangsefni"
+subtitle: "Svona bætist nýtt textílverkefni við vefinn"
+---
+
+Vefurinn er gerður fyrir mörg textílverkefni. Prjónavélin, Sjónabók og mynsturgerðin eru fyrstu viðfangsefnin. Nýtt viðfangsefni, hvort sem það er önnur vél, vefnaður eða útsaumur, fylgir sama sniði.
+
+## Reglurnar
+
+1. **Ekkert er fundið upp.** Allt efni kemur úr skýrslu, kóða eða annarri heimild sem hægt er að vísa í.
+2. **Heimild á hverri síðu.** Neðst er kassi sem segir úr hvaða kafla eða geymslu efnið er.
+3. **Opnar geymslur.** Vísað er skýrt í kóðann og sagt hvernig á að nota hann.
+4. **Einfalt mál.** Skrifað fyrir almenning: stuttar setningar, skref fyrir skref.
+5. **Sjálfstætt en tengt.** Hvert viðfangsefni stendur eitt og sér, með hlekkjum í tengd viðfangsefni.
+
+## Skrefin
+
+::: {.skref}
+1. **Tengdu heimildina.** Ef verkefnið á skýrslu í eigin geymslu, bættu henni við sem *submodule* með https slóð:
+
+   ```bash
+   git submodule add https://github.com/HiDefTextiles/<geymsla>.git
+   ```
+
+2. **Veldu myndir.** Bættu myndunum við `scripts/sync-assets.sh`. Aðeins skrár sem eru taldar upp þar fara á vefinn.
+
+3. **Búðu til möppu** fyrir viðfangsefnið, til dæmis `vefnadur/`, með `index.qmd` sem forsíðu: hvað þetta er, kaflarnir sem kort og tengd viðfangsefni. Notaðu `prjonavel/index.qmd` sem fyrirmynd.
+
+4. **Skrifaðu kaflana** eftir sniðmátinu hér að neðan.
+
+5. **Skráðu heimildir** í `heimildir.bib` og vísaðu í þær á hverri síðu.
+
+6. **Bættu viðfangsefninu við valmyndirnar** í `_quarto.yml` (`navbar` og nýtt `sidebar`) og korti á [forsíðuna](index.qmd).
+
+7. **Skoðaðu vefinn** á eigin tölvu og sendu inn breytinguna.
+
+   ```bash
+   make preview
+   ```
+:::
+
+Þegar breytingin er komin á `main` greinina byggir GitHub Actions vefinn og birtir hann á GitHub Pages.
+
+## Sniðmát fyrir kafla
+
+````markdown
+---
+title: "Heiti kafla"
+subtitle: "Ein setning um hvað lesandinn lærir"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Tvær til þrjár setningar um aðalatriðin.
+:::
+
+## Það sem þú þarft
+
+- Tæki, efni og hugbúnaður
+
+## Skref fyrir skref
+
+::: {.skref}
+1. **Fyrsta skref.** Hvað á að gera.
+2. **Annað skref.** Hvað á að gera.
+:::
+
+## Algeng vandamál
+
+| Hvað gerist? | Af hverju? | Hvað hjálpaði? |
+|---|---|---|
+| | | |
+
+## Kóðinn
+
+Hlekkur á geymslu og skipanir til að keyra.
+
+::: {.heimild}
+@lykill-i-heimildaskra, kaflinn *Heiti kafla*. Hver vann verkið.
+:::
+````
+
+Hugmyndir og verkáætlun vefsins eru í [verkbeiðnum á GitHub](https://github.com/HiDefTextiles/hidefTextiles.github.io/issues).

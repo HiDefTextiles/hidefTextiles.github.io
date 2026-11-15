@@ -1,0 +1,53 @@
+---
+title: "Spunagreind og mynstur"
+subtitle: "Það sem var prófað, það sem virkaði og það sem bíður"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Upphaflega átti spunagreind að búa til ný prjónamynstur. Það reyndist erfitt, svo leiðin varð einfaldari: mynstrum frá ólíkum notendum er bætt saman með góðu flæði á milli. Tvær tilraunir eru ókláraðar og bíða næsta hóps.
+:::
+
+## Fyrsta hugmyndin: Dall-E 2 og Midjourney
+
+Upphaflega var stefnt að því að nota spunagreind til að búa til ný prjónamynstur með tækni eins og [Dall-E 2](https://openai.com/index/dall-e-2/) og [Midjourney](https://www.midjourney.com/home). Það reyndist erfitt að fá áreiðanlegar niðurstöður sem fylgdu textaskilaboðunum nákvæmlega.
+
+## Önnur hugmynd: tækni úr tölvuleikjum
+
+Teymið vildi tryggja fallegt flæði milli ólíkra mynstra og skoðaði því tækni úr tölvuleikjagerð, *Wave Function Collapse* (WFC), sem býr til flæðandi grunnmynd eftir fyrirfram gefinni forskrift.
+
+WFC reikniritið var sett upp með hnútum sem finna má á mörgum stöðum í *Íslenskri sjónabók*. Ákveðið var að þessi mynsturgerð hentaði ekki í hönnunarvinnuna að svo stöddu og því var ekki kafað dýpra.
+
+::: {.par}
+![Útkoma úr *Wave Function Collapse* reikniritinu.](../img/passap-e6000/mynstur-wfc.png){.pixel fig-alt="Svarthvítt völundarhúsamynstur"}
+
+![Hnúturinn í mynstrinu finnst víða í *Íslenskri sjónabók*. Hér er dæmi um hann.](../img/passap-e6000/sjonabok-eftir.png){.pixel fig-alt="Mynstur úr Sjónabók með hnútum í hornunum"}
+:::
+
+## Það sem varð ofan á
+
+Niðurstaðan var að þróa einfaldara módel sem bætir saman mynstrum frá ólíkum notendum með góðu flæði á milli þeirra. Fallið sem setur [bakgrunn úr Sjónabók](../sjonabok/skreyta.qmd) á mynd er útfært þannig að næsta mynd getur fengið sama bakgrunn, og þá renna bakgrunnarnir saman í eina heild.
+
+Tengt efni:
+
+- [Opna vefviðmótið](../prjonavel/vefvidmot.qmd) býr til mynd úr texta notandans með hjálp gervigreindar og breytir henni í mynstur.
+- [Frá mynd í mynstur](mynd-i-mynstur.qmd) breytir mynd í prjónamynstur.
+
+## Ókláruð verkefni
+
+::: {.cards}
+::: {.card-hi .dashed}
+#### Sjálfvirk litun
+Byrjað var að þróa aðferð sem litar mynstur úr Sjónabók sjálfvirkt í 3 til 4 litum. Sökum tímahraks tókst ekki að klára þá vinnu, en hún var komin nokkuð áleiðis og mætti halda áfram með hana síðar.
+:::
+
+::: {.card-hi .dashed}
+#### Wave Function Collapse
+Sett upp og prófað, en ekki kafað dýpra að svo stöddu.
+:::
+:::
+
+::: {.heimild}
+@nsn2024, kaflarnir *Hugbúnaðarlegar áskoranir*, *Ókláruð verkefni* og *Mánaðarlegt yfirlit* (ágúst). Snæfríður Ebba Ásgeirsdóttir vann að þróun spunagreindarreiknirita með aðstoð Hafsteins Einarssonar.
+:::

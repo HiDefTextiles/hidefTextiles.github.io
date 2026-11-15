@@ -1,0 +1,141 @@
+---
+title: "Prjónavélin"
+subtitle: "Gömul Passap E6000 snjallvædd, skref fyrir skref"
+toc: false
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Gamla stjórnborðið á *Passap E6000* er tekið úr sambandi. Í staðinn kemur *Arduino* örtölva sem talar við sleðann, og tölva sem geymir mynstrin og matar örtölvuna á einni umferð í einu. Hér er handbókin: vélbúnaður, hugbúnaður og notkun.
+:::
+
+![*Passap E6000* prjónavél. Ljósmynd: mbl.is/Kristinn Magnússon, úr umfjöllun Morgunblaðsins [@mbl2024].](../img/passap-e6000/mbl-passap-e6000.jpg){fig-alt="Passap E6000 prjónavél" width=85%}
+
+## Kaflarnir
+
+### Vélbúnaður
+
+::: {.cards}
+::: {.card-hi}
+[1]{.num}
+
+#### [Kynnstu vélinni](velin.qmd)
+Nálabeð, sleði, litaskiptir og mótor.
+:::
+
+::: {.card-hi}
+[2]{.num}
+
+#### [Stýrðu nálunum](nalastyring.qmd)
+Arduino í stað gamla stjórnborðsins.
+:::
+
+::: {.card-hi}
+[3]{.num}
+
+#### [Stýrðu mótornum](motor.qmd)
+Lítil rafrás sem ýtir á takkana fyrir þig.
+:::
+:::
+
+### Hugbúnaður
+
+::: {.cards}
+::: {.card-hi .teal}
+[4]{.num}
+
+#### [Stýringin á tölvunni](styring.qmd)
+passAPI geymir mynstrin og matar örtölvuna.
+:::
+
+::: {.card-hi .teal}
+[5]{.num}
+
+#### [Sendu mynstur á vélina](senda-mynstur.qmd)
+Ein netbeiðni með upphafsnál og mynstri.
+:::
+
+::: {.card-hi .teal}
+[6]{.num}
+
+#### [Opið vefviðmót](vefvidmot.qmd)
+Gestir senda inn hugmynd að mynstri í texta.
+:::
+:::
+
+### Notkun
+
+::: {.cards}
+::: {.card-hi .pink}
+[7]{.num}
+
+#### [Prjónaðu](prjon.qmd)
+Margir litir, íslenskt einband og það sem fer úrskeiðis.
+:::
+
+::: {.card-hi .pink}
+[8]{.num}
+
+#### [Hönnun úr prufum](honnun.qmd)
+Frá prjónaprufu að flík.
+:::
+:::
+
+## Kerfið á einni mynd
+
+```{mermaid}
+flowchart TB
+  opid["Opið vefviðmót<br/>(passapnext)"]
+  db[("Gagnagrunnur")]
+  admin["Vefviðmót stjórnanda"]
+  tolva["Tölva sem keyrir stýringuna<br/>(passAPI, Node.js)"]
+  ard["Arduino örtölva"]
+  spenna["Spennubreytir"]
+  sledi["Sleði / lás"]
+
+  opid <-- vefbeiðnir --> db
+  db <-- vefbeiðnir --> tolva
+  admin <-- vefbeiðnir --> tolva
+  tolva -- "USB serial: {byrjun}{munstur}" --> ard
+  ard -- "USB serial: R eða L" --> tolva
+  spenna -. "12V" .-> ard
+  ard -. "12V" .-> sledi
+  ard -- "5V: hár / lágur" --> sledi
+  sledi -- "5V: hár / lágur" --> ard
+```
+
+Myndin er endurteiknuð eftir kerfismynd af nýja stjórnborðinu í skýrslunni [@nsn2024, kafli *Stýring nálarbeðs*].
+
+## Það sem þú þarft
+
+Þetta er það sem notað var í verkefninu:
+
+- *Passap E6000* prjónavél með mótor
+- *Arduino* örtölva og 12V spennubreytir
+- Tenging við sleðann í gegnum DIN-6 tengið
+- Tölva með Node.js 20+ og USB tengi við örtölvuna
+- 7407N kubbur og 6 pinna RJ12 tengi fyrir mótorstýringuna
+- Garn. Í verkefninu var notað íslenskt einband frá Ístex
+
+## Af hverju gömul vél?
+
+*Passap* vélarnar eru svissneskar og framleiðslu þeirra var hætt um aldamótin. Þær eru vel gerðar, tiltölulega einfaldar í notkun og enn í notkun hjá áhugafólki, en þær skortir nútíma tengingar og notendavænt viðmót. Ný vél eins og *Kniterate* kostar samkvæmt skýrslunni yfir 16.000 evrur. Meira um þetta í [Bakgrunni verkefnisins](../verkefnid/bakgrunnur.qmd).
+
+## Tengd viðfangsefni
+
+::: {.cards}
+::: {.card-hi .dashed}
+#### [Stafræn Sjónabók](../sjonabok/index.qmd)
+Íslensk útsaumsmynstur sem vélin getur prjónað.
+:::
+
+::: {.card-hi .dashed}
+#### [Mynsturgerð](../mynsturgerd/index.qmd)
+Reiknirit sem breyta myndum og texta í prjónamynstur.
+:::
+:::
+
+::: {.heimild}
+@nsn2024, kaflarnir *Breytingar á vélbúnaði*, *Stýringar*, *Helstu áfangar*, *Samanburður við nútíma prjónavélar* og *Staða verkefnis*. Kóði: [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi] og [tungufoss/passapnext](https://github.com/tungufoss/passapnext) [@repo-passapnext].
+:::

@@ -14,13 +14,19 @@ title: "Um HiDef textíl"
 
 ## Hvernig vefurinn virkar
 
-Vefurinn er safn af [leiðbeiningum](leidbeiningar/index.qmd). Allt efni er sótt í skýrslur og kóða verkefnanna og hver síða segir hvaðan efnið kemur. Fyrsta verkefnið er [tæknivæddar prjónavélar](verkefni/passap-e6000.qmd), unnið af nemendum sumarið 2024 með styrk frá Nýsköpunarsjóði námsmanna. Fleiri textílverkefni bætast við með [sama sniði](verkefni/nytt-verkefni.qmd).
+Vefurinn skiptist í **viðfangsefni**. Hvert viðfangsefni er sjálfstætt verkefni með eigin forsíðu og köflum sem lesa má eins og bók, en þau tengjast innbyrðis:
+
+- [Prjónavélin](prjonavel/index.qmd): handbók um að snjallvæða *Passap E6000*.
+- [Stafræn Sjónabók](sjonabok/index.qmd): opin íslensk mynstur.
+- [Mynsturgerð](mynsturgerd/index.qmd): reiknirit sem búa til prjónamynstur.
+
+Hugmyndin er handbók sem aðrir geta fylgt til að endurgera það sem hér var gert. Allt efni er sótt í skýrslur og kóða verkefnanna og hver síða segir hvaðan efnið kemur. Fyrsta efnið kemur úr [verkefni](verkefnid/index.qmd) sem nemendur unnu sumarið 2024 með styrk frá Nýsköpunarsjóði námsmanna. Fleiri viðfangsefni bætast við með [sama sniði](nytt-vidfangsefni.qmd).
 
 ## Fólkið
 
 **Verkefnisstjóri og ábyrgðaraðili:** Helga Ingimundardóttir, lektor í iðnaðarverkfræði við Háskóla Íslands, [hi.is/starfsfolk/helgaingim](https://hi.is/starfsfolk/helgaingim).
 
-Nemendur og kennarar hvers verkefnis eru taldir upp á síðu verkefnisins, sjá [teymið á bak við Passap E6000](verkefni/passap-e6000.qmd#teymið).
+Nemendur og kennarar hvers verkefnis eru taldir upp á síðu verkefnisins, sjá [Fólkið og samstarfið](verkefnid/teymi.qmd).
 
 ## Samstarfsaðilar
 

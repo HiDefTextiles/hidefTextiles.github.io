@@ -4,8 +4,10 @@ project:
   pre-render: sh scripts/sync-assets.sh
   render:
     - "*.qmd"
-    - "leidbeiningar/**/*.qmd"
-    - "verkefni/**/*.qmd"
+    - "prjonavel/*.qmd"
+    - "sjonabok/*.qmd"
+    - "mynsturgerd/*.qmd"
+    - "verkefnid/*.qmd"
   resources:
     # Referenced from CSS (mask-image), which Quarto does not scan
     - img/hi/hi_logo.svg
@@ -37,16 +39,31 @@ website:
     logo-alt: "Háskóli Íslands"
     background: primary
     left:
-      - text: "Leiðbeiningar"
-        href: leidbeiningar/index.qmd
-      - text: "Verkefni"
-        href: verkefni/index.qmd
-      - text: "Hugbúnaður"
-        href: hugbunadur.qmd
-      - text: "Um"
-        href: um.qmd
-      - text: "Hafa samband"
-        href: samband.qmd
+      - text: "Prjónavélin"
+        href: prjonavel/index.qmd
+      - text: "Sjónabók"
+        href: sjonabok/index.qmd
+      - text: "Mynsturgerð"
+        href: mynsturgerd/index.qmd
+      - text: "Verkefnið"
+        href: verkefnid/index.qmd
+      - text: "Meira"
+        menu:
+          - text: "Hugbúnaður"
+            href: hugbunadur.qmd
+          - text: "Nám og fræði"
+            href: nam.qmd
+          - text: "Orðalisti"
+            href: ordalisti.qmd
+          - text: "Heimildir"
+            href: heimildir.qmd
+          - text: "---"
+          - text: "Um HiDef textíl"
+            href: um.qmd
+          - text: "Hafa samband"
+            href: samband.qmd
+          - text: "Bæta við viðfangsefni"
+            href: nytt-vidfangsefni.qmd
     right:
       # Replaced by the EU translator (WEB-T) when it is configured,
       # see _includes/eu-translator.html
@@ -58,31 +75,61 @@ website:
         href: https://github.com/HiDefTextiles
         aria-label: GitHub
   sidebar:
-    - id: leidbeiningar
-      title: "Leiðbeiningar"
+    - id: prjonavel
+      title: "Prjónavélin"
       style: docked
       background: light
       collapse-level: 2
       contents:
-        - leidbeiningar/index.qmd
-        - section: "Passap E6000 prjónavél"
+        - text: "Yfirlit"
+          href: prjonavel/index.qmd
+        - section: "Vélbúnaður"
           contents:
-            - leidbeiningar/passap-e6000/index.qmd
-            - leidbeiningar/passap-e6000/velin.qmd
-            - leidbeiningar/passap-e6000/styring.qmd
-            - leidbeiningar/passap-e6000/motor.qmd
-            - leidbeiningar/passap-e6000/mynstur.qmd
-            - leidbeiningar/passap-e6000/sjonabok.qmd
-            - leidbeiningar/passap-e6000/prjon.qmd
-        - leidbeiningar/snidmat.qmd
-    - id: verkefni
-      title: "Verkefni"
+            - prjonavel/velin.qmd
+            - prjonavel/nalastyring.qmd
+            - prjonavel/motor.qmd
+        - section: "Hugbúnaður"
+          contents:
+            - prjonavel/styring.qmd
+            - prjonavel/senda-mynstur.qmd
+            - prjonavel/vefvidmot.qmd
+        - section: "Notkun"
+          contents:
+            - prjonavel/prjon.qmd
+            - prjonavel/honnun.qmd
+    - id: sjonabok
+      title: "Stafræn Sjónabók"
       style: docked
       background: light
       contents:
-        - verkefni/index.qmd
-        - verkefni/passap-e6000.qmd
-        - verkefni/nytt-verkefni.qmd
+        - text: "Yfirlit"
+          href: sjonabok/index.qmd
+        - sjonabok/stafraening.qmd
+        - sjonabok/nota.qmd
+        - sjonabok/skreyta.qmd
+        - sjonabok/prjonad.qmd
+    - id: mynsturgerd
+      title: "Mynsturgerð"
+      style: docked
+      background: light
+      contents:
+        - text: "Yfirlit"
+          href: mynsturgerd/index.qmd
+        - mynsturgerd/fylki.qmd
+        - mynsturgerd/mynd-i-mynstur.qmd
+        - mynsturgerd/spunagreind.qmd
+    - id: verkefnid
+      title: "Verkefnið"
+      style: docked
+      background: light
+      contents:
+        - text: "Yfirlit"
+          href: verkefnid/index.qmd
+        - verkefnid/bakgrunnur.qmd
+        - verkefnid/nynaemi.qmd
+        - verkefnid/teymi.qmd
+        - verkefnid/verdmaeti.qmd
+        - verkefnid/sumarid.qmd
   page-footer:
     left: "© 2026 Helga Ingimundardóttir · Háskóli Íslands"
     center: "Efnið byggir á [lokaskýrslu NSN 2024](/heimildir.qmd)"

@@ -1,0 +1,57 @@
+---
+title: "Verðmæti"
+subtitle: "Hvað verkefnið gefur samfélaginu"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Varan er í raun kennsluefnið og þekkingin sem safnaðist. Verðmætið felst ekki í tekjum af einstökum afurðum, heldur í stuðningi við sjálfbærni, nýsköpun, menntun og varðveislu íslensks menningararfs.
+:::
+
+## Viðskiptaleg markmið
+
+Verkefnið miðar að opnu aðgengi og valdeflingu nýrra hönnuða, með opnum lausnum fyrir *Passap* prjónavélar og útbreiðslu mynstra úr *Sjónabók*.
+
+- *Passap* prjónavélar eiga að verða aðgengileg vinnutæki fyrir hönnuði, sem geta nýtt þær í sköpun sína án þess að leggja í of háan startkostnað.
+- Mynstur úr *Sjónabók* eiga að vera aðgengileg almenningi á stafrænu formi.
+
+Varan sjálf er í raun kennsluefni og þekkingin sem hefur safnast í verkefninu. Hún sýnir hvernig hægt er að vinna þverfaglega innan háskólasamfélagsins og með innlendum fyrirtækjum. Áherslan er á fræðslu og hagnýtar lausnir fyrir hönnuði og menntastofnanir, frekar en hefðbundna markaðshlutdeild og veltu.
+
+## Leið á markað
+
+- Verkefnið hefur verið kynnt fyrir [Machine Knit Community](https://www.mkc.community/about-us), alþjóðlegum hópi notenda prjónavéla. Það leiddi til áhuga og beiðna um frekari upplýsingar.
+- Á Instagram, [\@hideftextiles](https://www.instagram.com/hideftextiles/), er uppfærslum deilt með fylgjendum, bæði innlendum og erlendum.
+- Morgunblaðið fjallaði stuttlega um verkefnið í upphafi sumars 2024 [@mbl2024].
+- Áætlunin var að kynna verkefnið á innlendum ráðstefnum og viðburðum, svo sem Vísindavöku Rannís 28. september 2024 og Hönnunarmars 2025.
+- Hönnunarsafn Íslands gaf vilyrði fyrir opinni vinnustofu sumarið 2025, þar sem almenningur gæti kynnt sér verkefnið og möguleikana sem það býður upp á.
+
+## Almenn verðmætasköpun
+
+::: {.cards}
+::: {.card-hi}
+#### Fyrir hönnuði
+Opnar lausnir fyrir snjallvæðingu eldri prjónavéla gefa smærri hönnuðum tækifæri til að nýta þær á hagkvæman hátt í framleiðslu sinni. Þetta gerir nýsköpun innan textíliðnaðarins aðgengilegri og lækkar þröskuldinn fyrir þá sem vilja þróa eigin vöru.
+:::
+
+::: {.card-hi .teal}
+#### Fyrir umhverfið
+Áherslan er á endurnýtingu eldri véla og innlends efniviðar eins og íslenskrar ullar. Í stað þess að henda úreltri tækni eru tækin snjallvædd og komið aftur í notkun. Þetta styður hringrásarhagkerfi þar sem verðmæti verður til úr því sem annars gæti farið til spillis.
+:::
+
+::: {.card-hi .pink}
+#### Fyrir menningararfinn
+Mynstur úr *Sjónabók* verða aðgengileg á stafrænu formi og geta nýst í fjölbreyttum skapandi verkefnum, innanlands og utan. Þannig er íslensk arfleifð varðveitt og verður hluti af samtímahönnun.
+:::
+
+::: {.card-hi}
+#### Fyrir menntun
+Kennsluefni sem tengir saman STEAM greinar eykur vitund og áhuga á þverfaglegri nýsköpun. Það getur eflt samstarf innan menntastofnana og skapað tækifæri fyrir nýsköpun sem byggir bæði á tækni og sköpunargáfu.
+:::
+:::
+
+Þannig er verðmætasköpunin ekki bundin við tekjur af einstökum afurðum, heldur við fjölþættan stuðning við sjálfbærni, nýsköpun, menntun og varðveislu íslenskrar menningararfleifðar.
+
+::: {.heimild}
+@nsn2024, kaflinn *Verðmæti*: *Viðskiptaleg markmið*, *Leið á markað* og *Almenn verðmætasköpun*.
+:::

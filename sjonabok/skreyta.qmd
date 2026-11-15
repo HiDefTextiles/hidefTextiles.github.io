@@ -1,0 +1,57 @@
+---
+title: "Borðar, bakgrunnar og letur"
+subtitle: "Skreyttu prjónamynstur með Sjónabók"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Mynstur úr Sjónabók má nota á þrjá vegu í prjónamynstri: sem **borða** í kringum mynd, sem **bakgrunn** á bak við mynd og sem **letur** til að skrifa texta.
+:::
+
+Þessi föll eru í [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) og nota mynstur úr [stafrænu Sjónabókinni](nota.qmd) sem textaskrár. Þau vinna á [mynsturfylki](../mynsturgerd/fylki.qmd).
+
+::: {.panel-tabset}
+### Borði
+
+`add_border` bætir borða umhverfis mynstrið eftir óskum notandans. `side` segir á hvaða hliðar borðinn fer, í röðinni efst, neðst, vinstri, hægri.
+
+```python
+from AddBackgroundAndBorder import *
+
+p = "~/absolute/path/to/border/pattern.txt"
+# auður rammi utan um myndina
+matrix = add_border(matrix=matrix, side=[1,1,1,1], size=[2,2,2,2],
+                    border_background_shade=4)
+# borði úr Sjónabók
+matrix = add_border(matrix=matrix, border_file_path=p, side=[1,1,1,1],
+                    border_dark_shade=4, border_background_shade=1)
+```
+
+![Borði úr *Íslenskri sjónabók* í kringum prjónamynstur. Mynstrið er í 4 litum og kemur frá ljósmynd af baldursbrám.](../img/passap-e6000/mynstur-bordi.png){.pixel fig-alt="Mynstur í fjórum litum með borða í kring"}
+
+### Bakgrunnur
+
+`add_background` setur Sjónabókarmynstur sem bakgrunn. Fallið nýtir *flood fill* reikniritið [@flood-fill].
+
+```python
+background_path = "~/absolute/path/to/background/pattern.txt"
+matrix = add_background(matrix, background_path,
+                        background_color_0=2, background_color_1=3,
+                        border=True, border_color=1)
+```
+
+Ef næsta mynd fær sama bakgrunn renna bakgrunnarnir saman í eina heild, þannig að engin skil sjást á milli myndanna tveggja.
+
+![Prjónamynstur af Ragnheiði Jónsdóttur með mynstur úr *Sjónabók* sem bakgrunn.](../img/passap-e6000/mynstur-ragnheidur.png){.pixel fig-alt="Mynstur af konu með hatt og mynstraðan bakgrunn"}
+
+### Texti
+
+Fallið `write` í `Write.py` skrifar texta með leturgerðum úr Sjónabók. Textinn getur verið miðjaður eða vinstri jafnaður.
+
+![*Halló heimur* skrifað með letri úr *Sjónabók*.](../img/passap-e6000/mynstur-hallo-heimur.png){.pixel fig-alt="Textinn HALLO HEIMUR í rúðuletri" style="max-width:100%"}
+:::
+
+::: {.heimild}
+@nsn2024, kaflinn *Íslenska Sjónabókin nýtt í mynsturgerð*. Kóðadæmin eru úr `examples/` og skjölun fallanna í [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd]. Snæfríður Ebba Ásgeirsdóttir skrifaði föllin.
+:::

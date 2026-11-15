@@ -14,33 +14,66 @@ Rannsóknarverkefni við Háskóla Íslands
 # HiDef textíll
 
 ::: {.lead}
-Hér mætast textíll, tækni og íslenskur menningararfur. Við skrifum niður hvernig við gerum hlutina, skref fyrir skref, svo aðrir geti gert það sama.
+Hér mætast textíll, tækni og íslenskur menningararfur. Þetta er opin handbók: við sýnum skref fyrir skref hvað við gerðum, svo þú getir gert það líka.
 :::
 
-[Skoða leiðbeiningar](leidbeiningar/index.qmd){.btn .btn-hero}
-[Um verkefnið](um.qmd){.btn .btn-ghost}
+[Veldu viðfangsefni](#viðfangsefni){.btn .btn-hero}
+[Um verkefnið](verkefnid/index.qmd){.btn .btn-ghost}
 :::
 
-## Hvað finnur þú hér?
+## Viðfangsefni {#viðfangsefni}
 
-::: {.cards}
-::: {.card-hi}
-### [Leiðbeiningar](leidbeiningar/index.qmd)
-Hagnýtar leiðbeiningar, skref fyrir skref. Fyrsta safnið sýnir hvernig gömul Passap E6000 prjónavél er snjallvædd.
+Hvert viðfangsefni er sjálfstætt verkefni með eigin köflum. Þau tengjast: mynstrin úr Sjónabók og mynsturgerðinni enda á prjónavélinni.
+
+::: {.topics}
+::: {.topic}
+![](img/passap-e6000/mbl-passap-e6000.jpg){fig-alt="Passap E6000 prjónavél"}
+
+::: {.topic-body}
+[Vélbúnaður · Hugbúnaður · Notkun]{.num}
+
+### [Prjónavélin](prjonavel/index.qmd)
+Gömul *Passap E6000* prjónavél snjallvædd með Arduino og opnum hugbúnaði. Átta kaflar frá nálabeði að flík.
+
+[Opna handbókina →](prjonavel/index.qmd)
+:::
 :::
 
-::: {.card-hi .teal}
-### [Verkefni](verkefni/index.qmd)
-Hvert textílverkefni fær sína síðu með markmiðum, teymi, samstarfsaðilum og niðurstöðum.
+::: {.topic}
+![](img/passap-e6000/sjonabok-eftir.png){.pixel fig-alt="Mynstur úr Sjónabók"}
+
+::: {.topic-body}
+[Opin mynstur · Menningararfur]{.num}
+
+### [Stafræn Sjónabók](sjonabok/index.qmd)
+Íslensk útsaumsmynstur frá 16.–18. öld sem fylki af núllum og einum. Sæktu þau og notaðu í eigin hönnun.
+
+[Skoða mynstrin →](sjonabok/index.qmd)
+:::
 :::
 
-::: {.card-hi .pink}
-### [Hugbúnaður](hugbunadur.qmd)
-Allur kóði er opinn á GitHub. Hér sérðu hvaða geymsla gerir hvað og hvernig þú notar hana.
+::: {.topic}
+![](img/passap-e6000/mynstur-bordi.png){.pixel fig-alt="Prjónamynstur í fjórum litum"}
+
+::: {.topic-body}
+[Reiknirit · Gervigreind]{.num}
+
+### [Mynsturgerð](mynsturgerd/index.qmd)
+Breyttu ljósmynd eða texta í prjónamynstur með Python. Hvað virkaði, hvað ekki og hvað bíður.
+
+[Búa til mynstur →](mynsturgerd/index.qmd)
+:::
 :::
 :::
 
-## Fyrsta verkefnið: Passap E6000
+```{mermaid}
+flowchart LR
+  sj["Stafræn Sjónabók<br/>mynstur"] --> my["Mynsturgerð<br/>mynd í mynstur"]
+  my --> pv["Prjónavélin<br/>prjónar mynstrið"]
+  sj --> pv
+```
+
+## Sagan á bak við
 
 Sumarið 2024 tóku þrír nemendur úr vélaverkfræði, hagnýttri stærðfræði og fatahönnun gamla prjónavél frá 10. áratugnum og snjallvæddu hana með netsamskiptum og frjálsum hugbúnaði [@nsn2024, ágrip]. Verkefnið var styrkt af Nýsköpunarsjóði námsmanna.
 
@@ -69,13 +102,33 @@ Sumarið 2024 tóku þrír nemendur úr vélaverkfræði, hagnýttri stærðfræ
 
 Morgunblaðið fjallaði um verkefnið 2. júní 2024: [*Sjálfvirknivædd prjónavél í bígerð*](https://www.mbl.is/frettir/innlent/2024/06/02/sjalfvirknivaedd_prjonavel_i_bigerd/) [@mbl2024].
 
-[Lesa um verkefnið](verkefni/passap-e6000.qmd){.btn .btn-primary}
-[Byrja á leiðbeiningunum](leidbeiningar/passap-e6000/index.qmd){.btn .btn-outline-primary}
+[Lesa söguna](verkefnid/index.qmd){.btn .btn-primary}
+[Sumarið 2024, mánuð fyrir mánuð](verkefnid/sumarid.qmd){.btn .btn-outline-primary}
+
+## Meira
+
+::: {.cards}
+::: {.card-hi}
+#### [Hugbúnaður](hugbunadur.qmd)
+Allar opnu geymslurnar á GitHub og hvernig þú notar þær.
+:::
+
+::: {.card-hi .teal}
+#### [Nám og fræði](nam.qmd)
+Hvaða námsgreinar liggja að baki og hvar þú finnur námið.
+:::
+
+::: {.card-hi .pink}
+#### [Orðalisti](ordalisti.qmd)
+Nálastillir, einband, mynsturfylki og fleiri orð útskýrð.
+:::
+
+::: {.card-hi .dashed}
+#### [Bæta við viðfangsefni](nytt-vidfangsefni.qmd)
+Prjónavélin er bara byrjunin. Svona bætist nýtt textílverkefni við.
+:::
+:::
 
 ::: {.heimild}
 Tölur og myndir á þessari síðu eru úr lokaskýrslu verkefnisins [@nsn2024]: ágrip, kaflarnir *Kostnaður og fjármögnun*, *Breytingar á vélbúnaði* og *Prjón- og hönnunarvinna*.
 :::
-
-## Fleiri textílverkefni
-
-Passap prjónavélin er bara byrjunin. Vefurinn er byggður þannig að ný verkefni, vélar og aðferðir bætast við með sama sniði. Sjá [Bæta við verkefni](verkefni/nytt-verkefni.qmd).

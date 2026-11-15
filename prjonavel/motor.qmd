@@ -33,7 +33,7 @@ Stjórnborð með innbyggðri *Form* tölvu sem gat gert alls kyns mynstur. Stj�
 
 Takkarnir virka þannig að þeir eru alltaf með 5V straum á *high*. Þegar takki er tengdur í *ground* er hann virkur. 7407N kubburinn hermir eftir því.
 
-![Rafrás sem tengir Arduino við 7407N kubb, sem tengist svo við 6 pinna RJ12 tengi til að stýra mótor.](../../img/passap-e6000/rafras-motor.png){fig-alt="Teikning af rafrás með merkingum D10 til D13, GRND, COL, GOSTOP, END og V5"}
+![Rafrás sem tengir Arduino við 7407N kubb, sem tengist svo við 6 pinna RJ12 tengi til að stýra mótor.](../img/passap-e6000/rafras-motor.png){fig-alt="Teikning af rafrás með merkingum D10 til D13, GRND, COL, GOSTOP, END og V5"}
 
 Svona lestu myndina:
 

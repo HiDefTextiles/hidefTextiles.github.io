@@ -1,0 +1,50 @@
+---
+title: "Prjónaðu"
+subtitle: "Margir litir, íslenskt einband og það sem fer úrskeiðis"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Prufurnar byrjuðu í tveimur litum og enduðu í fjórum. Fjórir litir gengu betur þegar aðeins önnur hver lykkja var prjónuð að aftan. Íslenskt einband er gróft garn og þarf sína prjónaáferð.
+:::
+
+## Úr tveimur litum í fjóra
+
+::: {.skref}
+1. **Tveir litir.** Fyrstu prufur sumarsins voru texti og mynstur í tveimur litum, send á vélina með kóðanum.
+2. **Þrír litir.** Með uppfærslu var hægt að prjóna með þremur litum.
+3. **Fjórir litir.** Að lokum fjórir. Útkoman varð sífellt áhugaverðari og flóknari.
+:::
+
+::: {.callout-warning title="Fjórir litir: breyttu prjóninu"}
+Í byrjun gekk illa að prjóna með fjórum litum. Þá voru prjónaðar **8 umferðir á aftara borðinu** fyrir hverja eina umferð á því fremra og það olli miklum vandræðum.
+
+Lausnin var breytt prjón sem prjónar aðeins **aðra hverja lykkju að aftan**. Þá eru prjónaðar **4 umferðir að aftan** fyrir hverja eina að framan.
+:::
+
+## Íslenskt einband
+
+Verkefnið fékk einband á kónum frá Ístex. Einband er frekar gróft garn sem hentar almennt ekki vel fyrir prjónavélar. Sem dæmi er ekki hægt að nota einband í *Kniterate* prjónavélar án þess að það slitni í tíma og ótíma.
+
+Prófaðar voru mismunandi prjónaáferðir til að finna lausn sem hentar einbandi, og eftir sumarið hafði náðst ágætur árangur í því.
+
+## Algeng vandamál
+
+| Hvað gerist? | Af hverju? | Hvað hjálpaði? |
+|---|---|---|
+| Ójöfn spenna á garni | Spennugjafinn var orðinn misilla farinn fyrir ólíka garnleiðara | Frekari reynsla af vélinni og mótorinn, sem gefur jafnara átak á prjónið |
+| Langir spottar á jaðri stykkisins | Tengist spennu garnsins og því hve langt sleðinn ferðast umfram það sem er prjónað | Sama: reynsla og mótorinn |
+| Garnið kemst illa á nálarnar og sleðinn festist | Gleymdist að setja strekkjarana aftur á eftir lagfæringu | Setja strekkjarana aftur á |
+| Sleðinn prjónar garnlaus og prjónið fellur af | Sleðinn náði ekki að grípa næsta lit | Byrja upp á nýtt eða hengja lykkjurnar aftur á. Þetta kom sem betur fer ekki oft fyrir |
+| Hlutur sem heldur garni vantar | | Stykkið var þrívíddarprentað |
+
+## Lærðu á vélina fyrst
+
+Í júní voru prjónaðar ýmsar prufur til að kynnast vélunum. Fyrst voru gerðar prufur úr handbókinni fyrir *Passap Duomatic 80* á þá vél, en seinna á *Passap Electronic 6000*. Báðar vélarnar virka svipað en sú síðari er tengd við tölvuna sem fylgir vélinni.
+
+Prufurnar heppnuðust misvel og í ljós kom að vélarnar eru ekki mjög notendavænar. Fylgt var kennslumyndböndum frá framleiðanda á YouTube til að gera prufur á tölvunni sem fylgdi *Passap E6000*, en þá kom oft upp `ERROR` og þurfti að byrja upp á nýtt.
+
+::: {.heimild}
+@nsn2024, kaflarnir *Prjón með mörgum litum*, *Áskoranir og betrumbætur í prjóni*, *Prjónaáskoranir* og *Mánaðarlegt yfirlit*. Guðrún Ísafold Hilmarsdóttir sá um hönnunarvinnu, val á áferð og prjónaskap með íslensku einbandi.
+:::

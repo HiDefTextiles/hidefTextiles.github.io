@@ -1,0 +1,51 @@
+---
+title: "Sendu mynstur á vélina"
+subtitle: "Ein netbeiðni með upphafsnál og mynstri"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Þegar [stýringin](styring.qmd) er komin í gang sendir þú henni mynstur sem JSON hlut. Mynstrið býrðu til sjálf(ur) eða með föllunum í [Mynsturgerð](../mynsturgerd/index.qmd).
+:::
+
+[Stýringin](styring.qmd) tekur við mynstrum sem netbeiðnum. Beiðnin er JSON hlutur:
+
+```json
+{
+  "start": -10,
+  "pattern": [
+    [0,0,0,2,2,2],
+    [2,2,2,0,0,0],
+    [0,0,0,1,1,1],
+    [1,1,1,0,0,0]
+  ],
+  "msg": ["test","",""]
+}
+```
+
+- **`start`** segir hvaða nál er lengst til vinstri í mynstrinu. Nálin lengst til vinstri á beðinu er -90. Nálar vinstra megin við miðju eru neikvæðar og hægra megin jákvæðar.
+- **`pattern`** er mynstrið, þar sem hver lína inniheldur 0 eða gildi frá 1 til 4. Sléttar línur (0, 2, 4, …) eru þegar sleðinn fer frá vinstri til hægri, frá enda að litaskipti. Oddalínur eru þegar hann fer frá litaskipti að enda.
+
+Stýringin skrifar í *console* hvoru megin við mynstrið þú ert, hvaða línu þú gerir næst og hvaða litur á að vera í notkun. Liturinn er hæsta gildið í línunni.
+
+```python
+import requests
+
+r = requests.post("http://localhost:3000/api/pattern",
+                  json={"start": start, "pattern": pattern})
+```
+
+::: {.callout-note title="Slóðin"}
+Í kóða passAPI er leiðin skilgreind sem `POST /pattern` undir `/api` (`src/app.ts` og `src/routes/api.ts`) og stýringin hlustar á porti 3000 nema `PORT` sé stillt. README í passAPI nefnir `localhost:3000/pattern`.
+:::
+
+Fallið `patternMatrixToJson(A, start, file)` skrifar sama form í JSON skrá. Fylkið má hafa í mesta lagi 180 dálka og `start` er staðsetning á nálabeðinu.
+
+## Samskiptastaðallinn
+
+Einn af áföngum verkefnisins var samskiptastaðall fyrir prjónavélina. Mynstur frá notendum eru sett á miðlægan gagnagrunn. Þaðan er lesið hvaða mynstur eru í bið og seglum og mótor stýrt eftir þeirri forskrift. Mynstrin í gagnagrunninum koma frá [opna vefviðmótinu](vefvidmot.qmd).
+
+::: {.heimild}
+Lýsingin á JSON beiðninni er úr README í [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Dæmin um notkun eru úr `examples/` í [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd]. Samskiptastaðallinn: @nsn2024, kaflinn *Helstu áfangar*.
+:::

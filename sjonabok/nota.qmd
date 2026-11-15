@@ -1,0 +1,41 @@
+---
+title: "Notaðu mynstrin"
+subtitle: "Sæktu mynstrin eða vinndu þau sjálf(ur)"
+---
+
+Kóðinn og mynstrin eru í [HiDefTextiles/Sjonabok](https://github.com/HiDefTextiles/Sjonabok), undir GNU GPL v3.0 leyfi.
+
+**Viltu bara mynstrin?** Þau eru tilbúin sem textaskrár í möppunni `patterns/txt` í geymslunni.
+
+```bash
+git clone https://github.com/HiDefTextiles/Sjonabok.git
+```
+
+**Viltu vinna úr `.eps` skrám sjálf(ur)?** Pakkarnir sem þarf eru í `requirements.txt`.
+
+```bash
+# .eps í textaskrá
+python3 convert_to_txt.py <path_to_eps_file> <path_to_txt_file>
+# textaskrá í .png
+python3 convert_to_png.py <path_to_txt_file> <path_to_png_file>
+# aðskilja mörg mynstur í einni skrá
+python3 split_patterns.py --cols_distance <int> --rows_distance <int> <path_to_txt_file>
+```
+
+Notaðu `--help` til að sjá valkosti hvers forrits. Til að umbreyta öllum skrám í möppu:
+
+```bash
+make init
+make all
+```
+
+Þú gætir þurft að breyta slóðinni `EPS_DIR` í `Makefile`.
+
+## Hvað svo?
+
+- [Skreyttu prjónamynstur](skreyta.qmd) með borða, bakgrunni eða letri.
+- [Sjáðu mynstrin prjónuð](prjonad.qmd).
+
+::: {.heimild}
+Skipanirnar eru úr README og Makefile í [HiDefTextiles/Sjonabok](https://github.com/HiDefTextiles/Sjonabok) [@repo-sjonabok]. Sjá einnig @nsn2024, kaflinn *Íslenska Sjónabókin nýtt í mynsturgerð*.
+:::

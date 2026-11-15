@@ -1,0 +1,50 @@
+---
+title: "Orðalisti"
+subtitle: "Orðin sem koma fyrir á vefnum"
+toc: false
+---
+
+Skýringarnar eru teknar úr lokaskýrslunni [@nsn2024]. Smelltu á hlekkinn til að sjá orðið í samhengi.
+
+## Vélin
+
+| Orð | Skýring |
+|---|---|
+| **Nálabeð** | Hluti vélarinnar með nálunum og brautinni sem sleðinn rennur eftir. Á *Passap E6000* eru 179 nálar. [Kynnstu vélinni](prjonavel/velin.qmd) |
+| **Sleði / lás** | Rennur yfir nálabeðið. Í honum eru tveir ljósskynjarar og tveir seglar. [Kynnstu vélinni](prjonavel/velin.qmd) |
+| **Nálastillir** (e. *pusher*) | Er undir nálinni og ýtir henni í prjónastöðu. Setur nálina í virka eða óvirka stöðu fyrir hverja umferð. |
+| **Litaskiptir** | Geymir garn. Sleðinn skilar þar garni og tekur upp nýtt. |
+| **Stjórnborð / *Form* tölva** | Upprunalega tölvan á *Passap E6000*, tengd sleðanum með DIN-6 snúru. [Stýrðu nálunum](prjonavel/nalastyring.qmd) |
+| **Umferð** | Ein ferð sleðans yfir nálabeðið. |
+| **Einband** | Íslenskt garn frá Ístex. Frekar gróft garn sem hentar almennt ekki vel fyrir prjónavélar. [Prjónaðu](prjonavel/prjon.qmd) |
+| ***Kniterate*** | Nútíma prjónavél, hönnuð fyrir minni hönnuði og smærri framleiðendur. [Bakgrunnur](verkefnid/bakgrunnur.qmd) |
+
+## Tæknin
+
+| Orð | Skýring |
+|---|---|
+| ***Arduino*** | Örtölvan sem kemur í stað gamla stjórnborðsins. [Stýrðu nálunum](prjonavel/nalastyring.qmd) |
+| **DIN-6** | Tengið á milli stjórnborðs og sleða. |
+| **Truflun** (e. *interrupt*) | Fer í gang í kóða örtölvunnar þegar ljósskynjari breytir um gildi. |
+| **Serial samskipti** | Samskipti örtölvu og tölvu yfir USB tengi. |
+| **Stýringin** | Forritið passAPI sem keyrir á tölvu, geymir mynstrin og matar örtölvuna. [Stýringin á tölvunni](prjonavel/styring.qmd) |
+| **Mynsturfylki** | Fylki af heiltölum þar sem hver tala er ein lykkja. [Mynstur er fylki af tölum](mynsturgerd/fylki.qmd) |
+| **Floyd-Steinberg** | Reiknirit sem er notað til að fækka litum í mynd. [Frá mynd í mynstur](mynsturgerd/mynd-i-mynstur.qmd) |
+| ***Flood fill*** | Reiknirit sem er notað til að finna bakgrunn myndar. |
+| ***Wave Function Collapse*** (WFC) | Tækni úr tölvuleikjagerð sem býr til flæðandi grunnmynd eftir fyrirfram gefinni forskrift. [Spunagreind og mynstur](mynsturgerd/spunagreind.qmd) |
+| **Spunagreind** | Gervigreind sem býr til nýtt efni, til dæmis myndir úr texta. |
+
+## Hugmyndirnar
+
+| Orð | Skýring |
+|---|---|
+| ***Sjónabók*** | *Íslensk sjónabók*: safn tíu handrita frá 16.–18. öld með íslenskum útsaumsmynstrum. [Stafræn Sjónabók](sjonabok/index.qmd) |
+| **STEAM** | *Science, Technology, Engineering, Arts, and Mathematics*. |
+| **FOSS** | *Free and Open Source Software*, frjáls og opinn hugbúnaður. [Nýnæmi](verkefnid/nynaemi.qmd#hugverkastefna) |
+| **Hönnunarhugsun** (e. *Design Thinking*) | Hönnunarferli í fimm stigum: samkennd, þarfir, hugmyndir, frumgerð og prófun. [Hönnun úr prufum](prjonavel/honnun.qmd) |
+| **Hringrásarhagkerfi** | Hagkerfi þar sem endurnýting er í forgrunni. |
+| **Stand-up** | Stuttur daglegur stöðufundur. Í verkefninu fór hann fram skriflega með GeekBot. [Sumarið 2024](verkefnid/sumarid.qmd) |
+
+::: {.heimild}
+@nsn2024. Skýringarnar eru orðaðar eftir því hvernig orðin eru notuð í skýrslunni.
+:::

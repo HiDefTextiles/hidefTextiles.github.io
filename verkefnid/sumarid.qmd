@@ -1,0 +1,160 @@
+---
+title: "Sumarið 2024"
+subtitle: "Dagbók sumarsins, mánuð fyrir mánuð"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Unnið var í verkefninu frá maí og fram í miðjan ágúst 2024, þegar kennsla hófst á ný. Í september var skýrslan skrifuð og verkefnið kynnt á Vísindavöku.
+:::
+
+## Hvar?
+
+Prjónavélin var til húsa í vélaskála VR-III við Hjarðarhaga 2 í Reykjavík. Nemendur höfðu einnig aðgang að Sprotamýri, frumkvöðlasetri HÍ í Grósku.
+
+![Verkefnið var unnið í vélaskála VR-III.](../img/passap-e6000/vinnustofa.jpg){fig-alt="Vinnustofa með prjónavél, garni og prjónaprufum á vegg"}
+
+## Daglegt stand-up
+
+Til að halda utan um tímalínuna var notað [GeekBot](https://geekbot.com/) á Teams svæði þátttakenda. Á hverjum virkum degi fengu nemendur fjórar spurningar:
+
+1. Slembin spurning svo nemendur kynnist hver öðrum, svokallaður *icebreaker*.
+2. Hvað hefur þú gert síðan síðast? Kerfið sýndi þeim síðasta svar þeirra við spurningu 3.
+3. Hvað ætlar þú að gera í dag?
+4. Þarftu hjálp við eitthvað?
+
+Þannig gátu kennarar fylgst með framgangi nemenda yfir sumarleyfistímann og viðeigandi sérfræðingur komið inn eftir þörfum. Stundum voru fundir haldnir í persónu í staðinn.
+
+![Þátttaka í tímaóháðu stand-up með *GeekBot* yfir sumarið.](../img/passap-e6000/standup.png){fig-alt="Graf sem sýnir svörun í stand-up yfir sumarið" width=85%}
+
+::: {.callout-tip title="Af hverju að gera þetta svona?"}
+Eftir sumarið liggur fyrir mælanlegt tímaplan yfir hvað hver liður tók og hverjir helstu flöskuhálsarnir voru. Það eru hlutir sem eiga til að gleymast ef þeir eru ekki skrifaðir niður strax.
+:::
+
+## Mánuð fyrir mánuð
+
+::: {.timalina}
+#### Maí: forkönnun og undirbúningur
+
+::: {.panel-tabset}
+##### Elías
+Fyrstu skref:
+
+1. Las um virkni *Passap* vélanna, uppfærslur og mismunandi útgáfur sem voru gerðar.
+2. Kynnti sér fyrri útfærslu af tengingu við vélbúnað og möguleika á stýringum.
+3. Fræsti rafrás út frá teikningum frá Bamberg [@bamberg] og náði stjórn á vélbúnaði í gegnum Arduino.
+4. Setti upp JavaScript forrit sem tengist Arduino með serial samskiptum yfir USB tengi.
+
+##### Guðrún Ísafold og Snæfríður
+Þrif og undirbúningur á vél.
+:::
+
+#### Júní: fyrstu prufur
+
+Sambærileg verkefni voru skoðuð til að fá hugmyndir, vélbúnaður var prófaður og byrjað að skrifa kóða til að senda mynstur til vélarinnar.
+
+::: {.panel-tabset}
+##### Elías
+Setti upp bakenda sem tekur við beiðnum yfir netsamskipti og stýrir vélinni. Hann var prufukeyrður og villugreindur út mánuðinn. Grunnur að vefviðmóti til að stýra vélinni.
+
+##### Guðrún Ísafold
+- Prjónaði ýmsar prufur til að kynnast prjónavélunum, fyrst úr handbókinni fyrir *Passap Duomatic 80* og seinna á *Passap Electronic 6000*. Sjá [Prjónaðu](../prjonavel/prjon.qmd#lærðu-á-vélina-fyrst).
+- Skoðaði samskonar verkefni og vann hugmyndavinnu í forritinu Procreate.
+- Heimsótti Heimilisiðnaðarfélagið, Kidka, Textílsetrið á Blönduósi og vinnustofu Ýrar Jóhannsdóttur (Ýrúrarí), þar sem teymið fékk að skoða *Kniterate* vélina hennar.
+- Sá um Instagram aðganginn [\@hideftextiles](https://www.instagram.com/hideftextiles/).
+
+##### Snæfríður
+- Skoðaði sambærileg verkefni fyrir hugmyndir.
+- Lærði á vélina: hvernig hún prjónar, skiptir um liti, prjónar mynstur og fleira.
+- Gerði prufur og tengdist vélinni í fyrsta skipti.
+- Byrjaði að skrifa kóða sem vinnur mynstur til að senda á vélina.
+- Heimsótti Heimilisiðnaðarfélagið, prjónaverksmiðjuna Kidka, Textílsetrið á Blönduósi og vinnustofuna hjá Ýrúrarí.
+:::
+
+#### Júlí: mynstur á tölvutækt form
+
+Mynstur voru færð yfir á tölvutækt form, kóði skrifaður til að vinna með þau á ýmsan hátt og prufur gerðar á vélinni þrátt fyrir tæknileg vandamál.
+
+::: {.panel-tabset}
+##### Elías
+Lokasprettur:
+
+1. Betrumbætti vefviðmótið til að sýna stöðu vélarinnar í mynstrinu.
+2. Þrívíddarprentaði stykki sem vantaði til að halda garni.
+3. Lærði hvernig þróun *Passap* vélanna og stýring þeirra á mótornum breyttist í gegnum tíðina.
+4. Eftir ótal tilraunir tókst að kveikja á mótornum.
+
+##### Guðrún Ísafold
+- Lærði nokkurn veginn á forritin sem Elías og Snæfríður bjuggu til.
+- Teymið heimsótti Þjóðminjasafn Íslands og þar heillaðist hún af Ragnheiði „yngri" Jónsdóttur. Hún heimsótti Landsbókasafn Íslands og kynnti sér rannsóknarefnið betur.
+- Hélt áfram með hugmyndavinnu og prufur sem tengdust henni.
+- Fljótlega var hægt að prjóna myndir með kóðanum sem Snæfríður skrifaði og Ragnheiður var valin sem fyrsta prjónaða myndin. Notuð var mynd sem máluð var af henni árið 1684 og er til sýnis á Þjóðminjasafninu. Hún er fyrirmynd myndarinnar á íslenska 5.000 króna seðlinum.
+- Leitað var leiða til að nota sjónabókarmynstrin í prjóni í bland við myndir.
+- Tímafrekt reyndist að prjóna á vélinni því enn átti eftir að tengja mótorinn.
+- Illa gekk að prjóna með fjórum litum í fyrstu, en með breyttu prjóni gekk það vel.
+- Fundað var með Lilju, fyrrum starfsmanni Þjóðminjasafnsins, sem fræddi teymið um *Íslensku sjónabókina* og mikilvægi hennar.
+- Áframhaldandi umsjá með Instagram aðgangi verkefnisins.
+- Vann að tillögum að fatnaði sem prjónaður er á vélinni.
+- Meira einband fékkst frá Ístex, ásamt öðru garni sem hentaði ekki vel.
+
+##### Snæfríður
+- Kom sjónabókarmynstrum á tölvutækt form.
+- Skrifaði kóða sem vinnur með mynstrin á ýmsan máta: bætir við borða, bætir bakgrunni á myndir og skrifar texta.
+- Skrifaði kóða sem breytir myndum (`jpg` og `png`) í prjónamynstur.
+- Hélt áfram með prufur, sem var ansi tímafrekt þar sem mótorinn var ekki kominn í gang. Ýmis vandræði komu upp með vélina og fundið var út úr því hvernig hægt er að prjóna með fjórum litum.
+- Heimsótti Þjóðminjasafnið fyrir innblástur og til að skoða hvernig íslensku mynstrin voru notuð, og sat fund með Lilju sem upplýsti teymið meira um sjónabækurnar.
+:::
+
+#### Ágúst: fínpússun
+
+Fleiri prufur gerðar, kóði fínpússaður og búinn til samskiptastaðall til að eiga við vélina, þar sem mynstur eru send á miðlægan gagnagrunn og lesin þaðan.
+
+::: {.panel-tabset}
+##### Elías
+Verkefni klárað:
+
+1. Hannaði og fræsti út rafrás til að stýra mótornum.
+2. Bjó til vefviðmót opið notendum, sem getur tekið við textaskipunum og búið til prjónamynstur af mynd byggðri á textanum.
+3. Tengdi opna vefviðmótið við gagnagrunn.
+4. Bjó til útfærslu af stýringunni sem sækir mynstur úr gagnagrunninum til að prjóna og stýrir mótornum.
+
+##### Guðrún Ísafold
+- Skoðaði leiðir til að fá sem besta útkomu mynda í prjóni. Notaði bæði Procreate og Photoshop til þess, og svo kóðann til að staðfesta niðurstöður áður en prjónað var.
+- Fór á námskeið hjá Hafliða um þrívíddarprentun.
+- Hélt áfram með prufur og lærði enn betur á fínpússaðan kóðann.
+- Aðlagaði tillögur að fatnaði að því sem þegar var búið að prjóna, með því að útfæra hugmyndir sem nýttu prufurnar. Þannig hefðu þær notagildi og verðmæti og enduðu síður sem rusl.
+- Gerði prufur að stroffi fyrir kraga.
+- Áframhaldandi umsjá með Instagram aðgangi verkefnisins.
+
+##### Snæfríður
+- Enn fleiri prufur og kóði fínpússaður.
+- Útfærði mynsturgerð með *Wave Function Collapse* reikniritinu.
+- Byrjaði að þróa aðferð til að lita sjónabókarmynstrin sjálfvirkt.
+- Fór á námskeið hjá Hafliða um þrívíddarprentun.
+:::
+
+#### September: kynning
+
+Skýrslugerð og kynning. Fyrstu kynningar á verkefninu fóru fram á Vísindavöku Rannís, þar sem verkefnið var kynnt almenningi.
+:::
+
+## Helstu áfangar
+
+| Áfangi | Hvað náðist? | Meira |
+|---|---|---|
+| **Stýring á seglum** | Arduino örtölva tengd við *Passap E6000* þannig að hægt er að senda vélinni skilaboð um hvaða hjálpanálar eiga að fara í virka eða óvirka stöðu | [Stýrðu nálunum](../prjonavel/nalastyring.qmd) |
+| **Tenging við mótor** | Arduino tengd þannig að hægt er að ferja sleðann sjálfvirkt fram og aftur á prjónaborðinu með mótor | [Stýrðu mótornum](../prjonavel/motor.qmd) |
+| **Samskiptastaðall** | Mynstur frá notendum eru sett á miðlægan gagnagrunn. Þaðan er lesið hvaða mynstur eru í bið og seglum og mótor stýrt eftir þeirri forskrift | [Sendu mynstur á vélina](../prjonavel/senda-mynstur.qmd) |
+| **Stafræn Sjónabók** | Mynstur úr *Sjónabók* voru til sem `.eps` myndir. Þær voru myndgreindar og þýddar yfir á handhægara textaform | [Stafræn Sjónabók](../sjonabok/stafraening.qmd) |
+| **Einfalt hönnunarviðmót** | Til að vinna með grunnmynstur *Sjónabókar*, breyta litavali og eiga við einstaka pixla | [Mynsturgerð](../mynsturgerd/index.qmd) |
+| **Prjónaprufur** | Tilraunir með íslenskt einband og mynstur voru lykilatriði til að tryggja að vélin gæti prjónað á áreiðanlegan hátt með innlendum efnivið | [Prjónaðu](../prjonavel/prjon.qmd) |
+| **Kynning verkefnisins** | Vísindavaka Rannís í lok september 2024. Frekari kynningar voru fyrirhugaðar á Hönnunarmars 2025 og á vinnustofu í Hönnunarsafni Íslands sumarið 2025 | [Verðmæti](verdmaeti.qmd#leið-á-markað) |
+
+::: {.callout-note title="Um skýrsluna"}
+Skýrslan er dagsett 26. september 2024 og lýsir stöðunni þá. Þessi síða segir aðeins frá því sem stendur í skýrslunni.
+:::
+
+::: {.heimild}
+@nsn2024, kaflinn *Framkvæmd verkefnisins*: *Tímalína verkefnisins* (Daglegt stand-up, Mánaðarlegt yfirlit) og *Helstu áfangar*. Dagbókarfærslur nemenda eru hér endursagðar í þriðju persónu.
+:::

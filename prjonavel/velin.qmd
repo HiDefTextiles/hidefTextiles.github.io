@@ -9,7 +9,7 @@ subtitle: "Fjórir hlutar sem þú þarft að þekkja"
 Vélbúnaður prjónavélarinnar er í grófum dráttum fjórir hlutar: **nálabeðið**, **sleðinn** (líka kallaður lás), **litaskiptirinn** og **mótorinn**.
 :::
 
-![*Passap E6000* prjónavél. Ljósmynd: mbl.is/Kristinn Magnússon, úr umfjöllun Morgunblaðsins [@mbl2024].](../../img/passap-e6000/mbl-passap-e6000.jpg){fig-alt="Passap E6000 prjónavél"}
+![*Passap E6000* prjónavél. Ljósmynd: mbl.is/Kristinn Magnússon, úr umfjöllun Morgunblaðsins [@mbl2024].](../img/passap-e6000/mbl-passap-e6000.jpg){fig-alt="Passap E6000 prjónavél"}
 
 ::: {.cards}
 ::: {.card-hi}
@@ -46,7 +46,7 @@ Vélbúnaður prjónavélarinnar er í grófum dráttum fjórir hlutar: **nálab
 Vélbúnaðinum má skipta í tvö stýrikerfi:
 
 1. **Stýring á mótornum**, sem færir sleðann frá vinstri til hægri yfir nálabeðið. Sjá [Stýrðu mótornum](motor.qmd).
-2. **Stýring á seglunum**, sem færa nálastillarana upp og niður. Fyrir hvern nálastilli sem er stillt upp er lykkja prjónuð fyrir þá nál í næstu umferð. Sjá [Stýrðu nálunum](styring.qmd).
+2. **Stýring á seglunum**, sem færa nálastillarana upp og niður. Fyrir hvern nálastilli sem er stillt upp er lykkja prjónuð fyrir þá nál í næstu umferð. Sjá [Stýrðu nálunum](nalastyring.qmd).
 
 
 ::: {.heimild}
