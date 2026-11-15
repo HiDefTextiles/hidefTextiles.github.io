@@ -6,7 +6,7 @@ __pycache__/
 .venv/
 venv/
 
-# MkDocs build
+# Old Zensical build output
 /site/
 
 # OS

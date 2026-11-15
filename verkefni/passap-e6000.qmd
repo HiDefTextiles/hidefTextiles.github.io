@@ -171,7 +171,11 @@ Til að halda utan um tímalínuna var notað [GeekBot](https://geekbot.com/) á
 3. Hvað ætlar þú að gera í dag?
 4. Þarftu hjálp við eitthvað?
 
-Þannig gátu kennarar fylgst með framgangi yfir sumarleyfistímann og viðeigandi sérfræðingur komið inn eftir þörfum. Eftir sumarið liggur fyrir mælanlegt tímaplan yfir hvað hver liður tók og hverjir helstu flöskuhálsarnir voru.
+Þannig gátu kennarar fylgst með framgangi yfir sumarleyfistímann og viðeigandi sérfræðingur komið inn eftir þörfum. Stundum voru fundir haldnir í persónu í staðinn.
+
+![Þátttaka í tímaóháðu stand-up með *GeekBot* yfir sumarið.](../img/passap-e6000/standup.png){fig-alt="Graf sem sýnir svörun í stand-up yfir sumarið" width=80%}
+
+ Eftir sumarið liggur fyrir mælanlegt tímaplan yfir hvað hver liður tók og hverjir helstu flöskuhálsarnir voru.
 
 ## Helstu áfangar
 
@@ -193,9 +197,11 @@ Varan sjálf er í raun kennsluefnið og þekkingin sem safnaðist í verkefninu
 
 ## Umfjöllun
 
-- Morgunblaðið fjallaði stuttlega um verkefnið í upphafi sumars 2024 [@mbl2024].
+- **Morgunblaðið** fjallaði um verkefnið í upphafi sumars 2024, í greininni [*Sjálfvirknivædd prjónavél í bígerð*](https://www.mbl.is/frettir/innlent/2024/06/02/sjalfvirknivaedd_prjonavel_i_bigerd/) eftir Valgerði Laufeyju Guðmundsdóttur, 2. júní 2024 [@mbl2024].
 - Verkefnið var kynnt fyrir [Machine Knit Community](https://www.mkc.community/about-us), alþjóðlegum hópi notenda prjónavéla.
 - Uppfærslur birtast á Instagram, [\@hideftextiles](https://www.instagram.com/hideftextiles/).
+
+![Úr umfjöllun Morgunblaðsins um verkefnið. Ljósmynd: mbl.is, sjá [greinina á mbl.is](https://www.mbl.is/frettir/innlent/2024/06/02/sjalfvirknivaedd_prjonavel_i_bigerd/).](../img/passap-e6000/mbl-vid-velina.jpg){fig-alt="Maður situr við prjónavélina" width=70%}
 
 ::: {.callout-note title="Um skýrsluna"}
 Skýrslan er dagsett 26. september 2024 og lýsir stöðunni þá. Þar eru nefndar fyrirhugaðar kynningar á Hönnunarmars 2025 og opin vinnustofa í Hönnunarsafni Íslands sumarið 2025. Þessi síða segir aðeins frá því sem stendur í skýrslunni.

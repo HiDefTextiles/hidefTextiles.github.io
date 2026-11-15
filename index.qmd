@@ -67,6 +67,8 @@ Sumarið 2024 tóku þrír nemendur úr vélaverkfræði, hagnýttri stærðfræ
 ![Ragnheiður Jónsdóttir, 120 lykkjur á breidd.](img/passap-e6000/prjon-ragnheidur-120.jpg){fig-alt="Prjónuð mynd af konu með hatt"}
 :::
 
+Morgunblaðið fjallaði um verkefnið 2. júní 2024: [*Sjálfvirknivædd prjónavél í bígerð*](https://www.mbl.is/frettir/innlent/2024/06/02/sjalfvirknivaedd_prjonavel_i_bigerd/) [@mbl2024].
+
 [Lesa um verkefnið](verkefni/passap-e6000.qmd){.btn .btn-primary}
 [Byrja á leiðbeiningunum](leidbeiningar/passap-e6000/index.qmd){.btn .btn-outline-primary}
 

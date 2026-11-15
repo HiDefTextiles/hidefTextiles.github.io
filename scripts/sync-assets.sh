@@ -38,10 +38,16 @@ photo gisa/ragga-hires.JPG         prjon-ragnheidur-120.jpg
 photo gisa/hallgrimskirkja.JPG     prjon-hallgrimskirkja.jpg
 photo gisa/collection.JPG          fatnadur.jpg
 
+# Photos from Morgunblaðið (mbl.is), shown with credit and a link to the article.
+photo elli/e6000.jpg               mbl-passap-e6000.jpg
+photo elli/electra4600.jpg         mbl-arduino-din6.jpg
+photo elli/elli.jpg                mbl-vid-velina.jpg
+
 plain PASSAPCONTROL.png            rafras-din6.png
 plain PASSAPMOTOR.png              rafras-motor.png
 plain passapiscreen.png            skjar-passapi.png
 plain passapnextscreen.png         skjar-passapnext.png
+plain standup.png                 standup.png
 plain thjms5898_246_0.png          sjonabok-pafugl.png
 plain thjms5898_210.png            sjonabok-blom.png
 plain thjms5898_268.png            sjonabok-endurtekning.png
@@ -52,7 +58,8 @@ plain "snaeja/raggajóns.png"       mynstur-ragnheidur.png
 plain snaeja/hallo_heimur.png      mynstur-hallo-heimur.png
 plain snaeja/wfc.png               mynstur-wfc.png
 
-# The final report (unsigned version) as a download.
+# The final report and its signed version as downloads.
 cp "$SRC/NSN-report.pdf" skjol/NSN-2024-lokaskyrsla.pdf
+cp "$SRC/NSN-signed.pdf" skjol/NSN-2024-lokaskyrsla-undirritud.pdf
 
 echo "Synced $(ls "$DST" | wc -l) images to $DST and the report to skjol/"

@@ -11,13 +11,14 @@ Allt efni um Passap E6000 á þessum vef er unnið upp úr lokaskýrslu nemenda 
 > Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir (2024). *Lokaskýrsla: HiDef Textíll: Tæknivæddar prjónavélar*. 26. september 2024. Ábyrgðaraðili: Helga Ingimundardóttir.
 
 [Sækja skýrsluna (PDF)](skjol/NSN-2024-lokaskyrsla.pdf){.btn .btn-primary}
+[Undirrituð útgáfa (PDF)](skjol/NSN-2024-lokaskyrsla-undirritud.pdf){.btn .btn-outline-primary}
 [Frumgögn á GitHub](https://github.com/HiDefTextiles/NSN-2024){.btn .btn-outline-primary}
 
 Textinn á vefnum hefur verið einfaldaður og settur upp sem leiðbeiningar, en engu efnislegu hefur verið bætt við. Neðst á hverri síðu stendur úr hvaða köflum skýrslunnar eða hvaða geymslu efnið er.
 
 ## Myndir
 
-Myndir af prjóni, mynstrum, rafrásum og skjámyndir eru úr skýrslunni. Mynstursíður merktar Þjms. 5898 eru úr *Íslenskri sjónabók* og birtar með leyfi Heimilisiðnaðarfélagsins og Þjóðminjasafns Íslands, sbr. kaflann *Hugverkastefna* í skýrslunni. Ljósmyndir þriðju aðila í skýrslunni eru ekki birtar hér.
+Myndir af prjóni, mynstrum, rafrásum og skjámyndir eru úr skýrslunni. Ljósmyndir merktar mbl.is eru úr umfjöllun Morgunblaðsins um verkefnið 2. júní 2024 og birtar með tilvísun í uppruna og ljósmyndara. Mynstursíður merktar Þjms. 5898 eru úr *Íslenskri sjónabók* og birtar með leyfi Heimilisiðnaðarfélagsins og Þjóðminjasafns Íslands, sbr. kaflann *Hugverkastefna* í skýrslunni. Myndir í skýrslunni sem aðrir eiga höfundarrétt á (myndir af KnitterStream, teikning frá Backspace í Bamberg, mynd af Kniterate og teikning úr handbók Passap) eru ekki afritaðar á vefinn. Í staðinn er vísað í upprunann í heimildaskránni hér að neðan, og myndirnar má sjá í skýrslunni sjálfri.
 
 ## Heimildaskrá
 
