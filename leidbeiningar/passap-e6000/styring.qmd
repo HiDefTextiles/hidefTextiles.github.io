@@ -44,6 +44,8 @@ Sleðinn stillir mynstur fyrir næstu umferð á meðan hann fer yfir nálabeði
 Þessi teikning fylgir skýrslugeymslunni en það er ekki vísað í hana í texta skýrslunnar. Merkingarnar á henni (GRND, VIN, D2, D4, D5, D6, DIN 6) eru það eina sem við vitum um hana.
 :::
 
+![*Arduino* örtölva tengd við DIN-6 tengi á *Passap E6000*. Ljósmynd: mbl.is/Kristinn Magnússon, úr umfjöllun Morgunblaðsins [@mbl2024].](../../img/passap-e6000/mbl-arduino-din6.jpg){fig-alt="Arduino örtölva með vírum tengd við prjónavél" width=80%}
+
 ## Í hvora átt fer sleðinn?
 
 Í hvert skipti sem staðan á ljósskynjaranum sem er tengdur í pinna 2 á Arduino borðinu breytist, fer í gang truflun (e. *interrupt*) sem skoðar strax stöðuna á hinum skynjaranum. Tvennt getur gerst:
