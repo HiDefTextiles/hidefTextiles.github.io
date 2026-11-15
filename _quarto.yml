@@ -144,7 +144,6 @@ website:
         - nytt-vidfangsefni.qmd
   page-footer:
     left: "© 2026 Helga Ingimundardóttir · Háskóli Íslands"
-    center: "Efnið byggir á [lokaskýrslu NSN 2024](/heimildir.qmd)"
     right:
       - text: "Heimildir"
         href: heimildir.qmd
