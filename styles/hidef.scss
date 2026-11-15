@@ -328,3 +328,63 @@ main pre { max-width: 100%; }
 
 // Sidebar: the topic title reads as a book title
 .sidebar .sidebar-title { margin-bottom: 0.6rem; }
+
+// ── Fyrri / Næsta: stórir hnappar með heiti síðunnar ──────────────────────────
+nav.page-navigation {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding-top: 1.2rem;
+  border-top: 2px solid $hi-panel;
+
+  .nav-page { flex: 1 1 0; min-width: 0; }
+  .nav-page:empty { display: none; }
+  .nav-page-next { text-align: right; }
+
+  .nav-page a {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    height: 100%;
+    min-height: 3.6rem;
+    padding: 0.7rem 0.9rem;
+    border: 2px solid rgba($hi-blue, 0.18);
+    border-radius: 0.6rem;
+    background: $hi-white;
+    color: $hi-blue;
+    text-decoration: none;
+    transition: border-color 0.15s, background 0.15s;
+
+    &:hover, &:focus-visible { border-color: $hi-teal; background: rgba($hi-teal, 0.08); color: $hi-blue; }
+    i { font-size: 1.6rem; line-height: 1; flex: none; }
+  }
+  .nav-page-next a { justify-content: flex-end; }
+
+  .nav-page-text {
+    color: $hi-blue;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+
+    &::before {
+      display: block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: rgba($hi-ink, 0.55);
+      margin-bottom: 0.15rem;
+    }
+  }
+  .nav-page-previous .nav-page-text::before { content: "Fyrri"; }
+  .nav-page-next .nav-page-text::before { content: "Næsta"; }
+  .nav-page-topic.nav-page-next .nav-page-text::before { content: "Næsta viðfangsefni"; }
+  .nav-page-topic.nav-page-previous .nav-page-text::before { content: "Fyrra viðfangsefni"; }
+
+  @media (max-width: 575.98px) {
+    flex-direction: column;
+    .nav-page-next { order: -1; }
+  }
+}

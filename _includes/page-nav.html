@@ -1,0 +1,44 @@
+<!--
+  Fyrri / Næsta milli viðfangsefna.
+  Quarto setur sjálft „fyrri/næsta“ innan hvers viðfangsefnis (eftir hliðarstikunni).
+  Hér er bætt við tengingu yfir á næsta viðfangsefni á síðustu síðu hvers
+  viðfangsefnis, og til baka á fyrstu síðu. Röðin og síðuheitin þurfa að passa
+  við hliðarstikurnar í _quarto.yml.
+-->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var topics = [
+    { first: "prjonavel/index.html",   firstTitle: "Prjónavélin",        last: "prjonavel/honnun.html",     lastTitle: "Hönnun úr prufum" },
+    { first: "sjonabok/index.html",    firstTitle: "Stafræn Sjónabók",   last: "sjonabok/prjonad.html",     lastTitle: "Frá bók í band" },
+    { first: "mynsturgerd/index.html", firstTitle: "Mynsturgerð",        last: "mynsturgerd/spunagreind.html", lastTitle: "Spunagreind og mynstur" },
+    { first: "verkefnid/index.html",   firstTitle: "Verkefnið",          last: "verkefnid/sumarid.html",    lastTitle: "Sumarið 2024" },
+    { first: "hugbunadur.html",        firstTitle: "Hugbúnaður",         last: "nytt-vidfangsefni.html",    lastTitle: "Bæta við viðfangsefni", plain: true }
+  ];
+  var offsetMeta = document.querySelector('meta[name="quarto:offset"]');
+  var offset = offsetMeta ? offsetMeta.getAttribute("content") : "./";
+  var path = window.location.pathname.replace(/\/$/, "/index.html");
+  function is(p) { return path.endsWith("/" + p) || path === p; }
+  function link(dir, href, title, plain) {
+    var prev = dir === "previous";
+    var d = document.createElement("div");
+    d.className = "nav-page nav-page-" + dir + (plain ? "" : " nav-page-topic");
+    d.innerHTML = '<a href="' + offset + href + '" class="pagination-link" aria-label="' + title + '">' +
+      (prev ? '<i class="bi bi-arrow-left-short"></i> ' : '') +
+      '<span class="nav-page-text">' + title + '</span>' +
+      (prev ? '' : ' <i class="bi bi-arrow-right-short"></i>') + '</a>';
+    return d;
+  }
+  var nav = document.querySelector("nav.page-navigation");
+  if (!nav) return;
+  topics.forEach(function (t, i) {
+    if (is(t.last) && i + 1 < topics.length && !nav.querySelector(".nav-page-next a")) {
+      var old = nav.querySelector(".nav-page-next"); if (old) old.remove();
+      nav.appendChild(link("next", topics[i + 1].first, topics[i + 1].firstTitle, topics[i + 1].plain));
+    }
+    if (is(t.first) && i > 0 && !nav.querySelector(".nav-page-previous a")) {
+      var oldp = nav.querySelector(".nav-page-previous"); if (oldp) oldp.remove();
+      nav.insertBefore(link("previous", topics[i - 1].last, topics[i - 1].lastTitle, t.plain), nav.firstChild);
+    }
+  });
+});
+</script>
