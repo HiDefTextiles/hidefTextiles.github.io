@@ -1,0 +1,201 @@
+---
+title: "Frá mynd í mynstur"
+subtitle: "Breyttu ljósmynd í prjónamynstur með Python"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Prjónamynstur er fylki af heiltölum. Hver tala er ein lykkja og gildið segir í hvaða lit hún er. Python föllin í [mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) breyta mynd í svona fylki, skreyta það með mynstrum úr *Sjónabók* og koma því á það form sem vélin skilur.
+:::
+
+## Mynstur er fylki af tölum
+
+Litirnir geta í mesta lagi verið fjórir. Mynstur sem sent er á vélina inniheldur því heiltölurnar 1, 2, 3 og 4, eftir því með hve mörgum litum á að prjóna.
+
+| Tala | Merking |
+|---|---|
+| `1` | lykkja í lit eitt |
+| `2` | lykkja í lit tvö |
+| `3` | lykkja í lit þrjú |
+| `4` | lykkja í lit fjögur |
+| `0` | óprjónuð lykkja |
+
+Dæmi úr skýrslunni um einfalda mynd í þremur litum:
+
+```
+1 1 1 1 1
+1 1 2 1 1
+1 2 3 2 1
+1 1 2 1 1
+1 1 1 1 1
+```
+
+## Vélin prjónar einn lit í einu
+
+Vélin prjónar aðeins með einum lit í einu og prjónar **tvær umferðir** áður en skipt er um lit. Ef prjónað er með fjórum litum tekur hver lína í mynsturfylkinu því **átta umferðir** í vélinni.
+
+Fallið `separateColors` aðskilur litina í hverri línu í sérstaka lista, fyllir upp í með núllum og lætur hvern lista koma tvisvar fyrir. Fyrst fer sleðinn frá hægri til vinstri og svo frá vinstri til hægri.
+
+::: {.columns}
+::: {.column width="38%"}
+**Inn:** ein lína
+
+```python
+[1, 2, 2, 3, 4]
+```
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="58%"}
+**Út:** átta umferðir
+
+```python
+[[1, 0, 0, 0, 0], [1, 0, 0, 0, 0],
+ [0, 2, 2, 0, 0], [0, 2, 2, 0, 0],
+ [0, 0, 0, 3, 0], [0, 0, 0, 3, 0],
+ [0, 0, 0, 0, 4], [0, 0, 0, 0, 4]]
+```
+:::
+:::
+
+## Skref fyrir skref
+
+Kóðinn er í [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd). Dæmi um notkun eru í möppunni `examples/` í geymslunni og skrefin hér fylgja þeim.
+
+::: {.skref}
+1. **Sæktu kóðann.**
+
+   ```bash
+   git clone https://github.com/HiDefTextiles/mynsturgerd.git
+   ```
+
+   Föllin nota `numpy`, `matplotlib` og `Pillow` og dæmin nota `requests`.
+
+2. **Breyttu mynd í fylki.** `ImageToMatrix` tekur inn slóð á mynd (`.jpg` eða `.png`), fjölda lykkja og fjölda lita.
+
+   ```python
+   from ImageToPattern import *
+
+   path = "~/absolute/path/to/image.jpg"
+   stitches = 70   # fjöldi lykkja
+   matrix = ImageToMatrix(path, stitches, num_colors=4)
+   ```
+
+   Fallið gráskalar myndina, fækkar pixlum í samræmi við fjölda lykkja og notar svo Floyd-Steinberg reikniritið til að fækka litum [@FloydSteinberg]. Út kemur fylki af heiltölum frá 1 til 4 þar sem 1 táknar ljósustu pixlana og hæsta talan þá dekkstu.
+
+3. **Hreinsaðu staka pixla úr bakgrunninum.** Floyd-Steinberg skilur oft eftir staka dekkri pixla í einlitum bakgrunni. `removeSinglePixels` breytir þeim í bakgrunnslitinn. Það nýtir *flood fill* reikniritið [@flood-fill].
+
+   ```python
+   matrix = removeSinglePixels(matrix, matrix_background_color=1)
+   ```
+
+4. **Skoðaðu útkomuna** í litum að eigin vali áður en þú prjónar.
+
+   ```python
+   viewColoredMatrix(matrix, "#f7e35e", "#d14f90", "#215215", "#592222")
+   ```
+
+5. **Komdu mynstrinu á form vélarinnar.**
+
+   ```python
+   from ProcessPatternsForMachine import *
+
+   pattern = separateColors(matrix)
+   start = -60
+   ```
+:::
+
+## Skreyttu með Sjónabók
+
+Þessi föll nota mynstur úr [stafrænu Sjónabókinni](sjonabok.qmd) sem textaskrár.
+
+::: {.panel-tabset}
+### Borði
+
+`add_border` bætir borða umhverfis mynstrið eftir óskum notandans. `side` segir á hvaða hliðar borðinn fer, í röðinni efst, neðst, vinstri, hægri.
+
+```python
+from AddBackgroundAndBorder import *
+
+p = "~/absolute/path/to/border/pattern.txt"
+# auður rammi utan um myndina
+matrix = add_border(matrix=matrix, side=[1,1,1,1], size=[2,2,2,2],
+                    border_background_shade=4)
+# borði úr Sjónabók
+matrix = add_border(matrix=matrix, border_file_path=p, side=[1,1,1,1],
+                    border_dark_shade=4, border_background_shade=1)
+```
+
+![Borði úr *Íslenskri sjónabók* í kringum prjónamynstur. Mynstrið er í 4 litum og kemur frá ljósmynd af baldursbrám.](../../img/passap-e6000/mynstur-bordi.png){.pixel fig-alt="Mynstur í fjórum litum með borða í kring"}
+
+### Bakgrunnur
+
+`add_background` setur Sjónabókarmynstur sem bakgrunn. Fallið nýtir *flood fill* reikniritið [@flood-fill].
+
+```python
+background_path = "~/absolute/path/to/background/pattern.txt"
+matrix = add_background(matrix, background_path,
+                        background_color_0=2, background_color_1=3,
+                        border=True, border_color=1)
+```
+
+Ef næsta mynd fær sama bakgrunn renna bakgrunnarnir saman í eina heild, þannig að engin skil sjást á milli myndanna tveggja.
+
+![Prjónamynstur af Ragnheiði Jónsdóttur með mynstur úr *Sjónabók* sem bakgrunn.](../../img/passap-e6000/mynstur-ragnheidur.png){.pixel fig-alt="Mynstur af konu með hatt og mynstraðan bakgrunn"}
+
+### Texti
+
+Fallið `write` í `Write.py` skrifar texta með leturgerðum úr Sjónabók. Textinn getur verið miðjaður eða vinstri jafnaður.
+
+![*Halló heimur* skrifað með letri úr *Sjónabók*.](../../img/passap-e6000/mynstur-hallo-heimur.png){.pixel fig-alt="Textinn HALLO HEIMUR í rúðuletri" style="max-width:100%"}
+:::
+
+## Sendu mynstrið á vélina
+
+[Stýringin](styring.qmd) tekur við mynstrum sem netbeiðnum. Beiðnin er JSON hlutur:
+
+```json
+{
+  "start": -10,
+  "pattern": [
+    [0,0,0,2,2,2],
+    [2,2,2,0,0,0],
+    [0,0,0,1,1,1],
+    [1,1,1,0,0,0]
+  ],
+  "msg": ["test","",""]
+}
+```
+
+- **`start`** segir hvaða nál er lengst til vinstri í mynstrinu. Nálin lengst til vinstri á beðinu er -90. Nálar vinstra megin við miðju eru neikvæðar og hægra megin jákvæðar.
+- **`pattern`** er mynstrið, þar sem hver lína inniheldur 0 eða gildi frá 1 til 4. Sléttar línur (0, 2, 4, …) eru þegar sleðinn fer frá vinstri til hægri, frá enda að litaskipti. Oddalínur eru þegar hann fer frá litaskipti að enda.
+
+Stýringin skrifar í *console* hvoru megin við mynstrið þú ert, hvaða línu þú gerir næst og hvaða litur á að vera í notkun. Liturinn er hæsta gildið í línunni.
+
+```python
+import requests
+
+r = requests.post("http://localhost:3000/api/pattern",
+                  json={"start": start, "pattern": pattern})
+```
+
+::: {.callout-note title="Slóðin"}
+Í kóða passAPI er leiðin skilgreind sem `POST /pattern` undir `/api` (`src/app.ts` og `src/routes/api.ts`) og stýringin hlustar á porti 3000 nema `PORT` sé stillt. README í passAPI nefnir `localhost:3000/pattern`.
+:::
+
+Fallið `patternMatrixToJson(A, start, file)` skrifar sama form í JSON skrá. Fylkið má hafa í mesta lagi 180 dálka og `start` er staðsetning á nálabeðinu.
+
+## Það sem ekki kláraðist
+
+- **Wave Function Collapse (WFC)** var sett upp með hnútum sem finnast víða í *Íslenskri sjónabók*. Ákveðið var að þessi mynsturgerð hentaði ekki í hönnunarvinnuna að svo stöddu.
+- Byrjað var á aðferð sem **litar Sjónabókarmynstur sjálfvirkt** í 3 til 4 litum. Sú vinna var komin nokkuð áleiðis og mætti halda áfram með hana síðar.
+- Upphaflega stóð til að nota spunagreind (Dall-E 2 og Midjourney) til að búa til ný mynstur, en erfitt reyndist að fá áreiðanlegar niðurstöður sem fylgdu textaskilaboðunum nákvæmlega.
+
+![Útkoma úr *Wave Function Collapse* reikniritinu.](../../img/passap-e6000/mynstur-wfc.png){.pixel fig-alt="Svarthvítt völundarhúsamynstur"}
+
+::: {.heimild}
+@nsn2024, kaflarnir *Mynstur unnin til að senda á vél*, *Íslenska Sjónabókin nýtt í mynsturgerð*, *Ókláruð verkefni* og *Hugbúnaðarlegar áskoranir*. Kóðadæmin eru úr `examples/` og skjölun fallanna í [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd]. Lýsingin á JSON beiðninni er úr README í [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Snæfríður Ebba Ásgeirsdóttir vann að mynsturgerðinni.
+:::

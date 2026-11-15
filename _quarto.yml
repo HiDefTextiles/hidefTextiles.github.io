@@ -1,0 +1,123 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render: sh scripts/sync-assets.sh
+  render:
+    - "*.qmd"
+    - "leidbeiningar/**/*.qmd"
+    - "verkefni/**/*.qmd"
+  resources:
+    # Referenced from CSS (mask-image), which Quarto does not scan
+    - img/hi/hi_logo.svg
+    - skjol/NSN-2024-lokaskyrsla.pdf
+
+lang: is
+language:
+  search-box-placeholder: "Leita"
+  toc-title-document: "Á þessari síðu"
+  section-title-references: "Heimildir"
+  repo-action-links-edit: "Breyta síðunni"
+  repo-action-links-issue: "Senda ábendingu"
+bibliography: heimildir.bib
+csl: apa.csl
+link-citations: true
+
+website:
+  title: "HiDef textíll"
+  description: "Opnar leiðbeiningar um textíl og tækni. Rannsóknarverkefni við Háskóla Íslands."
+  site-url: https://hideftextiles.github.io/
+  repo-url: https://github.com/HiDefTextiles/hidefTextiles.github.io
+  repo-actions: [edit, issue]
+  favicon: img/hi/favicon.svg
+  search: true
+  page-navigation: true
+  navbar:
+    logo: img/hi/hi_named_logo-is.svg
+    logo-alt: "Háskóli Íslands"
+    background: primary
+    left:
+      - text: "Leiðbeiningar"
+        href: leidbeiningar/index.qmd
+      - text: "Verkefni"
+        href: verkefni/index.qmd
+      - text: "Hugbúnaður"
+        href: hugbunadur.qmd
+      - text: "Um"
+        href: um.qmd
+      - text: "Hafa samband"
+        href: samband.qmd
+    right:
+      # Replaced by the EU translator (WEB-T) when it is configured,
+      # see _includes/eu-translator.html
+      - text: "Translate"
+        href: thyding.qmd
+        icon: translate
+    tools:
+      - icon: github
+        href: https://github.com/HiDefTextiles
+        aria-label: GitHub
+  sidebar:
+    - id: leidbeiningar
+      title: "Leiðbeiningar"
+      style: docked
+      background: light
+      collapse-level: 2
+      contents:
+        - leidbeiningar/index.qmd
+        - section: "Passap E6000 prjónavél"
+          contents:
+            - leidbeiningar/passap-e6000/index.qmd
+            - leidbeiningar/passap-e6000/velin.qmd
+            - leidbeiningar/passap-e6000/styring.qmd
+            - leidbeiningar/passap-e6000/motor.qmd
+            - leidbeiningar/passap-e6000/mynstur.qmd
+            - leidbeiningar/passap-e6000/sjonabok.qmd
+            - leidbeiningar/passap-e6000/prjon.qmd
+        - leidbeiningar/snidmat.qmd
+    - id: verkefni
+      title: "Verkefni"
+      style: docked
+      background: light
+      contents:
+        - verkefni/index.qmd
+        - verkefni/passap-e6000.qmd
+        - verkefni/nytt-verkefni.qmd
+  page-footer:
+    left: "© 2026 Helga Ingimundardóttir · Háskóli Íslands"
+    center: "Efnið byggir á [lokaskýrslu NSN 2024](/heimildir.qmd)"
+    right:
+      - text: "Heimildir"
+        href: heimildir.qmd
+      - icon: instagram
+        href: https://www.instagram.com/hideftextiles/
+        aria-label: Instagram
+      - icon: github
+        href: https://github.com/HiDefTextiles
+        aria-label: GitHub
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles/hi-site.scss
+      - styles/hidef.scss
+    css:
+      - styles/hi-watermark.css
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    include-after-body:
+      - _includes/eu-translator.html
+    toc: true
+    toc-depth: 3
+    lang: is
+    smooth-scroll: true
+    anchor-sections: true
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    lightbox: true
+    mermaid:
+      theme: neutral

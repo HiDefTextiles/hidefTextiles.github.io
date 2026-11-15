@@ -1,0 +1,41 @@
+---
+title: "Um HiDef textíl"
+---
+
+**HiDef textíll** er rannsóknarverkefni við **Háskóla Íslands**, leitt af **Helgu Ingimundardóttur**, lektor í iðnaðarverkfræði. Verkefnið sameinar textíl, tækni og rannsóknahugbúnað við íslenskan menningararf og sjálfbærni, með áherslu á nýsköpun, miðlun og þátttöku almennings.
+
+![](img/hi/hi_named_logo-is.svg){fig-alt="Merki Háskóla Íslands" width=260}
+
+## Markmið
+
+- Þróa notendavænar aðferðir og verkfæri fyrir snjallprjón
+- Miðla ferli og niðurstöðum til almennings og skólasamfélags
+- Styðja við hagnýta nýsköpun og menntun
+
+## Hvernig vefurinn virkar
+
+Vefurinn er safn af [leiðbeiningum](leidbeiningar/index.qmd). Allt efni er sótt í skýrslur og kóða verkefnanna og hver síða segir hvaðan efnið kemur. Fyrsta verkefnið er [tæknivæddar prjónavélar](verkefni/passap-e6000.qmd), unnið af nemendum sumarið 2024 með styrk frá Nýsköpunarsjóði námsmanna. Fleiri textílverkefni bætast við með [sama sniði](verkefni/nytt-verkefni.qmd).
+
+## Fólkið
+
+**Verkefnisstjóri og ábyrgðaraðili:** Helga Ingimundardóttir, lektor í iðnaðarverkfræði við Háskóla Íslands, [hi.is/starfsfolk/helgaingim](https://hi.is/starfsfolk/helgaingim).
+
+Nemendur og kennarar hvers verkefnis eru taldir upp á síðu verkefnisins, sjá [teymið á bak við Passap E6000](verkefni/passap-e6000.qmd#teymið).
+
+## Samstarfsaðilar
+
+- [Háskóli Íslands](https://www.hi.is/) (HÍ)
+- [Listaháskóli Íslands](https://www.lhi.is) (LHÍ)
+- [Textílmiðstöð Íslands](https://textilmidstod.is)
+- [Heimilisiðnaðarfélag Íslands](https://www.heimilisidnadur.is/)
+- [Þjóðminjasafn Íslands](https://www.thjodminjasafn.is/)
+- [JBT Marel](https://jbtmarel.com/)
+- Ístex
+
+## Útlit og tækni
+
+Vefurinn er skrifaður í [Quarto](https://quarto.org) og notar útlit Háskóla Íslands úr sniðmátinu [HI-IDN/quarto-hi](https://github.com/HI-IDN/quarto-hi). Frumkóði vefsins er á [GitHub](https://github.com/HiDefTextiles/hidefTextiles.github.io).
+
+::: {.heimild}
+Lýsing og markmið eru af fyrri útgáfu þessa vefs. Upplýsingar um fyrsta verkefnið eru úr @nsn2024.
+:::

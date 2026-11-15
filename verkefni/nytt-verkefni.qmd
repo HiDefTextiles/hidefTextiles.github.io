@@ -1,0 +1,34 @@
+---
+title: "Bæta við verkefni"
+subtitle: "Svona bætist nýtt textílverkefni við vefinn"
+---
+
+Vefurinn er gerður fyrir mörg textílverkefni. Passap E6000 er fyrsta dæmið. Nýtt verkefni fylgir sömu skrefum.
+
+::: {.skref}
+1. **Tengdu heimildina.** Ef verkefnið á skýrslu í eigin geymslu, bættu henni við sem *submodule* með https slóð:
+
+   ```bash
+   git submodule add https://github.com/HiDefTextiles/<geymsla>.git
+   ```
+
+2. **Veldu myndir.** Bættu myndunum sem má birta við `scripts/sync-assets.sh`. Aðeins skrár sem eru taldar upp þar fara á vefinn.
+
+3. **Búðu til verkefnissíðu.** Afritaðu `verkefni/passap-e6000.qmd` í `verkefni/<verkefni>.qmd` og haltu fyrirsögnunum: *Markmið*, *Af hverju?*, *Teymið*, *Samstarf*, *Fjármögnun*, *Tímalína*, *Niðurstöður*.
+
+4. **Skrifaðu leiðbeiningar.** Notaðu [sniðmátið](../leidbeiningar/snidmat.qmd) og settu síðurnar í `leidbeiningar/<verkefni>/`.
+
+5. **Skráðu heimildir.** Bættu skýrslunni og geymslunum við `heimildir.bib` og vísaðu í þær á hverri síðu.
+
+6. **Bættu síðunum við valmyndina** í `_quarto.yml`, undir `sidebar`, og korti á [Verkefni](index.qmd) og [Leiðbeiningar](../leidbeiningar/index.qmd).
+
+7. **Skoðaðu vefinn** á eigin tölvu og sendu inn breytinguna.
+
+   ```bash
+   make preview
+   ```
+:::
+
+Þegar breytingin er komin á `main` greinina byggir GitHub Actions vefinn og birtir hann á GitHub Pages.
+
+Hugmyndir og verkáætlun vefsins eru í [verkbeiðnum á GitHub](https://github.com/HiDefTextiles/hidefTextiles.github.io/issues).

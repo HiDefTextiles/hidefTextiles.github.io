@@ -1,33 +1,46 @@
-# HiDef Textíll – Website
-A single-language Icelandic site using the hi.css color scheme.
+# HiDef textíll – vefur
 
-This workspace is configured with:
-- Zensical (see `requirements.txt`)
-- Pages under `docs/` (Icelandic)
+Public website of **HiDef textíll**, a research project at Háskóli Íslands led by
+Helga Ingimundardóttir, lektor í iðnaðarverkfræði. The site is a set of how-to guides
+for textile projects, written in Icelandic. The first project is the Passap E6000
+knitting machine, based on the report in the `NSN-2024` submodule.
 
-Local quickstart
+Built with [Quarto](https://quarto.org) and the HÍ look from
+[HI-IDN/quarto-hi](https://github.com/HI-IDN/quarto-hi) (MIT).
 
-1. Create and activate a virtual environment:
-
-```bash
-python -m venv .venv
-.\.venv\Scripts\activate
-```
-
-2. Install Python dependencies from `requirements.txt`:
+## Quickstart
 
 ```bash
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+git clone --recurse-submodules https://github.com/HiDefTextiles/hidefTextiles.github.io.git
+cd hidefTextiles.github.io
+make preview    # live preview
+make render     # build into _site/
+make clean
 ```
 
-3. Build and serve the site with Zensical:
+Requires Quarto 1.5+. ImageMagick is optional (photos are resized when it is installed).
 
-```bash
-python -m zensical build
-python -m zensical serve
-```
+## Layout
 
-Files of interest:
-- `zensical.toml` – site config and global CSS/JS includes
-- `docs/` – content pages (Icelandic)
+| Path | Purpose |
+|---|---|
+| `_quarto.yml` | Site config, navigation |
+| `index.qmd`, `um.qmd`, `samband.qmd`, `hugbunadur.qmd`, `heimildir.qmd` | Top-level pages |
+| `leidbeiningar/` | How-to guides, one folder per project |
+| `verkefni/` | Project pages |
+| `heimildir.bib` | Bibliography; every page cites its source |
+| `NSN-2024/` | Submodule: the report the Passap pages are based on |
+| `scripts/sync-assets.sh` | Copies the approved report images and PDF into the site |
+| `styles/` | `hi-site.scss`, `hi-watermark.css` (from quarto-hi) and `hidef.scss` |
+| `_includes/eu-translator.html` | EU WEB-T translator for the header (needs Hub URL and Client-ID) |
+
+## Content rules
+
+- Nothing is invented. All content comes from the project reports and repositories.
+- Every page ends with a `.heimild` box naming the report sections or repository it is based on.
+- New projects follow `verkefni/nytt-verkefni.qmd` and `leidbeiningar/snidmat.qmd`.
+
+## Deploy
+
+Pushing to `main` runs `.github/workflows/deploy.yml`, which checks out the submodule,
+renders with Quarto and deploys to GitHub Pages.

@@ -1,0 +1,206 @@
+---
+title: "Tæknivæddar prjónavélar: Passap E6000"
+subtitle: "Gömul prjónavél snjallvædd með netsamskiptum og frjálsum hugbúnaði"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Sumarið 2024 snjallvæddu þrír nemendur úr vélaverkfræði, hagnýttri stærðfræði og fatahönnun úrelta *Passap Electronic 6000* prjónavél. Útkoman er opið tól fyrir skapandi starf sem stuðlar jafnframt að sjálfbærni og heldur íslenskum mynsturarfi á lífi.
+:::
+
+::: {.facts}
+::: {}
+**2024** maí til september
+:::
+::: {}
+**3** nemendur
+:::
+::: {}
+**5** kennarar og leiðbeinendur
+:::
+::: {}
+**9** mannmánuðir frá Nýsköpunarsjóði námsmanna
+:::
+:::
+
+[Leiðbeiningar](../leidbeiningar/passap-e6000/index.qmd){.btn .btn-primary}
+[Lokaskýrsla (PDF)](../skjol/NSN-2024-lokaskyrsla.pdf){.btn .btn-outline-primary}
+[Kóðinn](../hugbunadur.qmd){.btn .btn-outline-primary}
+
+![Verkefnið var unnið í vélaskála VR-III.](../img/passap-e6000/vinnustofa.jpg){fig-alt="Vinnustofa með prjónavél, garni og prjónaprufum á vegg"}
+
+## Markmið
+
+Markmiðið er að þróa sjálfbæra og hagkvæma lausn fyrir minni hönnuði með því að uppfæra úreltar prjónavélar frá 10. áratugnum með nútímatækni, nánar tiltekið *Passap Electronic 6000*, oftast kölluð *Passap E6000*.
+
+- **Snjallvæða** vélarnar með netsamskiptum og frjálsum hugbúnaði.
+- **Þróa nýtt notendaviðmót** sem gerir vélarnar aðgengilegar nútímanotendum.
+- **Varðveita menningararf** með því að færa séríslensk textílmynstur úr *Sjónabók* yfir í stafrænt, gagnvirkt form.
+- **Skrásetja ferlið** til að veita nemendum innsýn í þverfaglegt samstarf og tengja verkefnið við kennsluskrá Háskóla Íslands og Listaháskóla Íslands.
+
+## Af hverju?
+
+### Aðrir hafa rutt brautina
+
+- **KnitterStream** [@knitterstream] var listgjörningur á C2-MTL ráðstefnunni í Montréal árið 2012, þar sem gömul rafknúin prjónavél breytti tístum af Twitter í refil.
+- **Backspace**, hakkarasmiðja í Bamberg í Þýskalandi, endurbyggði *Passap E6000* og tengdi hana við nútímahugbúnað [@bamberg].
+- **Irene Wolf** hefur þýtt og skráð hluta af þeim breytingum á ensku [@irene].
+
+Þessi þekking er aðgengileg almenningi en ferlið var enn frekar óljóst og þarfnaðist ítarlegri leiðbeininga svo nýgræðingar gætu fylgt því eftir. Það skarð vill verkefnið fylla.
+
+### Nýjar vélar eru dýrar
+
+Nútíma prjónavélar eins og *Kniterate* [@kniterate] eru hannaðar fyrir minni hönnuði og smærri framleiðendur. Samkvæmt skýrslunni kosta þær yfir 16.000 evrur, hafa margra mánaða biðlista og eru tiltölulega flóknar í notkun að mati innlendra notenda.
+
+Eldri vélar eins og *Passap* eru tiltölulega einfaldar í notkun en skortir nútíma tengingar og notendavænt viðmót.
+
+### Gömlu vélarnar eru góðar
+
+*Passap* vélarnar eru svissneskar og framleiðslu þeirra var hætt um aldamótin þegar fyrirtækið fór á hausinn. Nýir varahlutir eru nánast ófáanlegir. Vélarnar eru samt vel gerðar og enn í notkun hjá áhugafólki, og virk netsamfélög eru í kringum þær, til dæmis [Machine Knit Community](https://www.mkc.community/).
+
+Með því að koma þeim aftur í notkun er dregið úr sóun og stutt við hringrásarhagkerfið.
+
+## Teymið
+
+Verkefnisstjóri og ábyrgðaraðili er **Helga Ingimundardóttir**, lektor í iðnaðarverkfræði við Háskóla Íslands. Verkefnið er hluti af rannsóknarverkefni hennar við háskólann, *HiDef Textíll: Bestun á textílferlum með gervigreind*.
+
+### Nemendur
+
+::: {.cards}
+::: {.card-hi}
+[Vélbúnaður]{.num}
+
+### Elías Lúðvíksson
+Nýútskrifaður grunnnemi í vélaverkfræði við HÍ. Sá um vélrænan hluta verkefnisins: breytingar á prjónavélinni, tengingu við mótor og samskipti við örtölvu.
+:::
+
+::: {.card-hi .pink}
+[Hönnun og prjón]{.num}
+
+### Guðrún Ísafold Hilmarsdóttir
+Nýútskrifaður grunnnemi í fatahönnun við Listaháskóla Íslands. Sá um hönnunarvinnu, val á áferð og prjónaskap með íslensku einbandi.
+:::
+
+::: {.card-hi .teal}
+[Mynsturgerð]{.num}
+
+### Snæfríður Ebba Ásgeirsdóttir
+Grunnnemi í hagnýttri stærðfræði og tölvunarfræði við HÍ. Vann að þróun spunagreindarreiknirita og að því að stafræna mynstur *Sjónabókar*.
+:::
+:::
+
+### Kennarar og leiðbeinendur
+
+| Nafn | Hlutverk |
+|---|---|
+| **Hafliði Ásgeirsson**, tæknimaður í frumgerðarsmiðju HÍ | Leiðsögn við vélrænar breytingar og þróun frumgerðar |
+| **Hafsteinn Einarsson**, dósent í tölvunarfræði við HÍ | Aðstoð við þróun spunagreindarreiknirita og tengdra hugbúnaðarlausna |
+| **Helga Ingimundardóttir**, lektor í iðnaðarverkfræði við HÍ | Verkefnastjóri og ábyrgðaraðili, yfirumsjón með verkefninu |
+| **Hörður Mar Tómasson**, stundakennari við rafmagns- og tölvunarverkfræðideild HÍ | Aðstoð við breytingar á raflögnum og tengingu við örtölvur |
+| **Ragna Bjarnadóttir**, lektor í fatahönnun við LHÍ | Stuðningur við textíl- og hönnunarvinnu |
+
+## Samstarf
+
+::: {.cards}
+::: {.card-hi}
+### Þjóðminjasafn Íslands og Heimilisiðnaðarfélagið
+Veittu leyfi til að vinna með mynstur úr *Sjónabók* og deila þeim stafrænt með almenningi.
+:::
+
+::: {.card-hi}
+### Marel
+Veitti tæknilega ráðgjöf um breytingar á prjónavélinni.
+:::
+
+::: {.card-hi}
+### Ístex
+Lagði til íslenskt einband.
+:::
+
+::: {.card-hi}
+### Textílmiðstöð Íslands
+Bauð teyminu í heimsókn á Blönduós til að sjá *Kniterate* vél í notkun og kynnast stafrænni textílsmiðju.
+:::
+
+::: {.card-hi}
+### Ýr Jóhannsdóttir
+Prjónahönnuður sem deildi reynslu sinni af bæði *Kniterate* og *Passap* vélum.
+:::
+
+::: {.card-hi}
+### Owen Mace
+Rafmagnsverkfræðingur frá Ástralíu sem hefur unnið að opnum hugbúnaði fyrir *Passap* vélar. Ráðgjöf hans hjálpaði við að villugreina samskipti við vélbúnaðinn.
+:::
+:::
+
+## Fjármögnun
+
+- **Nýsköpunarsjóður námsmanna** styrkti verkefnið með 9 mannmánuðum til að greiða sumarlaun nemenda.
+- **Rannsóknarsjóður Háskóla Íslands** greiddi kostnað við breytingar á vélinni og uppsetningu á heimasíðu.
+- **Ístex** styrkti verkefnið með íslensku einbandi.
+- Öll önnur vinna var hluti af starfi akademískra starfsmanna, kostuð af samstarfsaðilum eða unnin í sjálfboðavinnu.
+
+## Tímalína
+
+Unnið var í verkefninu frá maí og fram í miðjan ágúst 2024. Prjónavélin var til húsa í vélaskála VR-III við Hjarðarhaga 2 í Reykjavík. Nemendur höfðu einnig aðgang að Sprotamýri, frumkvöðlasetri HÍ í Grósku.
+
+::: {.timalina}
+#### Maí: forkönnun og undirbúningur
+Lesið um virkni *Passap* vélanna. Rafrás fræst eftir teikningum frá Bamberg og stjórn náð á vélbúnaði í gegnum Arduino. Vélin þrifin og undirbúin.
+
+#### Júní: fyrstu prufur
+Sambærileg verkefni skoðuð. Bakendi settur upp sem tekur við beiðnum yfir netið og stýrir vélinni. Prufur prjónaðar til að kynnast vélunum. Byrjað að skrifa kóða sem sendir mynstur á vélina. Heimsóknir til Heimilisiðnaðarfélagsins, Kidka, Textílsetursins á Blönduósi og á vinnustofu Ýrar Jóhannsdóttur.
+
+#### Júlí: mynstur á tölvutækt form
+Sjónabókarmynstrum komið á tölvutækt form. Kóði sem breytir myndum í prjónamynstur. Fyrsta prjónaða myndin, af Ragnheiði Jónsdóttur. Lausn fannst á því að prjóna með fjórum litum. Eftir ótal tilraunir tókst að kveikja á mótornum.
+
+#### Ágúst: fínpússun
+Rafrás hönnuð og fræst til að stýra mótornum. Opið vefviðmót tengt við gagnagrunn. Samskiptastaðall búinn til, þar sem mynstur eru send á miðlægan gagnagrunn og lesin þaðan. Tillögur að fatnaði aðlagaðar að prufunum.
+
+#### September: kynning
+Skýrslugerð og kynning fyrir almenningi á Vísindavöku Rannís.
+:::
+
+### Daglegt stand-up
+
+Til að halda utan um tímalínuna var notað [GeekBot](https://geekbot.com/) á Teams svæði þátttakenda. Á hverjum virkum degi svöruðu nemendur fjórum spurningum:
+
+1. Slembin spurning svo nemendur kynnist hver öðrum, svokallaður *icebreaker*.
+2. Hvað hefur þú gert síðan síðast?
+3. Hvað ætlar þú að gera í dag?
+4. Þarftu hjálp við eitthvað?
+
+Þannig gátu kennarar fylgst með framgangi yfir sumarleyfistímann og viðeigandi sérfræðingur komið inn eftir þörfum. Eftir sumarið liggur fyrir mælanlegt tímaplan yfir hvað hver liður tók og hverjir helstu flöskuhálsarnir voru.
+
+## Helstu áfangar
+
+| Áfangi | Hvað náðist? | Leiðbeiningar |
+|---|---|---|
+| **Stýring á seglum** | Arduino tengd við *Passap E6000* þannig að hægt er að senda skilaboð um hvaða hjálpanálar fara í virka eða óvirka stöðu | [Stýrðu nálunum](../leidbeiningar/passap-e6000/styring.qmd) |
+| **Tenging við mótor** | Sleðinn ferjaður sjálfvirkt fram og aftur á prjónaborðinu | [Stýrðu mótornum](../leidbeiningar/passap-e6000/motor.qmd) |
+| **Samskiptastaðall** | Mynstur frá notendum fara á miðlægan gagnagrunn. Þaðan er lesið hvaða mynstur bíða og seglum og mótor stýrt eftir því | [Yfirlit](../leidbeiningar/passap-e6000/index.qmd) |
+| **Stafræn Sjónabók** | `.eps` myndir myndgreindar og þýddar yfir á handhægara textaform | [Stafræn Sjónabók](../leidbeiningar/passap-e6000/sjonabok.qmd) |
+| **Einfalt hönnunarviðmót** | Unnið með grunnmynstur *Sjónabókar*, litavali breytt og átt við einstaka pixla | [Frá mynd í mynstur](../leidbeiningar/passap-e6000/mynstur.qmd) |
+| **Prjónaprufur** | Tilraunir með íslenskt einband og mynstur | [Prjónaðu](../leidbeiningar/passap-e6000/prjon.qmd) |
+| **Kynning** | Vísindavaka Rannís í september 2024 | |
+
+## Opið öllum
+
+Verkefnið byggir á hugmyndafræði frjáls og opins hugbúnaðar (*Free and Open Source Software*, FOSS). Hugbúnaður, tækni og aðferðir eiga að vera opnar og aðgengilegar almenningi svo sem flestir geti nýtt þær til frekari þróunar eða nýsköpunar.
+
+Varan sjálf er í raun kennsluefnið og þekkingin sem safnaðist í verkefninu. Verðmætasköpunin er ekki bundin við tekjur af einstökum afurðum, heldur fjölþættan stuðning við sjálfbærni, nýsköpun, menntun og varðveislu íslenskrar menningararfleifðar.
+
+## Umfjöllun
+
+- Morgunblaðið fjallaði stuttlega um verkefnið í upphafi sumars 2024 [@mbl2024].
+- Verkefnið var kynnt fyrir [Machine Knit Community](https://www.mkc.community/about-us), alþjóðlegum hópi notenda prjónavéla.
+- Uppfærslur birtast á Instagram, [\@hideftextiles](https://www.instagram.com/hideftextiles/).
+
+::: {.callout-note title="Um skýrsluna"}
+Skýrslan er dagsett 26. september 2024 og lýsir stöðunni þá. Þar eru nefndar fyrirhugaðar kynningar á Hönnunarmars 2025 og opin vinnustofa í Hönnunarsafni Íslands sumarið 2025. Þessi síða segir aðeins frá því sem stendur í skýrslunni.
+:::
+
+::: {.heimild}
+@nsn2024, kaflarnir *Lýsing á verkefninu*, *Nýnæmi*, *Skipulag og stjórnun*, *Verðmæti* og *Framkvæmd verkefnisins*. Höfundar: Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Ábyrgðaraðili: Helga Ingimundardóttir.
+:::

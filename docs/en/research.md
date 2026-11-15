@@ -1,3 +1,0 @@
-# Research
-
-Placeholder research (English).

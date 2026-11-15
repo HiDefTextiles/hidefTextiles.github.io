@@ -1,0 +1,55 @@
+---
+title: "Kynnstu vélinni"
+subtitle: "Fjórir hlutar sem þú þarft að þekkja"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Vélbúnaður prjónavélarinnar er í grófum dráttum fjórir hlutar: **nálabeðið**, **sleðinn** (líka kallaður lás), **litaskiptirinn** og **mótorinn**.
+:::
+
+::: {.cards}
+::: {.card-hi}
+### Nálabeð
+- Braut sem sleðinn rennur eftir.
+- **Nálastillarar** (e. *pushers*) eru undir nálunum og ýta þeim í prjónastöðu. Þeir kveikja og slökkva á nálum fyrir hverja umferð, það er setja þær í virka eða óvirka stöðu.
+- **Nálarnar** prjóna lykkjur ef þær eru í réttri stöðu þegar sleðinn fer yfir þær.
+- Nálarnar eru númeraðar út frá miðju: 90 til vinstri og 89 til hægri, alls 179.
+:::
+
+::: {.card-hi}
+### Sleði / lás
+- Tveir **ljósskynjarar** sem staðsetja sleðann á nálabeðinu.
+- Tveir **seglar** sem setja stöðu nálastillaranna fyrir næstu umferð.
+- Braut sem sendir nálar aðra af tveimur leiðum: upp, og þá prjónar nálin lykkju, eða niður, og þá prjónar hún ekki.
+:::
+
+::: {.card-hi .teal}
+### Litaskiptir
+- Geymir garn.
+- Er með eins konar takka sem sleðinn virkjar þegar hann fer yfir og skilar garni. Þá er nýtt garn sett í virka stöðu og sleðinn tekur það upp á bakaleiðinni.
+:::
+
+::: {.card-hi .pink}
+### Mótor
+- Snýr belti sem er með festingu fyrir sleðann.
+- Á festingunni er segull.
+- Þrír skynjarar á umgjörðinni utan um beltið skynja segulinn.
+:::
+:::
+
+## Tvö stýrikerfi
+
+Vélbúnaðinum má skipta í tvö stýrikerfi:
+
+1. **Stýring á mótornum**, sem færir sleðann frá vinstri til hægri yfir nálabeðið. Sjá [Stýrðu mótornum](motor.qmd).
+2. **Stýring á seglunum**, sem færa nálastillarana upp og niður. Fyrir hvern nálastilli sem er stillt upp er lykkja prjónuð fyrir þá nál í næstu umferð. Sjá [Stýrðu nálunum](styring.qmd).
+
+::: {.callout-note title="Myndir af vélinni"}
+Ljósmyndir af vélinni í skýrslunni eru frá mbl.is og eru ekki birtar hér. Þær má sjá í umfjöllun Morgunblaðsins [@mbl2024] og í [lokaskýrslunni](../../heimildir.qmd).
+:::
+
+::: {.heimild}
+@nsn2024, kaflinn *Breytingar á vélbúnaði* (Nálarbeð, Sleði/lás, Litaskiptir, Mótor) og upphaf kaflans *Stýringar*. Elías Lúðvíksson sá um vélrænan hluta verkefnisins.
+:::
