@@ -30,7 +30,7 @@ Endurteiknað eftir kerfismyndinni *Stýring sem stillir nálar prjónavélarinn
 
 ## DIN-6 tengið
 
-Teikningar fyrir tenginguna í gegnum DIN tengið eru fengnar frá Backspace hakkarasmiðjunni í Bamberg [@bamberg].
+Teikningar fyrir tenginguna í gegnum DIN tengið eru fengnar af [vefsíðu Backspace hakkarasmiðjunnar í Bamberg](https://www.hackerspace-bamberg.de/Passap_pfaff_e6000) [@bamberg].
 
 - **Pinnar 2 og 4** taka við straumi frá ljósskynjurum sleðans.
 - **Pinnar 5 og 6** stýra stöðu seglanna tveggja. Einn segull er fyrir hvora átt.

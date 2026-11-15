@@ -17,7 +17,7 @@ Skýringarnar eru teknar úr lokaskýrslunni [@nsn2024]. Smelltu á hlekkinn til
 | **Stjórnborð / *Form* tölva** | Upprunalega tölvan á *Passap E6000*, tengd sleðanum með DIN-6 snúru. [Stýrðu nálunum](prjonavel/nalastyring.qmd) |
 | **Umferð** | Ein ferð sleðans yfir nálabeðið. |
 | **Einband** | Íslenskt garn frá Ístex. Frekar gróft garn sem hentar almennt ekki vel fyrir prjónavélar. [Prjónaðu](prjonavel/prjon.qmd) |
-| ***Kniterate*** | Nútíma prjónavél, hönnuð fyrir minni hönnuði og smærri framleiðendur. [Bakgrunnur](verkefnid/bakgrunnur.qmd) |
+| ***Kniterate*** | Nútíma prjónavél, hönnuð fyrir minni hönnuði og smærri framleiðendur. [Bakgrunnur](verkefnid/bakgrunnur.qmd) · [kniterate.com](https://www.kniterate.com/about/) |
 
 ## Tæknin
 

@@ -11,7 +11,7 @@ Upphaflega átti spunagreind að búa til ný prjónamynstur. Það reyndist erf
 
 ## Fyrsta hugmyndin: Dall-E 2 og Midjourney
 
-Upphaflega var stefnt að því að nota spunagreind til að búa til ný prjónamynstur með tækni eins og [Dall-E 2](https://openai.com/index/dall-e-2/) og [Midjourney](https://www.midjourney.com/home). Það reyndist erfitt að fá áreiðanlegar niðurstöður sem fylgdu textaskilaboðunum nákvæmlega.
+Upphaflega var stefnt að því að nota spunagreind til að búa til ný prjónamynstur með tækni eins og [Dall-E 2](https://openai.com/index/dall-e-2/) [@dalle2] og [Midjourney](https://www.midjourney.com/home) [@midjourney]. Það reyndist erfitt að fá áreiðanlegar niðurstöður sem fylgdu textaskilaboðunum nákvæmlega.
 
 ## Önnur hugmynd: tækni úr tölvuleikjum
 

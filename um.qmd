@@ -36,7 +36,7 @@ Nemendur og kennarar hvers verkefnis eru taldir upp á síðu verkefnisins, sjá
 - [Heimilisiðnaðarfélag Íslands](https://www.heimilisidnadur.is/)
 - [Þjóðminjasafn Íslands](https://www.thjodminjasafn.is/)
 - [JBT Marel](https://jbtmarel.com/)
-- Ístex
+- [Ístex](https://istex.is/)
 
 ## Útlit og tækni
 
