@@ -81,7 +81,7 @@ website:
       background: light
       collapse-level: 2
       contents:
-        - text: "Yfirlit"
+        - text: "Yfirlit: Prjónavélin"
           href: prjonavel/index.qmd
         - section: "Vélbúnaður"
           contents:
@@ -102,7 +102,7 @@ website:
       style: docked
       background: light
       contents:
-        - text: "Yfirlit"
+        - text: "Yfirlit: Stafræn Sjónabók"
           href: sjonabok/index.qmd
         - sjonabok/stafraening.qmd
         - sjonabok/nota.qmd
@@ -113,7 +113,7 @@ website:
       style: docked
       background: light
       contents:
-        - text: "Yfirlit"
+        - text: "Yfirlit: Mynsturgerð"
           href: mynsturgerd/index.qmd
         - mynsturgerd/fylki.qmd
         - mynsturgerd/mynd-i-mynstur.qmd
@@ -123,13 +123,25 @@ website:
       style: docked
       background: light
       contents:
-        - text: "Yfirlit"
+        - text: "Yfirlit: Verkefnið"
           href: verkefnid/index.qmd
         - verkefnid/bakgrunnur.qmd
         - verkefnid/nynaemi.qmd
         - verkefnid/teymi.qmd
         - verkefnid/verdmaeti.qmd
         - verkefnid/sumarid.qmd
+    - id: meira
+      title: "Meira"
+      style: docked
+      background: light
+      contents:
+        - hugbunadur.qmd
+        - nam.qmd
+        - ordalisti.qmd
+        - heimildir.qmd
+        - um.qmd
+        - samband.qmd
+        - nytt-vidfangsefni.qmd
   page-footer:
     left: "© 2026 Helga Ingimundardóttir · Háskóli Íslands"
     center: "Efnið byggir á [lokaskýrslu NSN 2024](/heimildir.qmd)"
@@ -158,6 +170,7 @@ format:
           <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     include-after-body:
       - _includes/eu-translator.html
+      - _includes/page-nav.html
     toc: true
     toc-depth: 3
     toc-title: "Á þessari síðu"
