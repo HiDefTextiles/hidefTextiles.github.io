@@ -1,4 +1,4 @@
-name: Deploy Zensical site
+name: Deploy Quarto site
 
 on:
   push:
@@ -10,34 +10,39 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout (with the report submodule)
         uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          submodules: recursive
 
-      - name: Install Zensical
-        run: pip install zensical
+      - name: Set up Pages
+        uses: actions/configure-pages@v5
 
-      - name: Build site
-        run: zensical build
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render site
+        run: make render
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./site
+          path: ./_site
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy
         id: deployment
