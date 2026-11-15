@@ -1,0 +1,66 @@
+---
+title: "Frá mynd í mynstur"
+subtitle: "Breyttu ljósmynd í prjónamynstur með Python"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Fallið `ImageToMatrix` tekur ljósmynd, minnkar hana niður í þann fjölda lykkja sem þú vilt og fækkar litunum niður í þrjá eða fjóra. Út kemur [mynsturfylki](fylki.qmd) sem vélin getur prjónað.
+:::
+
+## Skref fyrir skref
+
+Kóðinn er í [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd). Dæmi um notkun eru í möppunni `examples/` í geymslunni og skrefin hér fylgja þeim.
+
+::: {.skref}
+1. **Sæktu kóðann.**
+
+   ```bash
+   git clone https://github.com/HiDefTextiles/mynsturgerd.git
+   ```
+
+   Föllin nota `numpy`, `matplotlib` og `Pillow` og dæmin nota `requests`.
+
+2. **Breyttu mynd í fylki.** `ImageToMatrix` tekur inn slóð á mynd (`.jpg` eða `.png`), fjölda lykkja og fjölda lita.
+
+   ```python
+   from ImageToPattern import *
+
+   path = "~/absolute/path/to/image.jpg"
+   stitches = 70   # fjöldi lykkja
+   matrix = ImageToMatrix(path, stitches, num_colors=4)
+   ```
+
+   Fallið gráskalar myndina, fækkar pixlum í samræmi við fjölda lykkja og notar svo Floyd-Steinberg reikniritið til að fækka litum [@FloydSteinberg]. Út kemur fylki af heiltölum frá 1 til 4 þar sem 1 táknar ljósustu pixlana og hæsta talan þá dekkstu.
+
+3. **Hreinsaðu staka pixla úr bakgrunninum.** Floyd-Steinberg skilur oft eftir staka dekkri pixla í einlitum bakgrunni. `removeSinglePixels` breytir þeim í bakgrunnslitinn. Það nýtir *flood fill* reikniritið [@flood-fill].
+
+   ```python
+   matrix = removeSinglePixels(matrix, matrix_background_color=1)
+   ```
+
+4. **Skoðaðu útkomuna** í litum að eigin vali áður en þú prjónar.
+
+   ```python
+   viewColoredMatrix(matrix, "#f7e35e", "#d14f90", "#215215", "#592222")
+   ```
+
+5. **Komdu mynstrinu á form vélarinnar.**
+
+   ```python
+   from ProcessPatternsForMachine import *
+
+   pattern = separateColors(matrix)
+   start = -60
+   ```
+:::
+
+## Hvað svo?
+
+- [Skreyttu mynstrið](../sjonabok/skreyta.qmd) með borða, bakgrunni eða letri úr Sjónabók.
+- [Sendu það á vélina](../prjonavel/senda-mynstur.qmd).
+
+::: {.heimild}
+@nsn2024, kaflinn *Íslenska Sjónabókin nýtt í mynsturgerð*. Kóðadæmin eru úr `examples/` og skjölun fallanna í [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd]. Reiknirit: @FloydSteinberg og @flood-fill. Snæfríður Ebba Ásgeirsdóttir vann að mynsturgerðinni.
+:::

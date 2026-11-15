@@ -1,0 +1,68 @@
+---
+title: "Opið vefviðmót"
+subtitle: "Gestir senda inn hugmynd að mynstri í texta"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Opna vefviðmótið tekur við textabeiðnum frá notendum. Úr textanum verður mynd, úr myndinni mynsturfylki og fylkið er vistað í gagnagrunni. [Stýringin](styring.qmd) sækir svo mynstrin þaðan og prjónar þau.
+:::
+
+![Vefviðmótið sem tekur við hugmyndum notenda að mynstrum.](../img/passap-e6000/skjar-passapnext.png){fig-alt="Vefsíða með reitum fyrir nafn og skilaboð og takkanum Senda" width=75%}
+
+## Hvað gerist þegar þú ýtir á Senda?
+
+::: {.skref}
+1. Vefviðmótið tekur við textabeiðni frá notanda.
+2. Það nýtir netsamskipti til að búa til mynd úr textanum með hjálp gervigreindar.
+3. Bakgrunnurinn er staðlaður.
+4. Myndinni er breytt í mynsturfylki.
+5. Fylkið er vistað í gagnagrunni.
+6. Stýringin sækir mynstur úr gagnagrunninum þegar ekkert annað mynstur er í vinnslu eða bið, og stýrir seglum og mótor eftir því.
+:::
+
+```{mermaid}
+flowchart LR
+  n(["Notandi"]) --> s["Síða"]
+  s <--> db[("Gagnagrunnur")]
+  db <--> v(["Vél"])
+```
+
+Skýringarmyndin fylgir línunni `Notandi -> Síða <--> DB <--> vél` í README geymslunnar.
+
+## Settu það upp
+
+Kóðinn er í [tungufoss/passapnext](https://github.com/tungufoss/passapnext). Þetta er Next.js vefsíða með bakenda og framenda.
+
+::: {.skref}
+1. **Sæktu kóðann.**
+
+   ```bash
+   git clone https://github.com/tungufoss/passapnext.git
+   cd passapnext
+   ```
+
+2. **Stilltu breytur í keyrsluumhverfinu.**
+
+   | Breyta | Gildi |
+   |---|---|
+   | `DATABASE_URL` | Hlekkur fyrir samskipti við PostgreSQL gagnagrunn |
+   | `YOUR_ORG_ID` | Fengið frá OpenAI API |
+   | `PROJECT_ID` | Fengið frá OpenAI API |
+   | `OPENAI_API_KEY` | Fengið frá OpenAI API |
+
+3. **Keyrðu vefinn.**
+
+   ```bash
+   npm run dev
+   ```
+
+   Opnaðu svo <http://localhost:3000> í vafra.
+:::
+
+Meira um hugmyndina á bak við þetta: [Spunagreind og mynstur](../mynsturgerd/spunagreind.qmd).
+
+::: {.heimild}
+@nsn2024, kaflarnir *Stýring nálarbeðs* (Opið vefviðmót), *Kóði* og *Mánaðarlegt yfirlit* (ágúst). Uppsetningin er úr skýrslunni og README í [tungufoss/passapnext](https://github.com/tungufoss/passapnext) [@repo-passapnext]. Elías Lúðvíksson bjó til vefviðmótið.
+:::

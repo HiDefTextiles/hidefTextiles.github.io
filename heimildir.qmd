@@ -16,6 +16,45 @@ Allt efni um Passap E6000 á þessum vef er unnið upp úr lokaskýrslu nemenda 
 
 Textinn á vefnum hefur verið einfaldaður og settur upp sem leiðbeiningar, en engu efnislegu hefur verið bætt við. Neðst á hverri síðu stendur úr hvaða köflum skýrslunnar eða hvaða geymslu efnið er.
 
+## Skýrslan á vefnum
+
+Allt efni skýrslunnar er á vefnum, brotið upp í styttri síður. Hér sérðu hvar hver kafli er.
+
+| Kafli í skýrslunni | Síða á vefnum |
+|---|---|
+| Ágrip | [Verkefnið](verkefnid/index.qmd) |
+| **1 Lýsing á verkefninu** | |
+| Markmið | [Bakgrunnur](verkefnid/bakgrunnur.qmd#markmið) |
+| Staða þekkingar | [Bakgrunnur](verkefnid/bakgrunnur.qmd#hvað-hafa-aðrir-gert), [Stafræn Sjónabók](sjonabok/index.qmd) |
+| Samanburður við nútíma prjónavélar | [Bakgrunnur](verkefnid/bakgrunnur.qmd#gamlar-vélar-og-nýjar) |
+| Ný viðbót við þekkingu | [Bakgrunnur](verkefnid/bakgrunnur.qmd#hvað-er-nýtt-hér) |
+| Staða verkefnis | [Bakgrunnur](verkefnid/bakgrunnur.qmd#staða-verkefnisins) |
+| **2 Nýnæmi** | |
+| Staða markaðar | [Nýnæmi](verkefnid/nynaemi.qmd#fyrir-hvern-er-þetta) |
+| Áskoranir | [Nýnæmi](verkefnid/nynaemi.qmd#áskoranir), [Spunagreind og mynstur](mynsturgerd/spunagreind.qmd), [Prjónaðu](prjonavel/prjon.qmd) |
+| Afleidd tækifæri | [Nýnæmi](verkefnid/nynaemi.qmd#afleidd-tækifæri) |
+| Hugverkastefna | [Nýnæmi](verkefnid/nynaemi.qmd#hugverkastefna) |
+| **3 Skipulag og stjórnun** | |
+| Stjórnun, nemendur og kennarar | [Fólkið og samstarfið](verkefnid/teymi.qmd) |
+| Samstarf | [Fólkið og samstarfið](verkefnid/teymi.qmd#samstarf) |
+| Kostnaður og fjármögnun | [Fólkið og samstarfið](verkefnid/teymi.qmd#kostnaður-og-fjármögnun) |
+| **4 Verðmæti** | |
+| Viðskiptaleg markmið, Leið á markað, Almenn verðmætasköpun | [Verðmæti](verkefnid/verdmaeti.qmd) |
+| **5 Framkvæmd verkefnisins** | |
+| Daglegt stand-up, Mánaðarlegt yfirlit | [Sumarið 2024](verkefnid/sumarid.qmd) |
+| Helstu áfangar | [Sumarið 2024](verkefnid/sumarid.qmd#helstu-áfangar) |
+| **6 Aðferðafræði** | |
+| Breytingar á vélbúnaði | [Kynnstu vélinni](prjonavel/velin.qmd) |
+| Stýring nálarbeðs | [Stýrðu nálunum](prjonavel/nalastyring.qmd), [Stýringin á tölvunni](prjonavel/styring.qmd), [Opið vefviðmót](prjonavel/vefvidmot.qmd) |
+| Stýring á mótor | [Stýrðu mótornum](prjonavel/motor.qmd) |
+| Kóði | [Stýringin á tölvunni](prjonavel/styring.qmd), [Opið vefviðmót](prjonavel/vefvidmot.qmd), [Hugbúnaður](hugbunadur.qmd) |
+| Mynstur unnin til að senda á vél | [Mynstur er fylki af tölum](mynsturgerd/fylki.qmd) |
+| Íslenska Sjónabókin nýtt í mynsturgerð | [Frá rúðupappír í fylki](sjonabok/stafraening.qmd), [Borðar, bakgrunnar og letur](sjonabok/skreyta.qmd), [Frá mynd í mynstur](mynsturgerd/mynd-i-mynstur.qmd) |
+| Ókláruð verkefni | [Spunagreind og mynstur](mynsturgerd/spunagreind.qmd#ókláruð-verkefni) |
+| Prjón- og hönnunarvinna | [Prjónaðu](prjonavel/prjon.qmd), [Hönnun úr prufum](prjonavel/honnun.qmd), [Frá bók í band](sjonabok/prjonad.qmd) |
+| Heimildaskrá | [Heimildaskrá](#heimildaskrá) hér að neðan |
+| Viðauki: Undirskriftir | [Undirrituð útgáfa (PDF)](skjol/NSN-2024-lokaskyrsla-undirritud.pdf) |
+
 ## Myndir
 
 Myndir af prjóni, mynstrum, rafrásum og skjámyndir eru úr skýrslunni. Ljósmyndir merktar mbl.is eru úr umfjöllun Morgunblaðsins um verkefnið 2. júní 2024 og birtar með tilvísun í uppruna og ljósmyndara. Mynstursíður merktar Þjms. 5898 eru úr *Íslenskri sjónabók* og birtar með leyfi Heimilisiðnaðarfélagsins og Þjóðminjasafns Íslands, sbr. kaflann *Hugverkastefna* í skýrslunni. Myndir í skýrslunni sem aðrir eiga höfundarrétt á (myndir af KnitterStream, teikning frá Backspace í Bamberg, mynd af Kniterate og teikning úr handbók Passap) eru ekki afritaðar á vefinn. Í staðinn er vísað í upprunann í heimildaskránni hér að neðan, og myndirnar má sjá í skýrslunni sjálfri.

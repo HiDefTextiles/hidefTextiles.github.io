@@ -29,7 +29,7 @@ python3 convert_to_txt.py <path_to_eps_file> <path_to_txt_file>
 python3 convert_to_png.py <path_to_txt_file> <path_to_png_file>
 ```
 
-Tilbúin mynstur eru í `patterns/txt`. Nánar: [Stafræn Sjónabók](leidbeiningar/passap-e6000/sjonabok.qmd).
+Tilbúin mynstur eru í `patterns/txt`. Nánar: [Notaðu mynstrin](sjonabok/nota.qmd).
 :::
 
 ::: {.repo}
@@ -46,7 +46,7 @@ Tilbúin mynstur eru í `patterns/txt`. Nánar: [Stafræn Sjónabók](leidbeinin
 | `Write.py` | `write` |
 | `ProcessPatternsForMachine.py` | `separateColors`, `patternMatrixToJson` |
 
-**Notkun:** Dæmi eru í möppunni `examples/` (`ImageWithBorder.py` og `RagnheidurWithBackground.py`). Nánar: [Frá mynd í mynstur](leidbeiningar/passap-e6000/mynstur.qmd).
+**Notkun:** Dæmi eru í möppunni `examples/` (`ImageWithBorder.py` og `RagnheidurWithBackground.py`). Nánar: [Mynsturgerð](mynsturgerd/index.qmd).
 :::
 
 ::: {.repo}
@@ -65,7 +65,7 @@ npm install
 npm run dev
 ```
 
-Tölvan þarf að vera tengd Arduino með USB. Nánar: [Stýrðu nálunum](leidbeiningar/passap-e6000/styring.qmd).
+Tölvan þarf að vera tengd Arduino með USB. Nánar: [Stýringin á tölvunni](prjonavel/styring.qmd).
 :::
 
 ::: {.repo}
@@ -92,7 +92,7 @@ cd passapnext
 npm run dev
 ```
 
-Opnaðu svo <http://localhost:3000> í vafra.
+Opnaðu svo <http://localhost:3000> í vafra. Nánar: [Opið vefviðmót](prjonavel/vefvidmot.qmd).
 :::
 
 ::: {.repo}

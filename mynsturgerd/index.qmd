@@ -1,0 +1,57 @@
+---
+title: "Mynsturgerð"
+subtitle: "Reiknirit og gervigreind sem búa til prjónamynstur"
+toc: false
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Hvernig verður ljósmynd, texti eða hugmynd að prjónamynstri? Hér er sjálfvirka mynsturgerðin: Python föll sem breyta myndum í mynstur, og tilraunir með spunagreind. Þetta er sjálfstætt verkefni sem nýtir [Stafræna Sjónabók](../sjonabok/index.qmd) og sendir afraksturinn á [prjónavélina](../prjonavel/index.qmd).
+:::
+
+::: {.par}
+![Mynstur í 4 litum úr ljósmynd af baldursbrám, með borða úr *Sjónabók*.](../img/passap-e6000/mynstur-bordi.png){.pixel fig-alt="Mynstur í fjórum litum með borða í kring"}
+
+![Mynstur af Ragnheiði Jónsdóttur með bakgrunn úr *Sjónabók*.](../img/passap-e6000/mynstur-ragnheidur.png){.pixel fig-alt="Mynstur af konu með hatt"}
+:::
+
+## Kaflarnir
+
+::: {.cards}
+::: {.card-hi}
+[1]{.num}
+
+#### [Mynstur er fylki af tölum](fylki.qmd)
+Svona lýsir þú prjóni fyrir tölvu.
+:::
+
+::: {.card-hi}
+[2]{.num}
+
+#### [Frá mynd í mynstur](mynd-i-mynstur.qmd)
+Breyttu ljósmynd í prjónamynstur með Python.
+:::
+
+::: {.card-hi .teal}
+[3]{.num}
+
+#### [Spunagreind og mynstur](spunagreind.qmd)
+Það sem var prófað, það sem virkaði og það sem bíður.
+:::
+:::
+
+## Kóðinn
+
+Föllin eru í [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd). Dæmi um notkun eru í möppunni `examples/`.
+
+| Skrá | Föll |
+|---|---|
+| `ImageToPattern.py` | `ImageToMatrix`, `removeSinglePixels`, `viewColoredMatrix` |
+| `AddBackgroundAndBorder.py` | `add_border`, `add_background` |
+| `Write.py` | `write` |
+| `ProcessPatternsForMachine.py` | `separateColors`, `patternMatrixToJson` |
+
+::: {.heimild}
+@nsn2024, kaflinn *Sjálfvirk mynsturgerð* og *Hugbúnaðarlegar áskoranir*. Kóði: [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd]. Snæfríður Ebba Ásgeirsdóttir vann að mynsturgerðinni með aðstoð Hafsteins Einarssonar, dósents í tölvunarfræði við HÍ.
+:::

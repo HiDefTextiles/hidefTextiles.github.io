@@ -1,0 +1,101 @@
+---
+title: "Verkefnið: Tæknivæddar prjónavélar"
+subtitle: "Nýsköpunarsjóður námsmanna, sumarið 2024"
+toc: false
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+*HiDef Textíll: Tæknivæddar prjónavélar* sameinar hefðbundna textílvinnslu og nútímatækni. Úrelt prjónavél frá 10. áratugnum var snjallvædd með netsamskiptum og frjálsum hugbúnaði. Þannig verður til tól sem hentar skapandi starfi nútímans og stuðlar jafnframt að sjálfbærni.
+:::
+
+::: {.facts}
+::: {}
+**2024** maí til september
+:::
+::: {}
+**3** nemendur úr þremur greinum
+:::
+::: {}
+**5** kennarar og leiðbeinendur
+:::
+::: {}
+**9** mannmánuðir frá Nýsköpunarsjóði námsmanna
+:::
+:::
+
+![Verkefnið var unnið í vélaskála VR-III.](../img/passap-e6000/vinnustofa.jpg){fig-alt="Vinnustofa með prjónavél, garni og prjónaprufum á vegg"}
+
+## Um hvað snýst þetta?
+
+Verkefnið er þverfaglegt. Nemendur úr vélaverkfræði, hagnýttri stærðfræði og fatahönnun unnu saman að þróun tækjalausna, verkefnastjórnun og frumgerðasmíði. Markmiðið var að hanna starfhæfa prjónavél sem hægt væri að kynna á viðburðum eins og Hönnunarmars og UTmessunni.
+
+Verkefnið stuðlar að aukinni þátttöku í STEAM menntun, þar sem listir og tækni mætast á nýstárlegan hátt, og varðveitir um leið menningararf í nútímasamhengi. Á Vísindavöku Rannís 28. september 2024 var vélin notuð til að sýna samstarf háskólanna í virku sambandi við atvinnulífið.
+
+## Sagan í fimm köflum
+
+::: {.cards}
+::: {.card-hi}
+[1]{.num}
+
+#### [Bakgrunnur](bakgrunnur.qmd)
+Markmið, hvað aðrir hafa gert og hvar verkefnið stendur.
+:::
+
+::: {.card-hi}
+[2]{.num}
+
+#### [Nýnæmi](nynaemi.qmd)
+Markaðurinn, áskoranirnar, tækifærin og hugverkastefnan.
+:::
+
+::: {.card-hi .teal}
+[3]{.num}
+
+#### [Fólkið og samstarfið](teymi.qmd)
+Nemendur, kennarar, samstarfsaðilar og fjármögnun.
+:::
+
+::: {.card-hi .teal}
+[4]{.num}
+
+#### [Verðmæti](verdmaeti.qmd)
+Hvað verkefnið gefur samfélaginu.
+:::
+
+::: {.card-hi .pink}
+[5]{.num}
+
+#### [Sumarið 2024](sumarid.qmd)
+Dagbók sumarsins, mánuð fyrir mánuð, og helstu áfangar.
+:::
+:::
+
+## Afraksturinn
+
+Það sem verkefnið skilaði er orðið að þremur viðfangsefnum á þessum vef:
+
+::: {.cards}
+::: {.card-hi .dashed}
+#### [Prjónavélin](../prjonavel/index.qmd)
+Handbók um vélbúnað, hugbúnað og notkun.
+:::
+
+::: {.card-hi .dashed}
+#### [Stafræn Sjónabók](../sjonabok/index.qmd)
+Íslensk útsaumsmynstur á tölvutæku formi.
+:::
+
+::: {.card-hi .dashed}
+#### [Mynsturgerð](../mynsturgerd/index.qmd)
+Reiknirit sem búa til prjónamynstur.
+:::
+:::
+
+[Lokaskýrsla (PDF)](../skjol/NSN-2024-lokaskyrsla.pdf){.btn .btn-primary}
+[Hvar er hver kafli skýrslunnar?](../heimildir.qmd#skýrslan-á-vefnum){.btn .btn-outline-primary}
+
+::: {.heimild}
+@nsn2024, ágrip og kaflinn *Framkvæmd verkefnisins*. Höfundar: Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Ábyrgðaraðili: Helga Ingimundardóttir.
+:::

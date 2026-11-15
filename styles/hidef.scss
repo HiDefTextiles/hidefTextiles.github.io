@@ -271,3 +271,60 @@ figure figcaption, .figure-caption {
 .csl-entry, .repo .slod, .heimild, #refs a { overflow-wrap: anywhere; word-break: break-word; }
 main table { display: block; overflow-x: auto; }
 main pre { max-width: 100%; }
+
+// ── Topic cards on the front page ────────────────────────────────────────────
+.topics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.2rem;
+  margin: 1.2rem 0 2rem;
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+  background: $hi-white;
+  border: 1px solid $hi-panel;
+  border-bottom: 5px solid $hi-blue;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:nth-child(2) { border-bottom-color: $hi-teal; }
+  &:nth-child(3) { border-bottom-color: $hi-pink; }
+  &:hover { transform: translateY(-4px); box-shadow: 0 10px 24px rgba($hi-blue, 0.14); }
+
+  > p { margin: 0; }
+  > p img, > img, .quarto-figure img {
+    width: 100%;
+    max-width: none;
+    height: 190px;
+    object-fit: cover;
+    display: block;
+    border: none;
+  }
+  .quarto-figure { margin: 0; }
+
+  .topic-body {
+    padding: 1rem 1.2rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    h3 { margin: 0.2rem 0 0.4rem; font-size: 1.4rem; font-weight: 900; }
+    h3 a { text-decoration: none; }
+    p { font-size: 0.95rem; }
+    p:last-child { margin: auto 0 0; font-weight: 700; }
+    p:last-child a { text-decoration: none; color: $hi-blue; }
+    .num {
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      color: $hi-pink;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.card-hi h4 a, .card-hi h3 a { text-decoration: none; }
+
+// Sidebar: the topic title reads as a book title
+.sidebar .sidebar-title { margin-bottom: 0.6rem; }

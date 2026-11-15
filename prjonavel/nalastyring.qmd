@@ -8,7 +8,7 @@ subtitle: "Arduino kemur í stað gamla stjórnborðsins"
 
 - Upprunalega stjórnborðinu er skipt út fyrir *Arduino* örtölvu með 12V spennubreyti, sem er beintengd við sleðann.
 - Örtölvan veit hvar sleðinn er og segir tölvunni hvort hann er kominn út fyrir mynstrið vinstra megin (`L`) eða hægra megin (`R`).
-- Tölvan svarar með næstu umferð mynstursins.
+- Tölvan svarar með næstu umferð mynstursins. Um hana er fjallað í [Stýringin á tölvunni](styring.qmd).
 :::
 
 ## Hvernig virkaði þetta upprunalega?
@@ -38,13 +38,13 @@ Teikningar fyrir tenginguna í gegnum DIN tengið eru fengnar frá Backspace hak
 
 Sleðinn stillir mynstur fyrir næstu umferð á meðan hann fer yfir nálabeðið og prjónar mynstrið sem þegar er á nálabeðinu.
 
-![Rafrásin sem tengir Arduino við DIN-6 tengið (`PASSAPCONTROL.png` í skýrslugeymslunni).](../../img/passap-e6000/rafras-din6.png){fig-alt="Teikning af rafrás með merkingum GRND, VIN, D2, D4, D5, D6 og DIN 6" width=70%}
+![Rafrásin sem tengir Arduino við DIN-6 tengið (`PASSAPCONTROL.png` í skýrslugeymslunni).](../img/passap-e6000/rafras-din6.png){fig-alt="Teikning af rafrás með merkingum GRND, VIN, D2, D4, D5, D6 og DIN 6" width=70%}
 
 ::: {.callout-note title="Um myndina"}
 Þessi teikning fylgir skýrslugeymslunni en það er ekki vísað í hana í texta skýrslunnar. Merkingarnar á henni (GRND, VIN, D2, D4, D5, D6, DIN 6) eru það eina sem við vitum um hana.
 :::
 
-![*Arduino* örtölva tengd við DIN-6 tengi á *Passap E6000*. Ljósmynd: mbl.is/Kristinn Magnússon, úr umfjöllun Morgunblaðsins [@mbl2024].](../../img/passap-e6000/mbl-arduino-din6.jpg){fig-alt="Arduino örtölva með vírum tengd við prjónavél" width=80%}
+![*Arduino* örtölva tengd við DIN-6 tengi á *Passap E6000*. Ljósmynd: mbl.is/Kristinn Magnússon, úr umfjöllun Morgunblaðsins [@mbl2024].](../img/passap-e6000/mbl-arduino-din6.jpg){fig-alt="Arduino örtölva með vírum tengd við prjónavél" width=80%}
 
 ## Í hvora átt fer sleðinn?
 
@@ -84,65 +84,6 @@ Strengurinn byrjar á formerki, plús eða mínus. Næst koma tveir tölustafir 
 - [**Upphafspunkturinn**]{style="color:#10099F"} er númer nálarinnar sem mynstrið byrjar á.
 - **Mynstrið** er alltaf skrifað frá vinstri til hægri. Strengurinn hefur núll fyrir hverja nál sem á að prjóna lykkju.
 
-## Hvað gerir tölvan?
-
-Á tölvunni þarf að vera uppsett Node.js 20+ og USB tenging við örtölvuna. Stýringin á tölvunni:
-
-- geymir öll mynsturfylkin í heild og matreiðir þau fyrir örtölvuna á réttu formi,
-- bíður eftir skilaboðum frá örtölvunni. Þegar strengur berst athugar hún fyrst hvort mynstur bíði vinnslu:
-  - `L` sækir næstu línu aðeins ef númer línunnar er **slétt tala**. Sléttar línur eru stilltar frá vinstri til hægri og prjónaðar í öfuga átt.
-  - `R` sækir næstu línu aðeins ef númer línunnar er **oddatala**. Stilling og prjón eru þá í öfuga átt við `L`.
-- setur nýtt mynstur strax í vinnslu ef ekkert er í bið, annars aftast í röðina,
-- tekur við mynstrum í gegnum netbeiðnir. Beiðnin þarf að innihalda upphafspunkt og mynsturfylki með tölugildum frá 0 til 4, eitt gildi fyrir hvern lit. Stýringin þýðir fylkið: öll núll verða að einum og öll önnur gildi að núlli,
-- getur sótt mynstur úr gagnagrunni ef ekkert mynstur er í vinnslu eða bið.
-
-Stýringunni fylgir **vefviðmót stjórnanda**. Þar er hægt að eyða mynstrum, breyta upphafsnál og fleira, og grafík sýnir hvaða umferð er verið að stilla, hvað var stillt síðast og hvað kemur næst.
-
-![Vefviðmót stjórnanda í passAPI.](../../img/passap-e6000/skjar-passapi.png){fig-alt="Skjámynd af vefviðmóti með mynsturtöflu og tökkum"}
-
-## Settu stýringuna upp
-
-Kóðinn er í [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI). Geymslan inniheldur bæði stýringuna (Node.js, TypeScript og JavaScript) og kóðann fyrir Arduino örtölvuna í möppunni `arduino/`.
-
-::: {.skref}
-1. **Sæktu kóðann.**
-
-   ```bash
-   git clone https://github.com/HiDefTextiles/passAPI.git
-   cd passAPI
-   ```
-
-2. **Settu Arduino kóðann á örtölvuna** og tengdu hana við tölvuna með USB.
-
-3. **Sæktu pakkana.**
-
-   ```bash
-   npm install
-   ```
-
-4. **Stilltu gagnagrunn** ef þú vilt sækja mynstur úr gagnagrunni. Búðu til skrána `.env` með tengistreng á SQL gagnagrunn sem er settur upp með skemanu í `src/db/sql`:
-
-   ```bash
-   DATABASE_URL = connectionstring
-   ```
-
-5. **Keyrðu stýringuna.**
-
-   ```bash
-   npm run dev
-   ```
-
-   Stýringin ræsist ekki ef engin opin serial tenging finnst við Arduino.
-:::
-
-::: {.callout-tip title="Gott að vita (úr README í passAPI)"}
-- Örtölvan endurræsist í hvert skipti sem tengst er við hana.
-- Það þurfa að líða 2 sekúndur frá því að Node.js tengist Arduino yfir serial.
-- Í README er uppsetningin gerð með Node v23.5.0. Skýrslan segir Node.js 20+.
-:::
-
-Næst: [sendu mynstur á vélina](mynstur.qmd#sendu-mynstrið-á-vélina).
-
 ::: {.heimild}
-@nsn2024, kaflarnir *Stýring nálarbeðs* og *Kóði*. Uppsetningarskrefin eru úr skýrslunni og úr README í [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Elías Lúðvíksson sá um vélrænan hluta verkefnisins.
+@nsn2024, kaflinn *Stýring nálarbeðs*. Teikningar af DIN-6 tengingunni eru frá @bamberg. Arduino kóðinn er í möppunni `arduino/` í [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Elías Lúðvíksson sá um vélrænan hluta verkefnisins.
 :::

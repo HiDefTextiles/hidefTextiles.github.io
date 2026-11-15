@@ -1,0 +1,73 @@
+---
+title: "Bakgrunnur"
+subtitle: "Markmið, hvað aðrir hafa gert og hvar verkefnið stendur"
+---
+
+## Markmið
+
+Markmið verkefnisins er að þróa sjálfbæra og hagkvæma lausn fyrir minni hönnuði með því að uppfæra úreltar prjónavélar frá 10. áratugnum með nútímatækni, nánar tiltekið *Passap Electronic 6000*, oftast kölluð *Passap E6000*.
+
+- **Snjallvæða** vélarnar með netsamskiptum og frjálsum hugbúnaði.
+- **Þróa nýtt notendaviðmót** sem gerir vélarnar aðgengilegar nútímanotendum.
+- **Búa til tól** sem hentar bæði minni hönnuðum og kennslu í STEAM greinum, með því að sameina hefðbundna textílframleiðslu, sjálfbærni og nýsköpun.
+- **Varðveita menningararf** með því að færa séríslensk textílmynstur úr *Sjónabók* yfir í stafrænt, gagnvirkt form.
+
+Teymið vildi einnig **skrásetja ferlið gaumgæfilega** til að veita nemendum innsýn í hvernig þverfaglegt samstarfsverkefni á sér stað, og tengja verkefnið við kennsluskrá Háskóla Íslands og Listaháskóla Íslands. Þannig á að auðvelda nemendum skilning á því hvernig nýsköpun, tækni og listir geta unnið saman.
+
+## Hvað hafa aðrir gert?
+
+Á alþjóðavísu hafa ýmsir hakkarar og hakkarasmiðjur (e. *hackerspace*) unnið með gamlar prjónavélar og endurhugsað þær með nútímatækni.
+
+::: {.cards}
+::: {.card-hi}
+#### KnitterStream
+Listgjörningur á C2-MTL ráðstefnunni í Montréal í Kanada árið 2012. Gömul rafknúin prjónavél breytti tístum af Twitter í refil. Verkefnið tengdi saman gögn og prjónaframleiðslu í rauntíma, en var meira hugsað sem einnota listaverk en kennslutæki eða framleiðslulausn [@knitterstream].
+:::
+
+::: {.card-hi}
+#### Backspace í Bamberg
+Hakkarasmiðja í Bamberg í Þýskalandi endurbyggði *Passap E6000* og lagði áherslu á að snjallvæða vélina með tengingu við nútímahugbúnað [@bamberg].
+:::
+
+::: {.card-hi}
+#### Irene Wolf
+Hefur þýtt og skráð hluta af breytingunum frá Bamberg á ensku [@irene].
+:::
+:::
+
+Þessi þekking er aðgengileg almenningi en ferlið var enn frekar óljóst og þarfnaðist ítarlegri leiðbeininga svo nýgræðingar gætu fylgt því eftir.
+
+Skortur hefur verið á lausnum sem einblína á kennslufræðilegt ferli eða aðgengi fyrir byrjendur sem hafa ekki mikla reynslu af vél- eða hugbúnaðargerð. Það skarð vill verkefnið fylla: gera ferlið aðgengilegra og bjóða heildarlausn sem tengir saman vél- og hugbúnað á einfaldan og skýran hátt.
+
+### Íslensk mótíf
+
+Teyminu var kært að nota séríslensk mótíf í prjóninu og sóttist því eftir samstarfi við Heimilisiðnaðarfélagið og Þjóðminjasafn Íslands, sem gáfu út *Íslenska Sjónabók* [@Sjonabok]. Meira um það í [Stafrænni Sjónabók](../sjonabok/index.qmd).
+
+## Gamlar vélar og nýjar
+
+| | *Kniterate* (ný vél) | *Passap E6000* (gömul vél) |
+|---|---|---|
+| **Fyrir hvern?** | Hönnuð sérstaklega fyrir minni hönnuði og smærri framleiðendur [@kniterate] | Enn í notkun hjá áhugafólki |
+| **Verð** | Yfir 16.000 evrur | |
+| **Notkun** | Tiltölulega flókin að mati innlendra notenda | Tiltölulega einföld |
+| **Það sem vantar** | | Nútíma tengingar og notendavænt viðmót |
+
+Með því að snjallvæða gömlu vélarnar og þróa hugbúnað sem gerir þær samhæfðar nútíma framleiðsluaðferðum er hægt að bjóða hagkvæmari og aðgengilegri lausn fyrir minni hönnuði, þar sem tæknilegt flækjustig er mun lægra.
+
+## Hvað er nýtt hér?
+
+Verkefnið bætir við núverandi þekkingu með því að skrásetja ferlið gaumgæfilega og þróa lausn sem gerir byrjendum kleift að nýta eldri vélar með nútímatækni. Áherslan er á kennslufræðilegt ferli og einfaldleika, svo nemendur úr ólíkum fræðasviðum geti lært af þverfaglegu samstarfi.
+
+Þetta gefur tækifæri til að búa til hönnunarferli sem tengir saman arfleifð og nýsköpun á sjálfbæran hátt, á skala sem hentar smærri hönnuðum og framleiðendum.
+
+## Staða verkefnisins
+
+Verkefnið snýst um endurbætur á svissneskum prjónavélum frá 10. áratugnum. Framleiðslu þeirra var hætt um aldamótin þegar *Passap* fór á hausinn. Nýir varahlutir eru því nánast ófáanlegir, nema með því að leita að notuðum vélum og nýta hluti úr þeim sem eru enn í lagi.
+
+Vélarnar eru samt vel gerðar og enn í notkun hjá áhugafólki. Virk netsamfélög eru í kringum þær, eins og Facebook hópar og [Machine Knit Community](https://www.mkc.community/). Auk þess eru til þónokkrar YouTube rásir með leiðbeiningum og stuðningi.
+
+Forkönnun á tæknilegum og markaðslegum þáttum sýndi að þörf er á hagkvæmum lausnum fyrir minni hönnuði sem vilja nýta þessar vélar. Þar sem fyrirtækið er hætt er engin áframhaldandi þróun á þeim. Verkefnið miðar því að því að snjallvæða vélarnar, nýta þær á nýjan hátt, auka sjálfbærni og minnka óþarfa sóun.
+
+::: {.heimild}
+@nsn2024, kaflinn *Lýsing á verkefninu*: *Markmið*, *Staða þekkingar*, *Samanburður við nútíma prjónavélar*, *Ný viðbót við þekkingu* og *Staða verkefnis*. Myndir skýrslunnar af KnitterStream og Kniterate eru ekki afritaðar hingað; sjá heimildirnar.
+:::

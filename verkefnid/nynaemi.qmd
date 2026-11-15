@@ -1,0 +1,70 @@
+---
+title: "Nýnæmi"
+subtitle: "Markaðurinn, áskoranirnar, tækifærin og hugverkastefnan"
+---
+
+## Fyrir hvern er þetta?
+
+Væntanlegur markhópur er:
+
+- minni hönnuðir,
+- listamenn,
+- hönnunarnemar,
+- menntastofnanir,
+
+sem leita að hagkvæmum og sveigjanlegum lausnum til að skapa og framleiða textílvörur á sjálfbæran hátt.
+
+Markaðurinn hefur þróast í átt að sérsniðinni framleiðslu og sjálfbærni. Margar lausnir sem eru í boði eru þó mjög dýrar og því ekki raunhæfur kostur fyrir smærri aðila. *Kniterate*, nútíma prjónavél hönnuð fyrir minni hönnuði, kostar um 16.000 evrur og hefur margra mánaða biðlista. Hún býður upp á háþróaða tækni en notkunin er tæknilega flókin og því ekki aðgengileg öllum.
+
+### Hvað gerir þessa lausn öðruvísi?
+
+- **Hagkvæm.** Hún nýtir eldri prjónavélar sem eru enn í góðu ástandi en þurfa uppfærslu til að mæta nútímakröfum. Tækin eru á mun lægra verði en nýrri iðnaðartæki, án þess að fórna sveigjanleika og gæðum.
+- **Aðgengileg.** Notendavænt viðmót og tenging við nútímahugbúnað gera lausnina aðgengilega þeim sem hafa ekki djúpa tæknilega þekkingu.
+- **Umhverfisvæn.** Hún nýtir tæki sem annars væru ónothæf eða á leið í landfyllingu. Þannig er dregið úr sóun og stutt við hringrásarhagkerfi þar sem endurnýting er í forgrunni.
+
+## Áskoranir
+
+::: {.cards}
+::: {.card-hi}
+#### Vélrænar
+Nýta þurfti raflagnir eldri vélarinnar og bæta við spennubreytum til að tengja Arduino örtölvu við vélina. Örtölvan þarf að stilla seglastöðu prjónalássins, sem stjórnar nálahreyfingum vélarinnar. Einnig var áskorun að tengja viðbættan mótor þannig að samskipti milli mótors, örtölvu og notenda færu rétt fram. Nákvæmni er lykilatriði til að tryggja hnökralaust prjónaferli.
+
+[Vélbúnaður prjónavélarinnar](../prjonavel/nalastyring.qmd)
+:::
+
+::: {.card-hi .teal}
+#### Hugbúnaðarlegar
+Þróa þurfti sjálfvirkni fyrir prjónamynstur. Spunagreind gaf ekki áreiðanlegar niðurstöður og *Wave Function Collapse* hentaði ekki, svo þróað var einfaldara módel.
+
+[Spunagreind og mynstur](../mynsturgerd/spunagreind.qmd)
+:::
+
+::: {.card-hi .pink}
+#### Í prjóninu
+Íslenskt einband er gróft garn sem hentar almennt illa fyrir prjónavélar. Rétt spenna á garni var líka áskorun og stundum mynduðust langir spottar á jaðri stykkisins.
+
+[Prjónaðu](../prjonavel/prjon.qmd)
+:::
+:::
+
+## Afleidd tækifæri
+
+- **Fyrir hönnuði.** Með því að gera eldri prjónavélar aðgengilegar og uppfæra þær með nútímatækni eru nýir hönnuðir valdefldir til að nýta þær sem hagkvæm vinnutól. Þetta skapar tækifæri fyrir sjálfstæða hönnuði og smærri framleiðendur sem vilja vinna með sjálfbærar lausnir.
+- **Fyrir grafíska hönnuði.** Mynsturgerðin úr *Sjónabók* er ekki einskorðuð við prjónaskap. Mynstrin nýtast í textílvinnu og öðrum miðlum. Sjá [Stafræn Sjónabók](../sjonabok/index.qmd).
+- **Fyrir skóla.** Verkefnið býður upp á þróun nýs kennsluefnis sem getur aukið áhuga á STEAM námi (*Science, Technology, Engineering, Arts, and Mathematics*). Með því að tengja listir og tækni á skemmtilegan og aðgengilegan hátt má vekja áhuga nýrra kynslóða á þverfaglegum lausnum og nýsköpun. Kennsluefnið getur nýst bæði í framhaldsskólum og á háskólastigi.
+
+## Hugverkastefna
+
+Verkefnið byggir á hugmyndafræðinni um frjálsan og opinn hugbúnað (*Free and Open Source Software*, FOSS). Allur hugbúnaður, tækni og aðferðir verða opnar og aðgengilegar almenningi. Markmiðið er að stuðla að aukinni dreifingu og aðgengi að lausnunum, þannig að sem flestir geti nýtt sér þær til frekari þróunar eða nýsköpunar.
+
+Verkefnið hefur leyfi frá Heimilisiðnaðarfélaginu og Þjóðminjasafni Íslands til að dreifa mynstrum úr *Sjónabók* á stafrænu formi.
+
+Sem rannsóknarverkefni á vegum Háskóla Íslands á allt efni og niðurstöður verkefnisins að vera aðgengilegt á heimasíðu verkefnisins. Þar eiga bæði kennsluefni og hugbúnaðarlausnir að vera tiltækar almenningi til frjálsrar notkunar og þróunar, og markmiðið er að efla opið samfélag og samstarf í kringum lausnir verkefnisins.
+
+::: {.callout-note title="Um heimasíðuna"}
+Í skýrslunni er nefnt lénið `textill.hi.is` og tekið fram að vefurinn hafi þá ekki verið tilbúinn. Kóðinn er á [GitHub](../hugbunadur.qmd).
+:::
+
+::: {.heimild}
+@nsn2024, kaflinn *Nýnæmi*: *Staða markaðar*, *Áskoranir* (vélrænar, hugbúnaðarlegar og prjónaáskoranir), *Afleidd tækifæri* og *Hugverkastefna*.
+:::

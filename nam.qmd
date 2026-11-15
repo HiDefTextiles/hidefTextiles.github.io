@@ -1,0 +1,49 @@
+---
+title: "Nám og fræði"
+subtitle: "Viltu læra fræðin á bak við þetta?"
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Verkefnið var unnið af nemendum úr þremur námsgreinum við tvo háskóla. Hér sérðu hvaða grein liggur að baki hverjum hluta og hvar þú finnur námið.
+:::
+
+## Hvaða grein er á bak við hvað?
+
+| Hluti verkefnisins | Fræðin sem koma við sögu | Námsgrein nemandans sem vann hlutann |
+|---|---|---|
+| [Prjónavélin: vélbúnaður](prjonavel/index.qmd) | Rafrásir, spennubreytar, örtölvur (Arduino, C++), mótorstýring, þrívíddarprentun | Vélaverkfræði við HÍ |
+| [Prjónavélin: hugbúnaður](prjonavel/styring.qmd) | Vefforritun (Node.js, Next.js), serial samskipti, gagnagrunnar | Vélaverkfræði við HÍ |
+| [Stafræn Sjónabók](sjonabok/index.qmd) | Myndgreining í Python, DFS til að aðskilja mynstur | Hagnýtt stærðfræði og tölvunarfræði við HÍ |
+| [Mynsturgerð](mynsturgerd/index.qmd) | Floyd-Steinberg reikniritið, *flood fill*, *Wave Function Collapse*, spunagreind | Hagnýtt stærðfræði og tölvunarfræði við HÍ |
+| [Prjón og hönnun](prjonavel/honnun.qmd) | Hönnunarhugsun (*Design Thinking*), prjón, áferð, sjálfbær hönnun | Fatahönnun við LHÍ |
+| [Skipulag verkefnisins](verkefnid/sumarid.qmd) | Verkefnastjórnun, daglegt stand-up | Leitt af lektor í iðnaðarverkfræði við HÍ |
+
+Leiðbeinendur komu úr frumgerðarsmiðju HÍ, tölvunarfræði, iðnaðarverkfræði og rafmagns- og tölvunarverkfræðideild við HÍ, og úr fatahönnun við LHÍ. Sjá [Fólkið og samstarfið](verkefnid/teymi.qmd).
+
+## Hvar finn ég námið?
+
+::: {.cards}
+::: {.card-hi}
+#### Háskóli Íslands
+- [Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild](https://hi.is/haskolinn/fraedasvid-og-deildir/verkfraedi-og-natturuvisindasvid/idnadarverkfraedi/-velaverkfraedi-og-tolvunarfraedideild)
+- [Allar námsleiðir HÍ](https://hi.is/namsleidir)
+- [Kennsluskrá HÍ](https://ugla.hi.is/kennsluskra/)
+:::
+
+::: {.card-hi .pink}
+#### Listaháskóli Íslands
+- [Fatahönnun, BA](https://www.lhi.is/namsleid/fatahonnun-ba/)
+- [Hönnunardeild](https://www.lhi.is/honnunardeild/)
+- [Kennsluskrá LHÍ](https://ugla.lhi.is/kennsluskra/)
+:::
+:::
+
+::: {.callout-note title="Einstök námskeið vantar enn"}
+Markmið verkefnisins er að tengja það við kennsluskrá Háskóla Íslands og Listaháskóla Íslands [@nsn2024, kafli *Markmið*]. Skýrslan nefnir þó engin einstök námskeið og því eru þau ekki talin upp hér. Listi yfir námskeið verður settur inn þegar hann hefur verið staðfestur í kennsluskrám skólanna, sjá [verkbeiðnir vefsins](https://github.com/HiDefTextiles/hidefTextiles.github.io/issues).
+:::
+
+::: {.heimild}
+Námsgreinar nemenda og hlutverk kennara: @nsn2024, kaflinn *Stjórnun*. Fræðin í hverjum hluta: kaflarnir *Aðferðafræði* og *Framkvæmd verkefnisins*. Hlekkirnir vísa á vefi Háskóla Íslands og Listaháskóla Íslands.
+:::

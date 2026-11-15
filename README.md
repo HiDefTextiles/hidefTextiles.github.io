@@ -25,9 +25,9 @@ Requires Quarto 1.5+. ImageMagick is optional (photos are resized when it is ins
 | Path | Purpose |
 |---|---|
 | `_quarto.yml` | Site config, navigation |
-| `index.qmd`, `um.qmd`, `samband.qmd`, `hugbunadur.qmd`, `heimildir.qmd` | Top-level pages |
-| `leidbeiningar/` | How-to guides, one folder per project |
-| `verkefni/` | Project pages |
+| `index.qmd`, `um.qmd`, `samband.qmd`, `hugbunadur.qmd`, `nam.qmd`, `ordalisti.qmd`, `heimildir.qmd` | Top-level pages |
+| `prjonavel/`, `sjonabok/`, `mynsturgerd/` | Topics, each with a landing page and book-like chapters |
+| `verkefnid/` | The NSN 2024 project story (all report chapters) |
 | `heimildir.bib` | Bibliography; every page cites its source |
 | `NSN-2024/` | Submodule: the report the Passap pages are based on |
 | `scripts/sync-assets.sh` | Copies the approved report images and PDF into the site |
@@ -38,7 +38,7 @@ Requires Quarto 1.5+. ImageMagick is optional (photos are resized when it is ins
 
 - Nothing is invented. All content comes from the project reports and repositories.
 - Every page ends with a `.heimild` box naming the report sections or repository it is based on.
-- New projects follow `verkefni/nytt-verkefni.qmd` and `leidbeiningar/snidmat.qmd`.
+- New topics follow `nytt-vidfangsefni.qmd`.
 
 ## Deploy
 

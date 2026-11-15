@@ -1,0 +1,104 @@
+---
+title: "Fólkið og samstarfið"
+subtitle: "Nemendur, kennarar, samstarfsaðilar og fjármögnun"
+---
+
+## Stjórnun
+
+Verkefninu var stýrt af kennurum við Háskóla Íslands og Listaháskóla Íslands, þar sem hver kennari hafði ábyrgðarsvið tengt sínu sérsviði.
+
+Verkefnisstjóri og ábyrgðaraðili er **Helga Ingimundardóttir**, lektor í iðnaðarverkfræði við Háskóla Íslands. Verkefnið er hluti af rannsóknarverkefni hennar við háskólann, *HiDef Textíll: Bestun á textílferlum með gervigreind*.
+
+## Nemendur
+
+Nemendur unnu að mestu sjálfstætt en höfðu greitt aðgengi að kennurum yfir sumarið. Hvert og eitt þeirra bar ábyrgð á útfærslu síns verkþáttar.
+
+::: {.cards}
+::: {.card-hi}
+[Vélbúnaður]{.num}
+
+#### Elías Lúðvíksson
+Nýútskrifaður grunnnemi í vélaverkfræði við HÍ. Sá um vélrænan hluta verkefnisins: breytingar á prjónavélinni, tengingu við mótor og samskipti við örtölvu.
+
+[Prjónavélin](../prjonavel/index.qmd)
+:::
+
+::: {.card-hi .pink}
+[Hönnun og prjón]{.num}
+
+#### Guðrún Ísafold Hilmarsdóttir
+Nýútskrifaður grunnnemi í fatahönnun við Listaháskóla Íslands. Sá um hönnunarvinnu, val á áferð og prjónaskap með íslensku einbandi.
+
+[Prjónaðu](../prjonavel/prjon.qmd) · [Hönnun](../prjonavel/honnun.qmd)
+:::
+
+::: {.card-hi .teal}
+[Mynsturgerð]{.num}
+
+#### Snæfríður Ebba Ásgeirsdóttir
+Grunnnemi í hagnýttri stærðfræði og tölvunarfræði við HÍ. Vann að þróun spunagreindarreiknirita og að því að stafræna mynstur *Sjónabókar*.
+
+[Mynsturgerð](../mynsturgerd/index.qmd) · [Sjónabók](../sjonabok/index.qmd)
+:::
+:::
+
+![Úr umfjöllun Morgunblaðsins um verkefnið. Ljósmynd: mbl.is, sjá [greinina á mbl.is](https://www.mbl.is/frettir/innlent/2024/06/02/sjalfvirknivaedd_prjonavel_i_bigerd/).](../img/passap-e6000/mbl-vid-velina.jpg){fig-alt="Maður situr við prjónavélina" width=60%}
+
+## Kennarar
+
+| Nafn | Hlutverk |
+|---|---|
+| **Hafliði Ásgeirsson**, tæknimaður í frumgerðarsmiðju HÍ | Veitti Elíasi leiðsögn við vélrænar breytingar og þróun frumgerðar |
+| **Hafsteinn Einarsson**, dósent í tölvunarfræði við HÍ | Aðstoðaði Snæfríði við þróun spunagreindarreiknirita og tengdra hugbúnaðarlausna |
+| **Helga Ingimundardóttir**, lektor í iðnaðarverkfræði við HÍ | Verkefnastjóri og ábyrgðaraðili. Hafði yfirumsjón með verkefninu og tryggði að það fylgdi rannsóknaráætlun |
+| **Hörður Mar Tómasson**, stundakennari við rafmagns- og tölvunarverkfræðideild HÍ | Veitti Elíasi aðstoð við breytingar á raflögnum og tengingu við örtölvur |
+| **Ragna Bjarnadóttir**, lektor í fatahönnun við LHÍ | Veitti Guðrúnu Ísafold stuðning við textíl- og hönnunarvinnu |
+
+Stjórnskipulagið tryggir að verkefnið sé unnið á þverfaglegan hátt, þar sem hver þátttakandi hefur skýra ábyrgð sem tengist sérþekkingu hans.
+
+## Samstarf
+
+Verkefnið er þverfaglegt samstarfsverkefni þar sem ólíkir aðilar, bæði innanlands og erlendis, koma að með mismunandi sérþekkingu og aðföng. Samstarfið reyndist lykilþáttur í framgangi verkefnisins.
+
+::: {.cards}
+::: {.card-hi}
+#### Þjóðminjasafn Íslands og Heimilisiðnaðarfélagið
+Veittu leyfi til að vinna með mynstur úr *Sjónabók* og deila þeim stafrænt með almenningi. Markmiðið er að auka útbreiðslu þessara séríslensku mynstra og gera þau aðgengileg hönnuðum og almenningi.
+:::
+
+::: {.card-hi}
+#### Marel
+Veitti tæknilega ráðgjöf um breytingar á prjónavélinni. Fyrirtækið vill efla samstarf við háskóla og sá tækifæri í verkefni sem eflir hringrásarhagkerfi. Samstarfið tengir saman iðnað og akademíu.
+:::
+
+::: {.card-hi}
+#### Ístex
+Lagði til garn. Þannig var stutt við hringrásarhagkerfi með innlendum efnivið: garn úr íslenskri ull í stað innfluttra efna.
+:::
+
+::: {.card-hi}
+#### Textílmiðstöð Íslands
+Bauð teyminu í heimsókn á Blönduós til að sjá *Kniterate* vél í notkun og kynnast stafrænni textílsmiðju á Íslandi. Þar fékkst líka innsýn í ástand eldri prjónavéla. Stofnunin hefur tekið við mörgum úreltum vélum frá dánarbúum, því erfingjar vita oft ekki hvað má gera við þær.
+:::
+
+::: {.card-hi}
+#### Ýr Jóhannsdóttir
+Íslenskur prjónahönnuður sem deildi reynslu sinni af bæði *Kniterate* og *Passap* vélum. Hún vann á *Passap* vélum áður en hún fékk *Kniterate* vél fyrr á árinu 2024. Samtalið gaf gagnlegar upplýsingar um hvernig best væri að aðlaga lausnirnar að prjónahönnuðum.
+:::
+
+::: {.card-hi}
+#### Owen Mace
+Rafmagnsverkfræðingur frá Ástralíu sem hefur unnið að opnum hugbúnaði fyrir *Passap* prjónavélar. Teymið var í reglulegu sambandi við hann og ráðgjöf hans hjálpaði við að villugreina samskipti við vélbúnaðinn.
+:::
+:::
+
+## Kostnaður og fjármögnun
+
+- **Nýsköpunarsjóður námsmanna** styrkti verkefnið með 9 mannmánuðum til að greiða sumarlaun nemenda.
+- **Rannsóknarsjóður Háskóla Íslands** greiddi kostnað við breytingar á vélinni og uppsetningu á heimasíðu, sem hluta af rannsóknarverkefni Helgu Ingimundardóttur.
+- **Ístex** styrkti verkefnið með íslensku einbandi.
+- Öll önnur vinna var hluti af starfi akademískra starfsmanna, kostuð af samstarfsaðilum eða unnin í sjálfboðavinnu.
+
+::: {.heimild}
+@nsn2024, kaflinn *Skipulag og stjórnun*: *Stjórnun* (Nemendur, Kennarar), *Samstarf* og *Kostnaður og fjármögnun*.
+:::
