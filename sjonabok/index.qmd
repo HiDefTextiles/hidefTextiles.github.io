@@ -20,7 +20,9 @@ toc: false
 
 *Íslensk Sjónabók* [@Sjonabok] er tímamótaverk sem [Heimilisiðnaðarfélagið](https://www.heimilisidnadur.is/) og [Þjóðminjasafn Íslands](https://www.thjodminjasafn.is/) gáfu út. Hún inniheldur safn tíu handrita frá 16.–18. öld sem varðveitt hafa íslensk útsaumsmynstur.
 
-Bókin er komin úr prentun og ekki stendur til að endurprenta hana sökum kostnaðar. Markmið útgefanda var að gera mynstrin aðgengileg svo hönnuðir gætu endurnýtt ríkan menningararf í listsköpun sinni. Útgefendur tóku því vel í að verkefnið gæfi mynstrunum nýtt líf og útbyggi tól til að vinna með þau á gagnvirkan hátt.
+Þegar skýrslan var skrifuð árið 2024 var bókin komin úr prentun og ekki stóð til að endurprenta hana sökum kostnaðar [@nsn2024]. Hún var lengi ófáanleg og dýr í prentun. Árið 2026 safnaði Heimilisiðnaðarfélagið fyrir endurprentun á [Karolina Fund](https://www.karolinafund.com/project/view/6666) og söfnunin tókst [@heimilisidnadur2026; @sjonabok-karolina]. Hægt er að forpanta endurprentunina í [vefverslun Heimilisiðnaðarfélagsins](https://www.heimilisidnadur.is/is/verslun/verslun/baekur) (sótt 16. nóvember 2026).
+
+Markmið útgefanda var að gera mynstrin aðgengileg svo hönnuðir gætu endurnýtt ríkan menningararf í listsköpun sinni. Útgefendur tóku því vel í að verkefnið gæfi mynstrunum nýtt líf og útbyggi tól til að vinna með þau á gagnvirkan hátt.
 
 ::: {.callout-important title="Leyfi"}
 Verkefnið hefur leyfi frá Heimilisiðnaðarfélaginu og Þjóðminjasafni Íslands til að dreifa mynstrum úr *Sjónabók* á stafrænu formi [@nsn2024, kafli *Hugverkastefna*]. Markmiðið er að auka útbreiðslu þessara séríslensku mynstra og gera þau aðgengileg hönnuðum og almenningi til nýsköpunar og skapandi nota.
