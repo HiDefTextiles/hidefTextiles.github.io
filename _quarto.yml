@@ -158,6 +158,9 @@ website:
         href: https://github.com/HiDefTextiles
         aria-label: GitHub
 
+filters:
+  - filters/lazy-images.lua
+
 format:
   html:
     theme:

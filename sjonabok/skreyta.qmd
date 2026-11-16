@@ -28,7 +28,7 @@ matrix = add_border(matrix=matrix, border_file_path=p, side=[1,1,1,1],
                     border_dark_shade=4, border_background_shade=1)
 ```
 
-![Borði úr *Íslenskri sjónabók* í kringum prjónamynstur. Mynstrið er í 4 litum og kemur frá ljósmynd af baldursbrám.](../img/passap-e6000/mynstur-bordi.png){.pixel fig-alt="Mynstur í fjórum litum með borða í kring"}
+![Borði úr *Íslenskri sjónabók* í kringum prjónamynstur. Mynstrið er í 4 litum og kemur frá ljósmynd af baldursbrám.](../img/passap-e6000/mynstur-bordi.webp){.pixel fig-alt="Mynstur í fjórum litum með borða í kring"}
 
 ### Bakgrunnur
 
@@ -43,13 +43,13 @@ matrix = add_background(matrix, background_path,
 
 Ef næsta mynd fær sama bakgrunn renna bakgrunnarnir saman í eina heild, þannig að engin skil sjást á milli myndanna tveggja.
 
-![Prjónamynstur af Ragnheiði Jónsdóttur með mynstur úr *Sjónabók* sem bakgrunn.](../img/passap-e6000/mynstur-ragnheidur.png){.pixel fig-alt="Mynstur af konu með hatt og mynstraðan bakgrunn"}
+![Prjónamynstur af Ragnheiði Jónsdóttur með mynstur úr *Sjónabók* sem bakgrunn.](../img/passap-e6000/mynstur-ragnheidur.webp){.pixel fig-alt="Mynstur af konu með hatt og mynstraðan bakgrunn"}
 
 ### Texti
 
 Fallið `write` í `Write.py` skrifar texta með leturgerðum úr Sjónabók. Textinn getur verið miðjaður eða vinstri jafnaður.
 
-![*Halló heimur* skrifað með letri úr *Sjónabók*.](../img/passap-e6000/mynstur-hallo-heimur.png){.pixel fig-alt="Textinn HALLO HEIMUR í rúðuletri" style="max-width:100%"}
+![*Halló heimur* skrifað með letri úr *Sjónabók*.](../img/passap-e6000/mynstur-hallo-heimur.webp){.pixel fig-alt="Textinn HALLO HEIMUR í rúðuletri" style="max-width:100%"}
 :::
 
 ::: {.hofundur}

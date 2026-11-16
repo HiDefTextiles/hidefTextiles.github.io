@@ -23,7 +23,7 @@ Nýja stjórnborðið er í tveimur hlutum: [Arduino örtölvan](nalastyring.qmd
 
 Stýringunni fylgir **vefviðmót stjórnanda**. Þar er hægt að eyða mynstrum, breyta upphafsnál og fleira, og grafík sýnir hvaða umferð er verið að stilla, hvað var stillt síðast og hvað kemur næst.
 
-![Vefviðmót stjórnanda í passAPI.](../img/passap-e6000/skjar-passapi.png){fig-alt="Skjámynd af vefviðmóti með mynsturtöflu og tökkum"}
+![Vefviðmót stjórnanda í passAPI.](../img/passap-e6000/skjar-passapi.webp){fig-alt="Skjámynd af vefviðmóti með mynsturtöflu og tökkum"}
 
 ## Settu stýringuna upp
 

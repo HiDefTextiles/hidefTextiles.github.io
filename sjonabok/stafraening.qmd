@@ -12,9 +12,9 @@ Hver mynstursíða er lesin sem mynd, rúðurnar fundnar og athugað hvort kross
 Bókinni fylgir geisladiskur með öllum mynstursíðunum sem `.pdf` eða `.eps` skrár. Þær henta illa til að vinna með í tölvu. Langflest mynstrin eru í tveimur litum, kross og ekki kross, og verkefnið einskorðaði sig við þau.
 
 ::: {.par}
-![Fyrir: mynstur úr *Íslenskri sjónabók* í `.eps` skrá.](../img/passap-e6000/sjonabok-fyrir.png){fig-alt="Mynstur teiknað með krossum á rúðustrikað blað"}
+![Fyrir: mynstur úr *Íslenskri sjónabók* í `.eps` skrá.](../img/passap-e6000/sjonabok-fyrir.webp){fig-alt="Mynstur teiknað með krossum á rúðustrikað blað"}
 
-![Eftir: sama mynstur eftir vinnslu, á `.png` formi.](../img/passap-e6000/sjonabok-eftir.png){.pixel style="max-width:none" fig-alt="Sama mynstur sem hreinir svartir og hvítir reitir"}
+![Eftir: sama mynstur eftir vinnslu, á `.png` formi.](../img/passap-e6000/sjonabok-eftir.webp){.pixel style="max-width:none" fig-alt="Sama mynstur sem hreinir svartir og hvítir reitir"}
 :::
 
 Svona vinnur kóðinn:

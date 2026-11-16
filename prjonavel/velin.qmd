@@ -9,7 +9,7 @@ subtitle: "Fjórir hlutar sem þú þarft að þekkja"
 Vélbúnaður prjónavélarinnar er í grófum dráttum fjórir hlutar: **nálabeðið**, **sleðinn** (líka kallaður lás), **litaskiptirinn** og **mótorinn**.
 :::
 
-![*Passap E6000* prjónavél. Ljósmynd: mbl.is/Kristinn Magnússon, úr umfjöllun Morgunblaðsins [@mbl2024].](../img/passap-e6000/mbl-passap-e6000.jpg){fig-alt="Passap E6000 prjónavél"}
+![*Passap E6000* prjónavél. Ljósmynd: mbl.is/Kristinn Magnússon, úr umfjöllun Morgunblaðsins [@mbl2024].](../img/passap-e6000/mbl-passap-e6000.webp){fig-alt="Passap E6000 prjónavél"}
 
 ::: {.cards}
 ::: {.card-hi}
@@ -53,14 +53,14 @@ Vélbúnaðinum má skipta í tvö stýrikerfi:
 
 ## Af Instagram
 
-Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð. Öll myndböndin eru líka í [spilunarlistanum HiDEF textiles á YouTube](https://www.youtube.com/playlist?list=PLcHERjMhsyhA).
 
 ```{=html}
 <div class="instagram">
-<figure><a href="../img/instagram/prjonavel/2024-05-19_C7JQwBag-Et_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-19_C7JQwBag-Et_01.jpg" alt="Passap Duomatic 80 fékk meira að segja handbók á íslensku." loading="lazy"></a><figcaption>Passap Duomatic 80 fékk meira að segja handbók á íslensku. <a href="https://www.instagram.com/p/C7JQwBag-Et/">Færslan á Instagram</a>, 19. maí 2024.</figcaption></figure>
-<figure><a href="../img/instagram/prjonavel/2024-05-20_C7LznxOo96o_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-20_C7LznxOo96o_01.jpg" alt="Djúphreinsun: allar nálar (180 á hverju nálarbeði) teknar úr og hreinsaðar með ísóprópanóli. Það tók 2–4 manns tvo vinnudaga." loading="lazy"></a><figcaption>Djúphreinsun: allar nálar (180 á hverju nálarbeði) teknar úr og hreinsaðar með ísóprópanóli. Það tók 2–4 manns tvo vinnudaga. <a href="https://www.instagram.com/p/C7LznxOo96o/">Færslan á Instagram</a>, 20. maí 2024.</figcaption></figure>
-<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-05-19_C7JShzsgfhF_01.jpg"><source src="../img/instagram/prjonavel/2024-05-19_C7JShzsgfhF_01.mp4" type="video/mp4"></video><figcaption>Fyrstu kynni: fyrirstaða á aftari lásnum reyndist vera of stutt lykkjustærð miðað við garnið. <a href="https://www.instagram.com/p/C7JShzsgfhF/">Færslan á Instagram</a>, 19. maí 2024.</figcaption></figure>
-<figure><a href="../img/instagram/prjonavel/2024-05-29_C7kIplBgBXF_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-29_C7kIplBgBXF_01.jpg" alt="Þýsk áhrif: Passap var svissneskt og helsti opni hugbúnaðurinn er eftir Þjóðverja." loading="lazy"></a><figcaption>Þýsk áhrif: Passap var svissneskt og helsti opni hugbúnaðurinn er eftir Þjóðverja. <a href="https://www.instagram.com/p/C7kIplBgBXF/">Færslan á Instagram</a>, 29. maí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/prjonavel/2024-05-19_C7JQwBag-Et_01.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-19_C7JQwBag-Et_01.webp" alt="Passap Duomatic 80 fékk meira að segja handbók á íslensku." loading="lazy"></a><figcaption>Passap Duomatic 80 fékk meira að segja handbók á íslensku. <a href="https://www.instagram.com/p/C7JQwBag-Et/">Færslan á Instagram</a>, 19. maí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/prjonavel/2024-05-20_C7LznxOo96o_01.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-20_C7LznxOo96o_01.webp" alt="Djúphreinsun: allar nálar (180 á hverju nálarbeði) teknar úr og hreinsaðar með ísóprópanóli. Það tók 2–4 manns tvo vinnudaga." loading="lazy"></a><figcaption>Djúphreinsun: allar nálar (180 á hverju nálarbeði) teknar úr og hreinsaðar með ísóprópanóli. Það tók 2–4 manns tvo vinnudaga. <a href="https://www.instagram.com/p/C7LznxOo96o/">Færslan á Instagram</a>, 20. maí 2024.</figcaption></figure>
+<figure><iframe src="https://www.youtube-nocookie.com/embed/E-YEauBHt4o" title="Fyrstu kynni: fyrirstaða á aftari lásnum reyndist vera of stutt lykkjustærð miðað við garnið." loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><figcaption>Fyrstu kynni: fyrirstaða á aftari lásnum reyndist vera of stutt lykkjustærð miðað við garnið. <a href="https://www.instagram.com/p/C7JShzsgfhF/">Færslan á Instagram</a>, 19. maí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/prjonavel/2024-05-29_C7kIplBgBXF_01.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-29_C7kIplBgBXF_01.webp" alt="Þýsk áhrif: Passap var svissneskt og helsti opni hugbúnaðurinn er eftir Þjóðverja." loading="lazy"></a><figcaption>Þýsk áhrif: Passap var svissneskt og helsti opni hugbúnaðurinn er eftir Þjóðverja. <a href="https://www.instagram.com/p/C7kIplBgBXF/">Færslan á Instagram</a>, 29. maí 2024.</figcaption></figure>
 </div>
 ```
 

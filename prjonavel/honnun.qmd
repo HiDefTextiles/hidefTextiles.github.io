@@ -40,14 +40,14 @@ Hönnuðurinn studdist við hönnunarhugsun (e. *Design Thinking*) [@designthink
 Ragnheiður „yngri" Jónsdóttir, sem margir kannast við af 5.000 króna seðlinum, var mikil handverkskona. Hún safnaði í sjónabók sem notuð var í fyrsta kafla *Sjónabókar*. Til að heiðra framlag hennar var mynd af henni fyrsta prjónaða myndin, unnin eftir málverki frá 1684 sem er til sýnis á Þjóðminjasafninu. Málverkið er hópmynd sem Ragnheiður lét mála í Kaupmannahöfn árið 1684, eftir lát eiginmanns síns, Gísla Þorlákssonar biskups. Á henni eru Ragnheiður, Gísli og fyrri eiginkonur hans tvær, Gróa Þorleifsdóttir og Ingibjörg Benediktsdóttir ([Wikipedia](https://en.wikipedia.org/wiki/Ragnhei%C3%B0ur_J%C3%B3nsd%C3%B3ttir), sótt 16. nóvember 2026) [@wiki-ragnheidur].
 
 ::: {.par}
-![50 lykkjur á breidd.](../img/passap-e6000/prjon-ragnheidur-50.jpg){fig-alt="Prjónuð mynd af Ragnheiði, gróf upplausn"}
+![50 lykkjur á breidd.](../img/passap-e6000/prjon-ragnheidur-50.webp){fig-alt="Prjónuð mynd af Ragnheiði, gróf upplausn"}
 
-![120 lykkjur á breidd.](../img/passap-e6000/prjon-ragnheidur-120.jpg){fig-alt="Prjónuð mynd af Ragnheiði, fínni upplausn"}
+![120 lykkjur á breidd.](../img/passap-e6000/prjon-ragnheidur-120.webp){fig-alt="Prjónuð mynd af Ragnheiði, fínni upplausn"}
 :::
 
 Í framhaldinu var farið að blanda saman myndum og mynstrum, nútíð og fortíð. Hallgrímskirkja var ein þeirra.
 
-![Hallgrímskirkja.](../img/passap-e6000/prjon-hallgrimskirkja.jpg){fig-alt="Prjónuð mynd af Hallgrímskirkju með mynstraðan bakgrunn" width=60%}
+![Hallgrímskirkja.](../img/passap-e6000/prjon-hallgrimskirkja.webp){fig-alt="Prjónuð mynd af Hallgrímskirkju með mynstraðan bakgrunn" width=60%}
 
 Náin samvinna tölvunarfræðinema og hönnuðar var lykilatriði í framvindu verkefnisins og býður upp á marga ókannaða möguleika. Meira um mynstrin: [Stafræn Sjónabók](../sjonabok/index.qmd).
 
@@ -55,7 +55,7 @@ Náin samvinna tölvunarfræðinema og hönnuðar var lykilatriði í framvindu 
 
 Þessi hönnun er undirstaða fatnaðar fyrir Hönnunarmars. Hannaðar voru flíkur sem nýta þær prufur sem þegar höfðu verið prjónaðar, svo þær hefðu notagildi og enduðu síður sem rusl. Leitað var sjálfbærra lausna og lögð áhersla á persónulega og einstaka hönnun.
 
-![Nokkrar útfærslur á fatnaði út frá prjónaprufum sumarsins.](../img/passap-e6000/fatnadur.jpg){fig-alt="Sex teiknaðar fígúrur í prjónuðum peysum úr samsettum prufum"}
+![Nokkrar útfærslur á fatnaði út frá prjónaprufum sumarsins.](../img/passap-e6000/fatnadur.webp){fig-alt="Sex teiknaðar fígúrur í prjónuðum peysum úr samsettum prufum"}
 
 ## Verkfærin
 
@@ -65,12 +65,12 @@ Hugmyndavinnan fór fram í forritinu [Procreate](https://procreate.com/). Til a
 
 ## Af Instagram
 
-Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð. Öll myndböndin eru líka í [spilunarlistanum HiDEF textiles á YouTube](https://www.youtube.com/playlist?list=PLcHERjMhsyhA).
 
 ```{=html}
 <div class="instagram">
-<figure><a href="../img/instagram/prjonavel/2024-07-23_C9xaz9Agxi7_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-07-23_C9xaz9Agxi7_01.jpg" alt="Prjónað eftir ljósmynd og eftir mynd af málverki." loading="lazy"></a><figcaption>Prjónað eftir ljósmynd og eftir mynd af málverki. <a href="https://www.instagram.com/p/C9xaz9Agxi7/">Færslan á Instagram</a>, 23. júlí 2024.</figcaption></figure>
-<figure><a href="../img/instagram/prjonavel/2024-07-23_C9xaz9Agxi7_02.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-07-23_C9xaz9Agxi7_02.jpg" alt="Prjónað eftir ljósmynd og eftir mynd af málverki." loading="lazy"></a><figcaption><a href="https://www.instagram.com/p/C9xaz9Agxi7/">Færslan á Instagram</a>, 23. júlí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/prjonavel/2024-07-23_C9xaz9Agxi7_01.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-07-23_C9xaz9Agxi7_01.webp" alt="Prjónað eftir ljósmynd og eftir mynd af málverki." loading="lazy"></a><figcaption>Prjónað eftir ljósmynd og eftir mynd af málverki. <a href="https://www.instagram.com/p/C9xaz9Agxi7/">Færslan á Instagram</a>, 23. júlí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/prjonavel/2024-07-23_C9xaz9Agxi7_02.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-07-23_C9xaz9Agxi7_02.webp" alt="Prjónað eftir ljósmynd og eftir mynd af málverki." loading="lazy"></a><figcaption><a href="https://www.instagram.com/p/C9xaz9Agxi7/">Færslan á Instagram</a>, 23. júlí 2024.</figcaption></figure>
 </div>
 ```
 
