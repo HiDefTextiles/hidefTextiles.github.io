@@ -17,11 +17,20 @@ import pathlib, re
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 IG = "https://www.instagram.com/p/{}/"
 YT = "https://www.youtube-nocookie.com/embed/{}"
-PLAYLIST = ""  # YouTube playlist ID (PL...) for "HiDEF textiles", once created
+PLAYLIST = "PLcHERjMhsyhA"  # YouTube playlist ID (PL...) for "HiDEF textiles", once created
 
 # "<post>_<nn>" -> YouTube video ID
 YOUTUBE = {
-  # "C7JRfAQAhQk_01": "xxxxxxxxxxx",
+  "C7JRfAQAhQk_01": "q3RybTmCukQ",
+  "C7JShzsgfhF_01": "E-YEauBHt4o",
+  "C7kVoW4AIAt_01": "ea3GYfEOE38",
+  "C7kbxeFIKz1_01": "LJIMnjNcIB0",
+  "C7oKGV2AjQK_01": "25q8OGhGbdM",
+  "C766unfoZAJ_01": "oHeMyZ-bNfU",
+  "C8pGS9KIQrP_01": "TiNsSSR-E3A",
+  "C8w0kCxoyt4_01": "X0GN0K7PwQE",
+  "C84sH57IV-Y_01": "eGkWztHbTXQ",
+  "C-5CF7KAgNj_04": "Ozf-9MO2r8M",
 }
 
 START, END = "<!-- instagram:start -->", "<!-- instagram:end -->"

@@ -88,12 +88,12 @@ Strengurinn byrjar á formerki, plús eða mínus. Næst koma tveir tölustafir 
 
 ## Af Instagram
 
-Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð. Öll myndböndin eru líka í [spilunarlistanum HiDEF textiles á YouTube](https://www.youtube.com/playlist?list=PLcHERjMhsyhA).
 
 ```{=html}
 <div class="instagram">
-<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-05-29_C7kbxeFIKz1_01.webp"><source src="../img/instagram/prjonavel/2024-05-29_C7kbxeFIKz1_01.mp4" type="video/mp4"></video><figcaption>Arduino örstýring lóðuð við DIN-tengi E6000 vélarinnar kveikir og slekkur á seglunum í fremra lásaborðinu. <a href="https://www.instagram.com/p/C7kbxeFIKz1/">Færslan á Instagram</a>, 29. maí 2024.</figcaption></figure>
-<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-05-31_C7oKGV2AjQK_01.webp"><source src="../img/instagram/prjonavel/2024-05-31_C7oKGV2AjQK_01.mp4" type="video/mp4"></video><figcaption>Björninn: harðkóðaður vigur segir seglunum hvort næstu nálar fari í vinnu- eða hvíldarstöðu. <a href="https://www.instagram.com/p/C7oKGV2AjQK/">Færslan á Instagram</a>, 31. maí 2024.</figcaption></figure>
+<figure><iframe src="https://www.youtube-nocookie.com/embed/LJIMnjNcIB0" title="Arduino örstýring lóðuð við DIN-tengi E6000 vélarinnar kveikir og slekkur á seglunum í fremra lásaborðinu." loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><figcaption>Arduino örstýring lóðuð við DIN-tengi E6000 vélarinnar kveikir og slekkur á seglunum í fremra lásaborðinu. <a href="https://www.instagram.com/p/C7kbxeFIKz1/">Færslan á Instagram</a>, 29. maí 2024.</figcaption></figure>
+<figure><iframe src="https://www.youtube-nocookie.com/embed/25q8OGhGbdM" title="Björninn: harðkóðaður vigur segir seglunum hvort næstu nálar fari í vinnu- eða hvíldarstöðu." loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><figcaption>Björninn: harðkóðaður vigur segir seglunum hvort næstu nálar fari í vinnu- eða hvíldarstöðu. <a href="https://www.instagram.com/p/C7oKGV2AjQK/">Færslan á Instagram</a>, 31. maí 2024.</figcaption></figure>
 </div>
 ```
 

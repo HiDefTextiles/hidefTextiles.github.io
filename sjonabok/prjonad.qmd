@@ -37,7 +37,7 @@ Ragnheiður „yngri" Jónsdóttir safnaði í sjónabók sem notuð var í fyrs
 
 ## Af Instagram
 
-Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð. Öll myndböndin eru líka í [spilunarlistanum HiDEF textiles á YouTube](https://www.youtube.com/playlist?list=PLcHERjMhsyhA).
 
 ```{=html}
 <div class="instagram">
@@ -48,7 +48,7 @@ Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/h
 <figure><a href="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_01.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_01.webp" alt="Ýmislegt prjónað." loading="lazy"></a><figcaption>Ýmislegt prjónað. <a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
 <figure><a href="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_02.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_02.webp" alt="Ýmislegt prjónað." loading="lazy"></a><figcaption><a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
 <figure><a href="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_03.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_03.webp" alt="Ýmislegt prjónað." loading="lazy"></a><figcaption><a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
-<figure><video controls preload="none" playsinline poster="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_04.webp"><source src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_04.mp4" type="video/mp4"></video><figcaption><a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
+<figure><iframe src="https://www.youtube-nocookie.com/embed/Ozf-9MO2r8M" title="Ýmislegt prjónað." loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><figcaption><a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
 </div>
 ```
 

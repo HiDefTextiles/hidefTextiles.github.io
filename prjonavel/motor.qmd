@@ -54,11 +54,11 @@ Margar prufur sumarsins voru prjónaðar með handafli og það var tímafrekt. 
 
 ## Af Instagram
 
-Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð. Öll myndböndin eru líka í [spilunarlistanum HiDEF textiles á YouTube](https://www.youtube.com/playlist?list=PLcHERjMhsyhA).
 
 ```{=html}
 <div class="instagram">
-<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-05-29_C7kVoW4AIAt_01.webp"><source src="../img/instagram/prjonavel/2024-05-29_C7kVoW4AIAt_01.mp4" type="video/mp4"></video><figcaption>Ástandsskoðun á Electra 4600 mótornum. Lásinn var ekki festur í færibandið og segulskynjari skaust af. <a href="https://www.instagram.com/p/C7kVoW4AIAt/">Færslan á Instagram</a>, 29. maí 2024.</figcaption></figure>
+<figure><iframe src="https://www.youtube-nocookie.com/embed/ea3GYfEOE38" title="Ástandsskoðun á Electra 4600 mótornum. Lásinn var ekki festur í færibandið og segulskynjari skaust af." loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><figcaption>Ástandsskoðun á Electra 4600 mótornum. Lásinn var ekki festur í færibandið og segulskynjari skaust af. <a href="https://www.instagram.com/p/C7kVoW4AIAt/">Færslan á Instagram</a>, 29. maí 2024.</figcaption></figure>
 <figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-08-20_C-5BftiAt-R_01.webp"><source src="../img/instagram/prjonavel/2024-08-20_C-5BftiAt-R_01.mp4" type="video/mp4"></video><figcaption>Prufa með mótor. <a href="https://www.instagram.com/p/C-5BftiAt-R/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
 </div>
 ```
