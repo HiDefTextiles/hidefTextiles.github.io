@@ -50,5 +50,5 @@ Vélbúnaðinum má skipta í tvö stýrikerfi:
 
 
 ::: {.heimild}
-@nsn2024, kaflinn *Breytingar á vélbúnaði* (Nálarbeð, Sleði/lás, Litaskiptir, Mótor) og upphaf kaflans *Stýringar*. Elías Lúðvíksson sá um vélrænan hluta verkefnisins.
+Elías Lúðvíksson. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

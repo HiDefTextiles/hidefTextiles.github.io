@@ -64,5 +64,5 @@ Kóðinn er í [tungufoss/passapnext](https://github.com/tungufoss/passapnext). 
 Meira um hugmyndina á bak við þetta: [Spunagreind og mynstur](../mynsturgerd/spunagreind.qmd).
 
 ::: {.heimild}
-@nsn2024, kaflarnir *Stýring nálarbeðs* (Opið vefviðmót), *Kóði* og *Mánaðarlegt yfirlit* (ágúst). Uppsetningin er úr skýrslunni og README í [tungufoss/passapnext](https://github.com/tungufoss/passapnext) [@repo-passapnext]. Elías Lúðvíksson bjó til vefviðmótið.
+Elías Lúðvíksson. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [passapnext](https://github.com/tungufoss/passapnext) [@repo-passapnext].
 :::

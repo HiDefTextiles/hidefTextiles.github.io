@@ -77,7 +77,7 @@ Tvær til þrjár setningar um aðalatriðin.
 Hlekkur á geymslu og skipanir til að keyra.
 
 ::: {.heimild}
-@lykill-i-heimildaskra, kaflinn *Heiti kafla*. Hver vann verkið.
+Nafn nemandans sem vann verkið. Úr skýrslu verkefnisins [@lykill-i-heimildaskra]; kóði í [geymsla](https://github.com/...).
 :::
 ````
 

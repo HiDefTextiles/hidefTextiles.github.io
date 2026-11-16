@@ -97,5 +97,5 @@ Reiknirit sem búa til prjónamynstur.
 [Hvar er hver kafli skýrslunnar?](../heimildir.qmd#skýrslan-á-vefnum){.btn .btn-outline-primary}
 
 ::: {.heimild}
-@nsn2024, ágrip og kaflinn *Framkvæmd verkefnisins*. Höfundar: Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Ábyrgðaraðili: [Helga Ingimundardóttir](https://hi.is/starfsfolk/helgaingim).
+Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir, undir stjórn [Helgu Ingimundardóttur](https://hi.is/starfsfolk/helgaingim). Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

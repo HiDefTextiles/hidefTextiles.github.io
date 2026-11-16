@@ -62,5 +62,5 @@ Kóðinn er í [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/myns
 - [Sendu það á vélina](../prjonavel/senda-mynstur.qmd).
 
 ::: {.heimild}
-@nsn2024, kaflinn *Íslenska Sjónabókin nýtt í mynsturgerð*. Kóðadæmin eru úr `examples/` og skjölun fallanna í [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd]. Reiknirit: @FloydSteinberg og @flood-fill. Snæfríður Ebba Ásgeirsdóttir vann að mynsturgerðinni.
+Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd].
 :::

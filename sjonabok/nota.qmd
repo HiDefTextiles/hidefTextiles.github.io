@@ -37,5 +37,5 @@ make all
 - [Sjáðu mynstrin prjónuð](prjonad.qmd).
 
 ::: {.heimild}
-Skipanirnar eru úr README og Makefile í [HiDefTextiles/Sjonabok](https://github.com/HiDefTextiles/Sjonabok) [@repo-sjonabok]. Sjá einnig @nsn2024, kaflinn *Íslenska Sjónabókin nýtt í mynsturgerð*.
+Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024]; skipanirnar eru úr README og Makefile í [Sjonabok](https://github.com/HiDefTextiles/Sjonabok) [@repo-sjonabok].
 :::

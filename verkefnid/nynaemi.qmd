@@ -66,5 +66,5 @@ Sem rannsóknarverkefni á vegum Háskóla Íslands á allt efni og niðurstöð
 :::
 
 ::: {.heimild}
-@nsn2024, kaflinn *Nýnæmi*: *Staða markaðar*, *Áskoranir* (vélrænar, hugbúnaðarlegar og prjónaáskoranir), *Afleidd tækifæri* og *Hugverkastefna*.
+Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

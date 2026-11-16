@@ -45,6 +45,6 @@ Skýringarnar eru teknar úr lokaskýrslunni [@nsn2024]. Smelltu á hlekkinn til
 | **Hringrásarhagkerfi** | Hagkerfi þar sem endurnýting er í forgrunni. |
 | **Stand-up** | Stuttur daglegur stöðufundur. Í verkefninu fór hann fram skriflega með GeekBot. [Sumarið 2024](verkefnid/sumarid.qmd) |
 
-::: {.heimild}
+::: {.heimild .heimild-almenn}
 @nsn2024. Skýringarnar eru orðaðar eftir því hvernig orðin eru notuð í skýrslunni.
 :::

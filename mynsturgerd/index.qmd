@@ -53,5 +53,5 @@ Föllin eru í [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/myns
 | `ProcessPatternsForMachine.py` | `separateColors`, `patternMatrixToJson` |
 
 ::: {.heimild}
-@nsn2024, kaflinn *Sjálfvirk mynsturgerð* og *Hugbúnaðarlegar áskoranir*. Kóði: [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd]. Snæfríður Ebba Ásgeirsdóttir vann að mynsturgerðinni með aðstoð Hafsteins Einarssonar, dósents í tölvunarfræði við HÍ.
+Snæfríður Ebba Ásgeirsdóttir, með aðstoð Hafsteins Einarssonar. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd].
 :::

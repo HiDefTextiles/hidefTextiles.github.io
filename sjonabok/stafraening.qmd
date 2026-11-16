@@ -42,5 +42,5 @@ Textaskrárnar er einfalt að hlaða inn í fylki til að nota síðar. `.png` s
 Næst: [notaðu mynstrin](nota.qmd).
 
 ::: {.heimild}
-@nsn2024, kaflinn *Íslenska Sjónabókin nýtt í mynsturgerð* og áfanginn *Stafræn Sjónabók* í *Helstu áfangar*. Kóði: [HiDefTextiles/Sjonabok](https://github.com/HiDefTextiles/Sjonabok) [@repo-sjonabok]. Snæfríður Ebba Ásgeirsdóttir kom mynstrunum á tölvutækt form.
+Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [Sjonabok](https://github.com/HiDefTextiles/Sjonabok) [@repo-sjonabok].
 :::
