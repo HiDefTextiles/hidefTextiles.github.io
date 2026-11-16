@@ -89,7 +89,7 @@ Lokasprettur:
 - Lærði nokkurn veginn á forritin sem Elías og Snæfríður bjuggu til.
 - Teymið heimsótti [Þjóðminjasafn Íslands](https://www.thjodminjasafn.is/) og þar heillaðist hún af Ragnheiði „yngri" Jónsdóttur. Hún heimsótti [Landsbókasafn Íslands](https://landsbokasafn.is/) og kynnti sér rannsóknarefnið betur.
 - Hélt áfram með hugmyndavinnu og prufur sem tengdust henni.
-- Fljótlega var hægt að prjóna myndir með kóðanum sem Snæfríður skrifaði og Ragnheiður var valin sem fyrsta prjónaða myndin. Notuð var mynd sem máluð var af henni árið 1684 og er til sýnis á Þjóðminjasafninu. Hún er fyrirmynd myndarinnar á íslenska 5.000 króna seðlinum.
+- Fljótlega var hægt að prjóna myndir með kóðanum sem Snæfríður skrifaði og Ragnheiður var valin sem fyrsta prjónaða myndin. Notuð var mynd sem máluð var af henni árið 1684 og er til sýnis á Þjóðminjasafninu (sjá [Hönnun úr prufum](../prjonavel/honnun.qmd)). Hún er fyrirmynd myndarinnar á íslenska 5.000 króna seðlinum.
 - Leitað var leiða til að nota sjónabókarmynstrin í prjóni í bland við myndir.
 - Tímafrekt reyndist að prjóna á vélinni því enn átti eftir að tengja mótorinn.
 - Illa gekk að prjóna með fjórum litum í fyrstu, en með breyttu prjóni gekk það vel.
