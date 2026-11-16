@@ -409,3 +409,23 @@ nav.page-navigation {
   }
   figcaption { font-size: 0.8rem; }
 }
+
+// ── Mynd til hliðar við texta (.til-hlidar) ─────────────────────────────────
+.til-hlidar {
+  float: right;
+  width: 38%;
+  max-width: 320px;
+  margin: 0.3rem 0 1rem 1.5rem;
+
+  figure, .quarto-figure { margin: 0; }
+  img { width: 100%; height: auto; border-radius: 4px; }
+  figcaption { font-size: 0.8rem; line-height: 1.35; }
+
+  @media (max-width: 575.98px) {
+    float: none;
+    width: 100%;
+    max-width: none;
+    margin: 0 0 1rem;
+  }
+}
+.til-hlidar ~ .par { clear: both; }

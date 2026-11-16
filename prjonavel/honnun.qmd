@@ -37,7 +37,15 @@ Hönnuðurinn studdist við hönnunarhugsun (e. *Design Thinking*) [@designthink
 
 ## Ragnheiður og Hallgrímskirkja
 
-Ragnheiður „yngri" Jónsdóttir, sem margir kannast við af 5.000 króna seðlinum, var mikil handverkskona. Hún safnaði í sjónabók sem notuð var í fyrsta kafla *Sjónabókar*. Til að heiðra framlag hennar var mynd af henni fyrsta prjónaða myndin, unnin eftir málverki frá 1684 sem er til sýnis á Þjóðminjasafninu. Málverkið er hópmynd sem Ragnheiður lét mála í Kaupmannahöfn árið 1684, eftir lát eiginmanns síns, Gísla Þorlákssonar biskups. Á henni eru Ragnheiður, Gísli og fyrri eiginkonur hans tvær, Gróa Þorleifsdóttir og Ingibjörg Benediktsdóttir ([Wikipedia](https://en.wikipedia.org/wiki/Ragnhei%C3%B0ur_J%C3%B3nsd%C3%B3ttir), sótt 16. nóvember 2026) [@wiki-ragnheidur].
+::: {.til-hlidar}
+![Ragnheiður Jónsdóttir (til vinstri) og Gísli Þorláksson Hólabiskup ásamt tveimur fyrri konum Gísla, Gróu Þorleifsdóttur og Ingibjörgu Benediktsdóttur. Málað í Kaupmannahöfn 1684. Höfundur ókunnur. Mynd: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gisli_thorlaksson.jpg), almenningseign (PD-Art, PD-old-100) [@commons-gisli].](../img/wikimedia/ragnheidur-1684.webp){fig-alt="Málverk af fjórum persónum í svörtum klæðum: biskup með hvítan kraga og þrjár konur með hvíta falda og barðahatta" loading="lazy"}
+:::
+
+Ragnheiður „yngri" Jónsdóttir (1646–1715), sem margir kannast við af 5.000 króna seðlinum, var mikil hannyrðakona og tók nemendur í hannyrðanám [@wiki-ragnheidur]. Hún safnaði í sjónabók sem notuð var í fyrsta kafla *Sjónabókar*. Til að heiðra framlag hennar var mynd af henni fyrsta prjónaða myndin, unnin eftir málverki frá 1684 sem er til sýnis á Þjóðminjasafninu.
+
+Málverkið er stórt barokkmálverk sem Ragnheiður lét gera og var málað í Kaupmannahöfn árið 1684. Á því eru Ragnheiður og Gísli Þorláksson Hólabiskup (biskup 1657–1684) ásamt tveimur fyrri konum Gísla, Gróu Þorleifsdóttur og Ingibjörgu Benediktsdóttur. Konurnar klæðast svörtum hempum með hvíta falda og barðahatta ofan á földunum. Málverkið er fyrirmynd myndarinnar á framhlið 5.000 króna seðilsins ([Ragnheiður Jónsdóttir á íslensku Wikipediu](https://is.wikipedia.org/wiki/Ragnhei%C3%B0ur_J%C3%B3nsd%C3%B3ttir), sótt 16. nóvember 2026) [@wiki-ragnheidur].
+
+Á bakhlið seðilsins er Ragnheiður ásamt tveimur stúlkum við hannyrðir og til hliðar fangamark úr sjónabók hennar. Borðar og grunnmynstur á báðum hliðum, ásamt útsaumsletri á framhlið, eru gerð eftir altarisklæði úr Laufáskirkju í Þjóðminjasafni ([Fimm þúsund króna seðill, Seðlabanki Íslands](https://sedlabanki.is/greidslumidlun/sedlar-og-mynt/sedlar-i-gildi/fimm-thusund-krona-sedill/), sótt 16. nóvember 2026) [@sedlabanki-5000].
 
 ::: {.par}
 ![50 lykkjur á breidd.](../img/passap-e6000/prjon-ragnheidur-50.jpg){fig-alt="Prjónuð mynd af Ragnheiði, gróf upplausn"}
