@@ -31,14 +31,14 @@ Stjórnborð með innbyggðri *Form* tölvu sem gat gert alls kyns mynstur. Stj�
 
 ## Rafrásin
 
-Takkarnir virka þannig að þeir eru alltaf með 5V straum á *high*. Þegar takki er tengdur í *ground* er hann virkur. 7407N kubburinn hermir eftir því.
+Takkarnir virka þannig að þeir eru alltaf með 5V straum á *high*. Þegar takki er tengdur í *ground* (merkt GRND á myndinni) er hann virkur, eins og ýtt hafi verið á hann. 7407N kubburinn hermir eftir því.
 
 ![Rafrás sem tengir Arduino við 7407N kubb, sem tengist svo við 6 pinna RJ12 tengi til að stýra mótor.](../img/passap-e6000/rafras-motor.png){fig-alt="Teikning af rafrás með merkingum D10 til D13, GRND, COL, GOSTOP, END og V5"}
 
 Svona lestu myndina:
 
 - **Grænu jaðarpunktarnir** til vinstri og hægri eru tenging við Arduino örtölvuna, sem sendir skilaboð á kubbinn.
-- **Kubburinn** er 14 samhverfu grænu punktarnir um miðjuna. Þeir taka við skipunum frá pinnum örtölvunnar sem lágum straumi. Þá er pinninn fyrir neðan á myndinni tengdur í jörð (GRND).
+- **Kubburinn** er 14 samhverfu grænu punktarnir um miðjuna. Þeir taka við skipunum frá pinnum örtölvunnar sem lágum straumi. Þá er pinninn fyrir neðan á myndinni tengdur í *ground* (GRND), og takkinn sem hann tengist verður virkur.
 - Þeir pinnar tengjast rafrásum sem fara í **6 pinna RJ12 tengi**. Tengið sem fer út er hægra megin við kubbinn. Þaðan fara skilaboðin til mótorstýringarinnar.
 - **Vinstra megin við kubbinn** er annað tengi fyrir takkaborðið. Þá helst virkni takkanna, með viðbættri stýringu í gegnum örtölvuna.
 
@@ -51,5 +51,5 @@ Margar prufur sumarsins voru prjónaðar með handafli og það var tímafrekt. 
 :::
 
 ::: {.heimild}
-@nsn2024, kaflinn *Stýring á mótor*, auk *Prjónaáskoranir* og *Áskoranir og betrumbætur í prjóni* um reynsluna af mótornum. Arduino kóðinn er í möppunni `arduino/` í [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi].
+@nsn2024, kaflinn *Stýring á mótor*, auk *Prjónaáskoranir* og *Áskoranir og betrumbætur í prjóni* um reynsluna af mótornum. Arduino kóðinn er í möppunni `arduino/` í [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Skýrslan segir að pinninn sé „tengdur í jörð (GRND)“; Helga Ingimundardóttir leiðrétti orðalagið: takkinn er virkur þegar hann er tengdur í *ground*.
 :::
