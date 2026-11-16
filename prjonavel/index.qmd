@@ -10,7 +10,7 @@ toc: false
 Gamla stjórnborðið á *Passap E6000* er tekið úr sambandi. Í staðinn kemur *Arduino* örtölva sem talar við sleðann, og tölva sem geymir mynstrin og matar örtölvuna á einni umferð í einu. Hér er handbókin: vélbúnaður, hugbúnaður og notkun.
 :::
 
-![*Passap E6000* prjónavél. Ljósmynd: mbl.is/Kristinn Magnússon, úr umfjöllun Morgunblaðsins [@mbl2024].](../img/passap-e6000/mbl-passap-e6000.jpg){fig-alt="Passap E6000 prjónavél" width=85%}
+![*Passap E6000* prjónavél. Ljósmynd: mbl.is/Kristinn Magnússon, úr umfjöllun Morgunblaðsins [@mbl2024].](../img/passap-e6000/mbl-passap-e6000.webp){fig-alt="Passap E6000 prjónavél" width=85%}
 
 ## Kaflarnir
 

@@ -54,7 +54,7 @@ Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/h
 
 ```{=html}
 <div class="instagram">
-<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-06-07_C766unfoZAJ_01.jpg"><source src="../img/instagram/prjonavel/2024-06-07_C766unfoZAJ_01.mp4" type="video/mp4"></video><figcaption>Sett af skipunum sent á vélina: JSON strengur með upphafsstaðsetningu og mynstri úr 0 og 1. <a href="https://www.instagram.com/p/C766unfoZAJ/">Færslan á Instagram</a>, 7. júní 2024.</figcaption></figure>
+<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-06-07_C766unfoZAJ_01.webp"><source src="../img/instagram/prjonavel/2024-06-07_C766unfoZAJ_01.mp4" type="video/mp4"></video><figcaption>Sett af skipunum sent á vélina: JSON strengur með upphafsstaðsetningu og mynstri úr 0 og 1. <a href="https://www.instagram.com/p/C766unfoZAJ/">Færslan á Instagram</a>, 7. júní 2024.</figcaption></figure>
 </div>
 ```
 

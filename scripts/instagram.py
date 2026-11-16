@@ -79,7 +79,7 @@ def media(page, post):
     """Media of one post, in order: ("youtube", id), ("video", path) or ("image", path).
 
     Videos listed in YOUTUBE need no local file; their .mp4 and poster .jpg
-    can be deleted once uploaded.
+    can be deleted once uploaded. Photos are WebP (make images).
     """
     topic = page.split("/")[0]
     d = ROOT / "img" / "instagram" / topic
@@ -105,7 +105,7 @@ def block(page, items):
                       'allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" '
                       'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
             elif kind == "video":
-                el = f'<video controls preload="none" playsinline poster="{ref[:-4]}.jpg"><source src="{ref}" type="video/mp4"></video>'
+                el = f'<video controls preload="none" playsinline poster="{ref[:-4]}.webp"><source src="{ref}" type="video/mp4"></video>'
             else:
                 el = f'<a href="{ref}" class="lightbox" data-gallery="instagram"><img src="{ref}" alt="{cap}" loading="lazy"></a>'
             text = f'{cap} ' if n == 0 else ''

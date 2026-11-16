@@ -42,7 +42,7 @@ Grunnnemi í hagnýttri stærðfræði og tölvunarfræði við HÍ. Vann að þ
 :::
 :::
 
-![Úr umfjöllun Morgunblaðsins um verkefnið. Ljósmynd: mbl.is, sjá [greinina á mbl.is](https://www.mbl.is/frettir/innlent/2024/06/02/sjalfvirknivaedd_prjonavel_i_bigerd/).](../img/passap-e6000/mbl-vid-velina.jpg){fig-alt="Maður situr við prjónavélina" width=60%}
+![Úr umfjöllun Morgunblaðsins um verkefnið. Ljósmynd: mbl.is, sjá [greinina á mbl.is](https://www.mbl.is/frettir/innlent/2024/06/02/sjalfvirknivaedd_prjonavel_i_bigerd/).](../img/passap-e6000/mbl-vid-velina.webp){fig-alt="Maður situr við prjónavélina" width=60%}
 
 ## Kennarar
 
@@ -107,7 +107,7 @@ Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/h
 
 ```{=html}
 <div class="instagram">
-<figure><a href="../img/instagram/verkefnid/2024-06-03_C7wu6c3I6yu_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/verkefnid/2024-06-03_C7wu6c3I6yu_01.jpg" alt="Elías Lúðvíksson, sem sá um vélauppfærslurnar. Ljósmynd: mbl.is/Kristinn Magnússon." loading="lazy"></a><figcaption>Elías Lúðvíksson, sem sá um vélauppfærslurnar. Ljósmynd: mbl.is/Kristinn Magnússon. <a href="https://www.instagram.com/p/C7wu6c3I6yu/">Færslan á Instagram</a>, 3. júní 2024.</figcaption></figure>
+<figure><a href="../img/instagram/verkefnid/2024-06-03_C7wu6c3I6yu_01.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/verkefnid/2024-06-03_C7wu6c3I6yu_01.webp" alt="Elías Lúðvíksson, sem sá um vélauppfærslurnar. Ljósmynd: mbl.is/Kristinn Magnússon." loading="lazy"></a><figcaption>Elías Lúðvíksson, sem sá um vélauppfærslurnar. Ljósmynd: mbl.is/Kristinn Magnússon. <a href="https://www.instagram.com/p/C7wu6c3I6yu/">Færslan á Instagram</a>, 3. júní 2024.</figcaption></figure>
 </div>
 ```
 

@@ -75,7 +75,7 @@ Tölvan þarf að vera tengd Arduino með USB. Nánar: [Stýringin á tölvunni]
 
 **Hvað:** Opið vefviðmót sem tekur við textabeiðnum frá notendum. Það býr til mynd úr textanum með hjálp gervigreindar, staðlar bakgrunninn, breytir myndinni í mynsturfylki og vistar í gagnagrunni. Stýringin sækir mynstrin þaðan.
 
-![Vefviðmótið sem tekur við hugmyndum notenda að mynstrum.](img/passap-e6000/skjar-passapnext.png){fig-alt="Vefsíða með reitum fyrir nafn og skilaboð og takkanum Senda" width=70%}
+![Vefviðmótið sem tekur við hugmyndum notenda að mynstrum.](img/passap-e6000/skjar-passapnext.webp){fig-alt="Vefsíða með reitum fyrir nafn og skilaboð og takkanum Senda" width=70%}
 
 **Notkun:** Þessar breytur þurfa að vera í keyrsluumhverfinu:
 
