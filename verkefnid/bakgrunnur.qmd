@@ -53,13 +53,13 @@ Teyminu var kært að nota séríslensk mótíf í prjóninu og sóttist því e
 | **Það sem vantar** | | Nútíma tengingar og notendavænt viðmót |
 
 ::: {.callout-note title="Hvað myndi Kniterate kosta á Íslandi í dag? (gróft mat)"}
-Þetta mat er ekki úr skýrslunni. Það er reiknað 15. nóvember 2026 út frá opinberum tölum.
+Þetta mat er ekki úr skýrslunni. Það er reiknað 16. nóvember 2026 út frá opinberum tölum.
 
 | | Upphæð | Heimild |
 |---|---:|---|
 | Byrjunarverð vélarinnar | frá 15.999 $ | Vefverslun Kniterate, sótt 15. nóvember 2026 [@kniterate-shop] |
-| Í krónum á tollgengi (122,4 kr./$) | 1.958.278 kr. | Tollgengi Skattsins, sótt 15. nóvember 2026 [@tollgengi] |
-| Virðisaukaskattur, 24% | 469.987 kr. | Skatturinn [@skatturinn-vsk] |
+| Í krónum á tollgengi (122,4 kr./$) | 1.958.278 kr. | Tollafgreiðslugengi Skattsins, sótt 16. nóvember 2026 [@tollgengi] |
+| Virðisaukaskattur, 24% | 469.987 kr. | Skatturinn, sótt 16. nóvember 2026 [@skatturinn-vsk] |
 | Tollskrárnúmer | 8447 (prjónavélar) | Tollur fyrir þetta númer hefur ekki verið staðfestur í [tollskrá Skattsins](https://www.skatturinn.is/atvinnurekstur/tollamal/tollskra/) |
 | Flutningur | Tilboð frá Kniterate | Kniterate gefur aðeins tilboð í flutning þegar vélin er tilbúin; vélin vegur um 340 kg í flutningi [@kniterate-vara] |
 | **Samtals, miðað við byrjunarverð** | **um 2,43 milljónir kr.** auk sendingarkostnaðar, tolla o.fl. | |
@@ -84,5 +84,5 @@ Vélarnar eru samt vel gerðar og enn í notkun hjá áhugafólki. Virk netsamf�
 Forkönnun á tæknilegum og markaðslegum þáttum sýndi að þörf er á hagkvæmum lausnum fyrir minni hönnuði sem vilja nýta þessar vélar. Þar sem fyrirtækið er hætt er engin áframhaldandi þróun á þeim. Verkefnið miðar því að því að snjallvæða vélarnar, nýta þær á nýjan hátt, auka sjálfbærni og minnka óþarfa sóun.
 
 ::: {.heimild}
-@nsn2024, kaflinn *Lýsing á verkefninu*: *Markmið*, *Staða þekkingar*, *Samanburður við nútíma prjónavélar*, *Ný viðbót við þekkingu* og *Staða verkefnis*. Myndir skýrslunnar af KnitterStream og Kniterate eru ekki afritaðar hingað; sjá heimildirnar. Kostnaðarmatið á Kniterate á Íslandi er ekki úr skýrslunni: verð úr [vefverslun Kniterate](https://www.kniterate.com/shop/) (sótt 15. nóvember 2026), [tollgengi Skattsins](https://www.skatturinn.is/english/companies/customs-matters/exchange-rates/) (sótt 15. nóvember 2026) og [virðisaukaskattur](https://www.skatturinn.is/english/companies/value-added-tax/) (sótt 15. nóvember 2026).
+@nsn2024, kaflinn *Lýsing á verkefninu*: *Markmið*, *Staða þekkingar*, *Samanburður við nútíma prjónavélar*, *Ný viðbót við þekkingu* og *Staða verkefnis*. Myndir skýrslunnar af KnitterStream og Kniterate eru ekki afritaðar hingað; sjá heimildirnar. Kostnaðarmatið á Kniterate á Íslandi er ekki úr skýrslunni: verð úr [vefverslun Kniterate](https://www.kniterate.com/shop/) (sótt 15. nóvember 2026), [tollgengi Skattsins](https://island.is/s/skatturinn/tollafgreidslugengi) (sótt 16. nóvember 2026) og [virðisaukaskattur](https://www.skatturinn.is/atvinnurekstur/virdisaukaskattur/skattskylda-og-skattprosentur/nr/100) (sótt 15. nóvember 2026).
 :::
