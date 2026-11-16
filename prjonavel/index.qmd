@@ -120,7 +120,7 @@ Myndin er endurteiknuð eftir kerfismynd af nýja stjórnborðinu í skýrslunni
 
 ## Af hverju gömul vél?
 
-*Passap* vélarnar eru svissneskar og framleiðslu þeirra var hætt um aldamótin. Þær eru vel gerðar, tiltölulega einfaldar í notkun og enn í notkun hjá áhugafólki, en þær skortir nútíma tengingar og notendavænt viðmót. Ný vél eins og [*Kniterate*](https://www.kniterate.com/about/), sem er hönnuð fyrir minni hönnuði [@kniterate], kostaði samkvæmt skýrslunni yfir 16.000 evrur árið 2024 [@nsn2024]. Í [vefverslun Kniterate](https://www.kniterate.com/shop/) er hún skráð á 15.999 dali (nóvember 2026) [@kniterate-shop]. Meira um þetta í [Bakgrunni verkefnisins](../verkefnid/bakgrunnur.qmd).
+*Passap* vélarnar eru svissneskar og framleiðslu þeirra var hætt um aldamótin. Þær eru vel gerðar, tiltölulega einfaldar í notkun og enn í notkun hjá áhugafólki, en þær skortir nútíma tengingar og notendavænt viðmót. Ný vél eins og [*Kniterate*](https://www.kniterate.com/about/), sem er hönnuð fyrir minni hönnuði [@kniterate], kostaði samkvæmt skýrslunni yfir 16.000 evrur árið 2024 [@nsn2024]. Í [vefverslun Kniterate](https://www.kniterate.com/shop/) er hún skráð frá 15.999 dölum (byrjunarverð, nóvember 2026) [@kniterate-shop]. Meira um þetta í [Bakgrunni verkefnisins](../verkefnid/bakgrunnur.qmd).
 
 ## Tengd viðfangsefni
 
