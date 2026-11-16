@@ -60,6 +60,8 @@ Teyminu var kært að nota séríslensk mótíf í prjóninu og sóttist því e
 | Byrjunarverð vélarinnar | frá 15.999 $ | Vefverslun Kniterate, sótt 15. nóvember 2026 [@kniterate-shop] |
 | Í krónum á tollgengi (122,4 kr./$) | 1.958.278 kr. | Tollgengi Skattsins, sótt 15. nóvember 2026 [@tollgengi] |
 | Virðisaukaskattur, 24% | 469.987 kr. | Skatturinn [@skatturinn-vsk] |
+| Tollskrárnúmer | 8447 (prjónavélar) | Tollur fyrir þetta númer hefur ekki verið staðfestur í [tollskrá Skattsins](https://www.skatturinn.is/atvinnurekstur/tollamal/tollskra/) |
+| Flutningur | Tilboð frá Kniterate | Kniterate gefur aðeins tilboð í flutning þegar vélin er tilbúin; vélin vegur um 340 kg í flutningi |
 | **Samtals, miðað við byrjunarverð** | **um 2,43 milljónir kr.** auk sendingarkostnaðar, tolla o.fl. | |
 
 Gjaldmiðill vefverslunarinnar er sýndur sem „$“ og hér er gert ráð fyrir að það séu Bandaríkjadalir.

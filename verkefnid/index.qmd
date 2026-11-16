@@ -31,7 +31,7 @@ toc: false
 
 Verkefnið er þverfaglegt. Nemendur úr vélaverkfræði, hagnýttri stærðfræði og fatahönnun unnu saman að þróun tækjalausna, verkefnastjórnun og frumgerðasmíði. Markmiðið var að hanna starfhæfa prjónavél sem hægt væri að kynna á viðburðum eins og Hönnunarmars og UTmessunni.
 
-Verkefnið stuðlar að aukinni þátttöku í STEAM menntun, þar sem listir og tækni mætast á nýstárlegan hátt, og varðveitir um leið menningararf í nútímasamhengi. Á Vísindavöku Rannís 28. september 2024 var vélin notuð til að sýna samstarf háskólanna í virku sambandi við atvinnulífið. Hún var aftur sýnd á [UTmessunni](https://utmessan.is/um-okkur/fyrri_utmessur/596-utmessan-2025) 7.–8. febrúar 2025 í Hörpu, þar sem Háskóli Íslands var meðal sýnenda [@utmessan2025]. Að vélin hafi verið þar er samkvæmt Helgu Ingimundardóttur; það kemur ekki fram í skýrslunni, sem er frá 2024.
+Verkefnið stuðlar að aukinni þátttöku í STEAM menntun, þar sem listir og tækni mætast á nýstárlegan hátt, og varðveitir um leið menningararf í nútímasamhengi. Á Vísindavöku Rannís 28. september 2024 var vélin notuð til að sýna samstarf háskólanna í virku sambandi við atvinnulífið. Hún var aftur sýnd á [UTmessunni](https://utmessan.is/um-okkur/fyrri_utmessur/596-utmessan-2025) 7.–8. febrúar 2025 í Hörpu, sem hluti af bás Háskóla Íslands. Háskóli Íslands var meðal sýnenda [@utmessan2025]; að vélin hafi verið á básnum er samkvæmt Helgu Ingimundardóttur, sem tók þátt fyrir hönd HÍ. Það kemur ekki fram í skýrslunni, sem er frá 2024.
 
 ## Sagan í fimm köflum
 
