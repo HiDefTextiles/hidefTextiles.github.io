@@ -45,6 +45,22 @@ Prófaðar voru mismunandi prjónaáferðir til að finna lausn sem hentar einba
 
 Prufurnar heppnuðust misvel og í ljós kom að vélarnar eru ekki mjög notendavænar. Fylgt var kennslumyndböndum frá framleiðanda á YouTube til að gera prufur á tölvunni sem fylgdi *Passap E6000*, en þá kom oft upp `ERROR` og þurfti að byrja upp á nýtt.
 
+<!-- instagram:start -->
+
+## Af Instagram
+
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+
+```{=html}
+<div class="instagram">
+<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-05-19_C7JRfAQAhQk_01.jpg"><source src="../img/instagram/prjonavel/2024-05-19_C7JRfAQAhQk_01.mp4" type="video/mp4"></video><figcaption>Fyrsta æfingarverkefnið úr Duo80 handbókinni: pottaleppur. <a href="https://www.instagram.com/p/C7JRfAQAhQk/">Færslan á Instagram</a>, 19. maí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/prjonavel/2024-05-30_C7oEX5Zg5L2_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-30_C7oEX5Zg5L2_01.jpg" alt="Fyrstu prufurnar eftir æfingamynstrum í leiðarvísinum fyrir Duo80." loading="lazy"></a><figcaption>Fyrstu prufurnar eftir æfingamynstrum í leiðarvísinum fyrir Duo80. <a href="https://www.instagram.com/p/C7oEX5Zg5L2/">Færslan á Instagram</a>, 30. maí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/prjonavel/2024-05-30_C7oPPEUAERo_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-30_C7oPPEUAERo_01.jpg" alt="Mannleg mistök: hér prjónaðist ekki af nálunum eins og búist var við." loading="lazy"></a><figcaption>Mannleg mistök: hér prjónaðist ekki af nálunum eins og búist var við. <a href="https://www.instagram.com/p/C7oPPEUAERo/">Færslan á Instagram</a>, 30. maí 2024.</figcaption></figure>
+</div>
+```
+
+<!-- instagram:end -->
+
 ::: {.hofundur}
 Guðrún Ísafold Hilmarsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

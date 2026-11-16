@@ -61,6 +61,21 @@ Náin samvinna tölvunarfræðinema og hönnuðar var lykilatriði í framvindu 
 
 Hugmyndavinnan fór fram í forritinu [Procreate](https://procreate.com/). Til að fá sem besta útkomu mynda í prjóni voru bæði Procreate og Photoshop notuð, og svo kóðinn til að staðfesta niðurstöður áður en prjónað var. Einnig voru gerðar prufur að stroffi fyrir kraga.
 
+<!-- instagram:start -->
+
+## Af Instagram
+
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+
+```{=html}
+<div class="instagram">
+<figure><a href="../img/instagram/prjonavel/2024-07-23_C9xaz9Agxi7_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-07-23_C9xaz9Agxi7_01.jpg" alt="Prjónað eftir ljósmynd og eftir mynd af málverki." loading="lazy"></a><figcaption>Prjónað eftir ljósmynd og eftir mynd af málverki. <a href="https://www.instagram.com/p/C9xaz9Agxi7/">Færslan á Instagram</a>, 23. júlí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/prjonavel/2024-07-23_C9xaz9Agxi7_02.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-07-23_C9xaz9Agxi7_02.jpg" alt="Prjónað eftir ljósmynd og eftir mynd af málverki." loading="lazy"></a><figcaption><a href="https://www.instagram.com/p/C9xaz9Agxi7/">Færslan á Instagram</a>, 23. júlí 2024.</figcaption></figure>
+</div>
+```
+
+<!-- instagram:end -->
+
 ::: {.hofundur}
 Guðrún Ísafold Hilmarsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::
