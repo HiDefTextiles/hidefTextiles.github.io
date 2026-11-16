@@ -48,7 +48,7 @@ Teyminu var kært að nota séríslensk mótíf í prjóninu og sóttist því e
 | | [*Kniterate*](https://www.kniterate.com/about/) (ný vél) | *Passap E6000* (gömul vél) |
 |---|---|---|
 | **Fyrir hvern?** | Hönnuð sérstaklega fyrir minni hönnuði og smærri framleiðendur [@kniterate] | Enn í notkun hjá áhugafólki |
-| **Verð** | Yfir 16.000 evrur árið 2024 [@nsn2024]; 15.999 dalir í [vefverslun Kniterate](https://www.kniterate.com/shop/) í nóvember 2026 [@kniterate-shop] | |
+| **Verð** | Yfir 16.000 evrur árið 2024 [@nsn2024]; frá 15.999 dölum (byrjunarverð) í [vefverslun Kniterate](https://www.kniterate.com/shop/) í nóvember 2026 [@kniterate-shop] | Ekki seld ný. Verðið ræðst af endursölu einstaklinga og nytjamörkuðum (Helga Ingimundardóttir) |
 | **Notkun** | Tiltölulega flókin að mati innlendra notenda | Tiltölulega einföld |
 | **Það sem vantar** | | Nútíma tengingar og notendavænt viðmót |
 
@@ -57,10 +57,10 @@ Teyminu var kært að nota séríslensk mótíf í prjóninu og sóttist því e
 
 | | Upphæð | Heimild |
 |---|---:|---|
-| Verð vélarinnar | 15.999 $ | Vefverslun Kniterate, sótt 15. nóvember 2026 [@kniterate-shop] |
+| Byrjunarverð vélarinnar | frá 15.999 $ | Vefverslun Kniterate, sótt 15. nóvember 2026 [@kniterate-shop] |
 | Í krónum á tollgengi (122,4 kr./$) | 1.958.278 kr. | Tollgengi Skattsins, sótt 15. nóvember 2026 [@tollgengi] |
 | Virðisaukaskattur, 24% | 469.987 kr. | Skatturinn [@skatturinn-vsk] |
-| **Samtals** | **um 2,43 milljónir kr.** auk sendingarkostnaðar, tolla o.fl. | |
+| **Samtals, miðað við byrjunarverð** | **um 2,43 milljónir kr.** auk sendingarkostnaðar, tolla o.fl. | |
 
 Gjaldmiðill vefverslunarinnar er sýndur sem „$“ og hér er gert ráð fyrir að það séu Bandaríkjadalir.
 :::
