@@ -100,8 +100,8 @@
   }
 }
 
-// ── Source box: where the content of a page comes from ───────────────────────
-.heimild {
+// ── Author box (.hofundur, "Unnið af") and general source box (.heimild) ──────
+.hofundur, .heimild {
   border: 1px solid $hi-panel;
   border-left: 4px solid $hi-pink;
   background: rgba($hi-pink, 0.04);
@@ -268,7 +268,7 @@ figure figcaption, .figure-caption {
 .forsida #title-block-header { display: none; }
 
 // ── Small screens: long URLs and wide tables must not push the page wide ─────
-.csl-entry, .repo .slod, .heimild, #refs a { overflow-wrap: anywhere; word-break: break-word; }
+.csl-entry, .repo .slod, .hofundur, .heimild, #refs a { overflow-wrap: anywhere; word-break: break-word; }
 main table { display: block; overflow-x: auto; }
 main pre { max-width: 100%; }
 
@@ -389,4 +389,4 @@ nav.page-navigation {
   }
 }
 
-.heimild.heimild-almenn p:first-child::before { content: "Heimild"; }
+.heimild p:first-child::before { content: "Heimild"; }

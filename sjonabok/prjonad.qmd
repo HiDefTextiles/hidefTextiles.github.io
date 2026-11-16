@@ -33,6 +33,6 @@ Ragnheiður „yngri" Jónsdóttir safnaði í sjónabók sem notuð var í fyrs
 
 ![Prjónamynstur af Ragnheiði Jónsdóttur með mynstur úr *Sjónabók* sem bakgrunn.](../img/passap-e6000/mynstur-ragnheidur.png){.pixel fig-alt="Mynstur af konu með hatt og mynstraðan bakgrunn"}
 
-::: {.heimild}
+::: {.hofundur}
 Nemendur verkefnisins. Úr lokaskýrslu verkefnisins [@nsn2024]. Mynstursíðurnar eru úr @Sjonabok (Þjms. 5898).
 :::

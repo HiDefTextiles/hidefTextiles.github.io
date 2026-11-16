@@ -99,6 +99,6 @@ Rafmagnsverkfræðingur frá Ástralíu sem hefur unnið að opnum hugbúnaði f
 - **Ístex** styrkti verkefnið með íslensku einbandi.
 - Öll önnur vinna var hluti af starfi akademískra starfsmanna, kostuð af samstarfsaðilum eða unnin í sjálfboðavinnu.
 
-::: {.heimild}
+::: {.hofundur}
 Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

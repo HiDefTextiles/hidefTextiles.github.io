@@ -67,6 +67,6 @@ Fallið `separateColors` er í `ProcessPatternsForMachine.py` í [HiDefTextiles/
 
 Næst: [breyttu mynd í svona fylki](mynd-i-mynstur.qmd), eða [sendu fylkið á vélina](../prjonavel/senda-mynstur.qmd).
 
-::: {.heimild}
+::: {.hofundur}
 Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd].
 :::

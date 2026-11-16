@@ -96,6 +96,6 @@ Reiknirit sem búa til prjónamynstur.
 [Lokaskýrsla (PDF)](../skjol/NSN-2024-lokaskyrsla.pdf){.btn .btn-primary}
 [Hvar er hver kafli skýrslunnar?](../heimildir.qmd#skýrslan-á-vefnum){.btn .btn-outline-primary}
 
-::: {.heimild}
+::: {.hofundur}
 Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir, undir stjórn [Helgu Ingimundardóttur](https://hi.is/starfsfolk/helgaingim). Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

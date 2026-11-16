@@ -49,6 +49,6 @@ Vélbúnaðinum má skipta í tvö stýrikerfi:
 2. **Stýring á seglunum**, sem færa nálastillarana upp og niður. Fyrir hvern nálastilli sem er stillt upp er lykkja prjónuð fyrir þá nál í næstu umferð. Sjá [Stýrðu nálunum](nalastyring.qmd).
 
 
-::: {.heimild}
+::: {.hofundur}
 Elías Lúðvíksson. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

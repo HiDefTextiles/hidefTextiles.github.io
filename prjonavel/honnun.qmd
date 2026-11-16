@@ -61,6 +61,6 @@ Náin samvinna tölvunarfræðinema og hönnuðar var lykilatriði í framvindu 
 
 Hugmyndavinnan fór fram í forritinu [Procreate](https://procreate.com/). Til að fá sem besta útkomu mynda í prjóni voru bæði Procreate og Photoshop notuð, og svo kóðinn til að staðfesta niðurstöður áður en prjónað var. Einnig voru gerðar prufur að stroffi fyrir kraga.
 
-::: {.heimild}
+::: {.hofundur}
 Guðrún Ísafold Hilmarsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

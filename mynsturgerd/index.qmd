@@ -52,6 +52,6 @@ Föllin eru í [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/myns
 | `Write.py` | `write` |
 | `ProcessPatternsForMachine.py` | `separateColors`, `patternMatrixToJson` |
 
-::: {.heimild}
+::: {.hofundur}
 Snæfríður Ebba Ásgeirsdóttir, með aðstoð Hafsteins Einarssonar. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd].
 :::

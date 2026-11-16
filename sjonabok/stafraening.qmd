@@ -41,6 +41,6 @@ Textaskrárnar er einfalt að hlaða inn í fylki til að nota síðar. `.png` s
 
 Næst: [notaðu mynstrin](nota.qmd).
 
-::: {.heimild}
+::: {.hofundur}
 Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [Sjonabok](https://github.com/HiDefTextiles/Sjonabok) [@repo-sjonabok].
 :::

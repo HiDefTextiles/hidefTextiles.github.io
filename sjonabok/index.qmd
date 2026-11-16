@@ -64,6 +64,6 @@ Mynstrin, prjónuð.
 
 Mynsturgerðin úr *Sjónabók* er ekki einskorðuð við prjónaskap. Grafískir hönnuðir geta nýtt mynstrin í textílvinnu eða öðrum miðlum. Með því að færa þessi séríslensku mynstur yfir í gagnvirkt stafrænt form opnast dyr fyrir fleiri skapandi útfærslur á menningararfinum.
 
-::: {.heimild}
+::: {.hofundur}
 Snæfríður Ebba Ásgeirsdóttir (stafræn mynstur). Úr lokaskýrslu verkefnisins [@nsn2024]; kóði og mynstur í [Sjonabok](https://github.com/HiDefTextiles/Sjonabok) [@repo-sjonabok].
 :::

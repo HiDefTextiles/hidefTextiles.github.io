@@ -65,6 +65,6 @@ Sem rannsóknarverkefni á vegum Háskóla Íslands á allt efni og niðurstöð
 Í skýrslunni er nefnt lénið `textill.hi.is` og tekið fram að vefurinn hafi þá ekki verið tilbúinn. Kóðinn er á [GitHub](../hugbunadur.qmd).
 :::
 
-::: {.heimild}
+::: {.hofundur}
 Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

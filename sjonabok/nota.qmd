@@ -36,6 +36,6 @@ make all
 - [Skreyttu prjónamynstur](skreyta.qmd) með borða, bakgrunni eða letri.
 - [Sjáðu mynstrin prjónuð](prjonad.qmd).
 
-::: {.heimild}
+::: {.hofundur}
 Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024]; skipanirnar eru úr README og Makefile í [Sjonabok](https://github.com/HiDefTextiles/Sjonabok) [@repo-sjonabok].
 :::
