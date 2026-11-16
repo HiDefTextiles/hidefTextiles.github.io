@@ -7,7 +7,7 @@ subtitle: "Nemendur, kennarar, samstarfsaðilar og fjármögnun"
 
 Verkefninu var stýrt af kennurum við Háskóla Íslands og Listaháskóla Íslands, þar sem hver kennari hafði ábyrgðarsvið tengt sínu sérsviði.
 
-Verkefnisstjóri og ábyrgðaraðili er **Helga Ingimundardóttir**, lektor í iðnaðarverkfræði við Háskóla Íslands. Verkefnið er hluti af rannsóknarverkefni hennar við háskólann, *HiDef Textíll: Bestun á textílferlum með gervigreind*.
+Verkefnisstjóri og ábyrgðaraðili er **[Helga Ingimundardóttir](https://hi.is/starfsfolk/helgaingim)**, lektor í iðnaðarverkfræði við Háskóla Íslands. Verkefnið er hluti af rannsóknarverkefni hennar við háskólann, *HiDef Textíll: Bestun á textílferlum með gervigreind*.
 
 ## Nemendur
 
@@ -50,7 +50,7 @@ Grunnnemi í hagnýttri stærðfræði og tölvunarfræði við HÍ. Vann að þ
 |---|---|
 | **Hafliði Ásgeirsson**, tæknimaður í frumgerðarsmiðju HÍ | Veitti Elíasi leiðsögn við vélrænar breytingar og þróun frumgerðar |
 | **Hafsteinn Einarsson**, dósent í tölvunarfræði við HÍ | Aðstoðaði Snæfríði við þróun spunagreindarreiknirita og tengdra hugbúnaðarlausna |
-| **Helga Ingimundardóttir**, lektor í iðnaðarverkfræði við HÍ | Verkefnastjóri og ábyrgðaraðili. Hafði yfirumsjón með verkefninu og tryggði að það fylgdi rannsóknaráætlun |
+| **[Helga Ingimundardóttir](https://hi.is/starfsfolk/helgaingim)**, lektor í iðnaðarverkfræði við HÍ | Verkefnastjóri og ábyrgðaraðili. Hafði yfirumsjón með verkefninu og tryggði að það fylgdi rannsóknaráætlun |
 | **Hörður Mar Tómasson**, stundakennari við rafmagns- og tölvunarverkfræðideild HÍ | Veitti Elíasi aðstoð við breytingar á raflögnum og tengingu við örtölvur |
 | **Ragna Bjarnadóttir**, lektor í fatahönnun við LHÍ | Veitti Guðrúnu Ísafold stuðning við textíl- og hönnunarvinnu |
 
