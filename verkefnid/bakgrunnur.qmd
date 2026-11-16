@@ -84,5 +84,5 @@ Vélarnar eru samt vel gerðar og enn í notkun hjá áhugafólki. Virk netsamf�
 Forkönnun á tæknilegum og markaðslegum þáttum sýndi að þörf er á hagkvæmum lausnum fyrir minni hönnuði sem vilja nýta þessar vélar. Þar sem fyrirtækið er hætt er engin áframhaldandi þróun á þeim. Verkefnið miðar því að því að snjallvæða vélarnar, nýta þær á nýjan hátt, auka sjálfbærni og minnka óþarfa sóun.
 
 ::: {.heimild}
-@nsn2024, kaflinn *Lýsing á verkefninu*: *Markmið*, *Staða þekkingar*, *Samanburður við nútíma prjónavélar*, *Ný viðbót við þekkingu* og *Staða verkefnis*. Myndir skýrslunnar af KnitterStream og Kniterate eru ekki afritaðar hingað; sjá heimildirnar. Kostnaðarmatið á Kniterate á Íslandi er ekki úr skýrslunni: verð úr [vefverslun Kniterate](https://www.kniterate.com/shop/) (sótt 15. nóvember 2026), [tollgengi Skattsins](https://island.is/s/skatturinn/tollafgreidslugengi) (sótt 16. nóvember 2026) og [virðisaukaskattur](https://www.skatturinn.is/atvinnurekstur/virdisaukaskattur/skattskylda-og-skattprosentur/nr/100) (sótt 15. nóvember 2026).
+Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024]. Kostnaðarmatið á Kniterate er ekki úr skýrslunni.
 :::

@@ -100,5 +100,5 @@ Rafmagnsverkfræðingur frá Ástralíu sem hefur unnið að opnum hugbúnaði f
 - Öll önnur vinna var hluti af starfi akademískra starfsmanna, kostuð af samstarfsaðilum eða unnin í sjálfboðavinnu.
 
 ::: {.heimild}
-@nsn2024, kaflinn *Skipulag og stjórnun*: *Stjórnun* (Nemendur, Kennarar), *Samstarf* og *Kostnaður og fjármögnun*.
+Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

@@ -156,5 +156,5 @@ Skýrslan er dagsett 26. september 2024 og lýsir stöðunni þá. Þessi síða
 :::
 
 ::: {.heimild}
-@nsn2024, kaflinn *Framkvæmd verkefnisins*: *Tímalína verkefnisins* (Daglegt stand-up, Mánaðarlegt yfirlit) og *Helstu áfangar*. Dagbókarfærslur nemenda eru hér endursagðar í þriðju persónu.
+Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024]; dagbókarfærslur nemenda endursagðar í þriðju persónu.
 :::

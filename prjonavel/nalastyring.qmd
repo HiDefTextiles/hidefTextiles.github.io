@@ -85,5 +85,5 @@ Strengurinn byrjar á formerki, plús eða mínus. Næst koma tveir tölustafir 
 - **Mynstrið** er alltaf skrifað frá vinstri til hægri. Strengurinn hefur núll fyrir hverja nál sem á að prjóna lykkju.
 
 ::: {.heimild}
-@nsn2024, kaflinn *Stýring nálarbeðs*. Teikningar af DIN-6 tengingunni eru frá @bamberg. Arduino kóðinn er í möppunni `arduino/` í [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Elías Lúðvíksson sá um vélrænan hluta verkefnisins.
+Elías Lúðvíksson. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Teikningar af DIN-6 tengingunni frá [Backspace í Bamberg](https://www.hackerspace-bamberg.de/Passap_pfaff_e6000) [@bamberg].
 :::

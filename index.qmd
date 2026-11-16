@@ -129,6 +129,6 @@ Prjónavélin er bara byrjunin. Svona bætist nýtt textílverkefni við.
 :::
 :::
 
-::: {.heimild}
+::: {.heimild .heimild-almenn}
 Tölur og myndir á þessari síðu eru úr lokaskýrslu verkefnisins [@nsn2024]: ágrip, kaflarnir *Kostnaður og fjármögnun*, *Breytingar á vélbúnaði* og *Prjón- og hönnunarvinna*.
 :::

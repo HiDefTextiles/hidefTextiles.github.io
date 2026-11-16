@@ -62,5 +62,5 @@ Náin samvinna tölvunarfræðinema og hönnuðar var lykilatriði í framvindu 
 Hugmyndavinnan fór fram í forritinu [Procreate](https://procreate.com/). Til að fá sem besta útkomu mynda í prjóni voru bæði Procreate og Photoshop notuð, og svo kóðinn til að staðfesta niðurstöður áður en prjónað var. Einnig voru gerðar prufur að stroffi fyrir kraga.
 
 ::: {.heimild}
-@nsn2024, kaflinn *Prjón- og hönnunarvinna* (Hlutverk fatahönnuðar, Hönnunarhugsun, Ferlið sem lærdómstól, Sjálfbærar lausnir og framtíðarfatnaður, Menningararfur og tenging við fortíðina) og *Mánaðarlegt yfirlit*. Guðrún Ísafold Hilmarsdóttir sá um hönnunarvinnuna.
+Guðrún Ísafold Hilmarsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

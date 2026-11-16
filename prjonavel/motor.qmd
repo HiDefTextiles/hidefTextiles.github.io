@@ -51,5 +51,5 @@ Margar prufur sumarsins voru prjónaðar með handafli og það var tímafrekt. 
 :::
 
 ::: {.heimild}
-@nsn2024, kaflinn *Stýring á mótor*, auk *Prjónaáskoranir* og *Áskoranir og betrumbætur í prjóni* um reynsluna af mótornum. Arduino kóðinn er í möppunni `arduino/` í [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Skýrslan segir að pinninn sé „tengdur í jörð (GRND)“; Helga Ingimundardóttir leiðrétti orðalagið: takkinn er virkur þegar hann er tengdur í *ground*.
+Elías Lúðvíksson. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Skýrslan segir „tengdur í jörð (GRND)“; Helga Ingimundardóttir leiðrétti orðalagið.
 :::

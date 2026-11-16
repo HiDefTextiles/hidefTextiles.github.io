@@ -137,5 +137,5 @@ Reiknirit sem breyta myndum og texta í prjónamynstur.
 :::
 
 ::: {.heimild}
-@nsn2024, kaflarnir *Breytingar á vélbúnaði*, *Stýringar*, *Helstu áfangar*, *Samanburður við nútíma prjónavélar* og *Staða verkefnis*. Kóði: [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi] og [tungufoss/passapnext](https://github.com/tungufoss/passapnext) [@repo-passapnext].
+Elías Lúðvíksson (vél- og hugbúnaður) og Guðrún Ísafold Hilmarsdóttir (prjón og hönnun). Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi] og [passapnext](https://github.com/tungufoss/passapnext) [@repo-passapnext].
 :::

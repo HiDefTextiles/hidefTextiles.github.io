@@ -42,6 +42,6 @@ Nemendur og kennarar hvers verkefnis eru taldir upp á síðu verkefnisins, sjá
 
 Vefurinn er skrifaður í [Quarto](https://quarto.org) og notar útlit Háskóla Íslands úr sniðmátinu [HI-IDN/quarto-hi](https://github.com/HI-IDN/quarto-hi). Frumkóði vefsins er á [GitHub](https://github.com/HiDefTextiles/hidefTextiles.github.io).
 
-::: {.heimild}
+::: {.heimild .heimild-almenn}
 Lýsing og markmið eru af fyrri útgáfu þessa vefs. Upplýsingar um fyrsta verkefnið eru úr @nsn2024.
 :::

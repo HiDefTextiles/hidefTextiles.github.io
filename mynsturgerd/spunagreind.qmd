@@ -49,5 +49,5 @@ Sett upp og prófað, en ekki kafað dýpra að svo stöddu.
 :::
 
 ::: {.heimild}
-@nsn2024, kaflarnir *Hugbúnaðarlegar áskoranir*, *Ókláruð verkefni* og *Mánaðarlegt yfirlit* (ágúst). Snæfríður Ebba Ásgeirsdóttir vann að þróun spunagreindarreiknirita með aðstoð Hafsteins Einarssonar.
+Snæfríður Ebba Ásgeirsdóttir, með aðstoð Hafsteins Einarssonar. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

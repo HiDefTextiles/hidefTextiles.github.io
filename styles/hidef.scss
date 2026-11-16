@@ -112,7 +112,7 @@
   p { margin: 0 0 0.3rem; }
   p:last-child { margin: 0; }
   p:first-child::before {
-    content: "Heimild";
+    content: "Unnið af";
     display: inline-block;
     font-weight: 800;
     font-size: 0.72rem;
@@ -388,3 +388,5 @@ nav.page-navigation {
     .nav-page-next { order: -1; }
   }
 }
+
+.heimild.heimild-almenn p:first-child::before { content: "Heimild"; }

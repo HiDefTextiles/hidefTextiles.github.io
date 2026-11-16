@@ -67,5 +67,5 @@ Kóðinn er í [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI)
 :::
 
 ::: {.heimild}
-@nsn2024, kaflarnir *Stýring nálarbeðs* (Tölvan sem keyrir stýringuna) og *Kóði*. Uppsetningarskrefin eru úr skýrslunni og úr README í [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Elías Lúðvíksson setti upp bakendann og vefviðmótið.
+Elías Lúðvíksson. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði og uppsetning í [passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi].
 :::
