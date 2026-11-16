@@ -84,6 +84,21 @@ Strengurinn byrjar á formerki, plús eða mínus. Næst koma tveir tölustafir 
 - [**Upphafspunkturinn**]{style="color:#10099F"} er númer nálarinnar sem mynstrið byrjar á.
 - **Mynstrið** er alltaf skrifað frá vinstri til hægri. Strengurinn hefur núll fyrir hverja nál sem á að prjóna lykkju.
 
+<!-- instagram:start -->
+
+## Af Instagram
+
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+
+```{=html}
+<div class="instagram">
+<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-05-29_C7kbxeFIKz1_01.jpg"><source src="../img/instagram/prjonavel/2024-05-29_C7kbxeFIKz1_01.mp4" type="video/mp4"></video><figcaption>Arduino örstýring lóðuð við DIN-tengi E6000 vélarinnar kveikir og slekkur á seglunum í fremra lásaborðinu. <a href="https://www.instagram.com/p/C7kbxeFIKz1/">Færslan á Instagram</a>, 29. maí 2024.</figcaption></figure>
+<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-05-31_C7oKGV2AjQK_01.jpg"><source src="../img/instagram/prjonavel/2024-05-31_C7oKGV2AjQK_01.mp4" type="video/mp4"></video><figcaption>Björninn: harðkóðaður vigur segir seglunum hvort næstu nálar fari í vinnu- eða hvíldarstöðu. <a href="https://www.instagram.com/p/C7oKGV2AjQK/">Færslan á Instagram</a>, 31. maí 2024.</figcaption></figure>
+</div>
+```
+
+<!-- instagram:end -->
+
 ::: {.hofundur}
 Elías Lúðvíksson. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Teikningar af DIN-6 tengingunni frá [Backspace í Bamberg](https://www.hackerspace-bamberg.de/Passap_pfaff_e6000) [@bamberg].
 :::

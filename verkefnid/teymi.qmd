@@ -99,6 +99,20 @@ Rafmagnsverkfræðingur frá Ástralíu sem hefur unnið að opnum hugbúnaði f
 - **Ístex** styrkti verkefnið með íslensku einbandi.
 - Öll önnur vinna var hluti af starfi akademískra starfsmanna, kostuð af samstarfsaðilum eða unnin í sjálfboðavinnu.
 
+<!-- instagram:start -->
+
+## Af Instagram
+
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+
+```{=html}
+<div class="instagram">
+<figure><a href="../img/instagram/verkefnid/2024-06-03_C7wu6c3I6yu_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/verkefnid/2024-06-03_C7wu6c3I6yu_01.jpg" alt="Elías Lúðvíksson, sem sá um vélauppfærslurnar. Ljósmynd: mbl.is/Kristinn Magnússon." loading="lazy"></a><figcaption>Elías Lúðvíksson, sem sá um vélauppfærslurnar. Ljósmynd: mbl.is/Kristinn Magnússon. <a href="https://www.instagram.com/p/C7wu6c3I6yu/">Færslan á Instagram</a>, 3. júní 2024.</figcaption></figure>
+</div>
+```
+
+<!-- instagram:end -->
+
 ::: {.hofundur}
 Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

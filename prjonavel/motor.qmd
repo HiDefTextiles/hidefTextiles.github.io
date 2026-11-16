@@ -50,6 +50,21 @@ Svona lestu myndina:
 Margar prufur sumarsins voru prjónaðar með handafli og það var tímafrekt. Með mótornum verður átakið á prjónið jafnara. Sjá [Prjónaðu](prjon.qmd).
 :::
 
+<!-- instagram:start -->
+
+## Af Instagram
+
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+
+```{=html}
+<div class="instagram">
+<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-05-29_C7kVoW4AIAt_01.jpg"><source src="../img/instagram/prjonavel/2024-05-29_C7kVoW4AIAt_01.mp4" type="video/mp4"></video><figcaption>Ástandsskoðun á Electra 4600 mótornum. Lásinn var ekki festur í færibandið og segulskynjari skaust af. <a href="https://www.instagram.com/p/C7kVoW4AIAt/">Færslan á Instagram</a>, 29. maí 2024.</figcaption></figure>
+<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-08-20_C-5BftiAt-R_01.jpg"><source src="../img/instagram/prjonavel/2024-08-20_C-5BftiAt-R_01.mp4" type="video/mp4"></video><figcaption>Prufa með mótor. <a href="https://www.instagram.com/p/C-5BftiAt-R/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
+</div>
+```
+
+<!-- instagram:end -->
+
 ::: {.hofundur}
 Elías Lúðvíksson. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Skýrslan segir „tengdur í jörð (GRND)“; Helga Ingimundardóttir leiðrétti orðalagið.
 :::

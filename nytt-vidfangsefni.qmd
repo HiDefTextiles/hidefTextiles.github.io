@@ -24,6 +24,8 @@ Vefurinn er gerður fyrir mörg textílverkefni. Prjónavélin, Sjónabók og my
 
 2. **Veldu myndir.** Bættu myndunum við `scripts/sync-assets.sh`. Aðeins skrár sem eru taldar upp þar fara á vefinn.
 
+   Myndir og myndbönd af [Instagram](https://www.instagram.com/hideftextiles/) má sækja auðveldlega með tólinu [instagram-archiver](https://github.com/tungufoss/instagram-archiver). Settu þjappað afrit í `img/instagram/<viðfangsefni>/` og skráðu færslurnar í `scripts/instagram.py`, sem setur myndasafn með hlekk á hverja færslu neðst á síðuna. Upprunalega safnið þarf ekki að geyma.
+
 3. **Búðu til möppu** fyrir viðfangsefnið, til dæmis `vefnadur/`, með `index.qmd` sem forsíðu: hvað þetta er, kaflarnir sem kort og tengd viðfangsefni. Notaðu `prjonavel/index.qmd` sem fyrirmynd.
 
 4. **Skrifaðu kaflana** eftir sniðmátinu hér að neðan.

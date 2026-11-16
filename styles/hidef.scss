@@ -390,3 +390,22 @@ nav.page-navigation {
 }
 
 .heimild p:first-child::before { content: "Heimild"; }
+
+// ── Instagram gallery (scripts/instagram.py) ─────────────────────────────────
+.instagram {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+
+  figure { margin: 0; }
+  img, video {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+    background: $hi-panel;
+  }
+  figcaption { font-size: 0.8rem; }
+}

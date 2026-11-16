@@ -11,6 +11,7 @@ project:
   resources:
     # Referenced from CSS (mask-image), which Quarto does not scan
     - img/hi/hi_logo.svg
+    - img/instagram/**
     - skjol/NSN-2024-lokaskyrsla.pdf
     - skjol/NSN-2024-lokaskyrsla-undirritud.pdf
 

@@ -49,6 +49,23 @@ Vélbúnaðinum má skipta í tvö stýrikerfi:
 2. **Stýring á seglunum**, sem færa nálastillarana upp og niður. Fyrir hvern nálastilli sem er stillt upp er lykkja prjónuð fyrir þá nál í næstu umferð. Sjá [Stýrðu nálunum](nalastyring.qmd).
 
 
+<!-- instagram:start -->
+
+## Af Instagram
+
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+
+```{=html}
+<div class="instagram">
+<figure><a href="../img/instagram/prjonavel/2024-05-19_C7JQwBag-Et_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-19_C7JQwBag-Et_01.jpg" alt="Passap Duomatic 80 fékk meira að segja handbók á íslensku." loading="lazy"></a><figcaption>Passap Duomatic 80 fékk meira að segja handbók á íslensku. <a href="https://www.instagram.com/p/C7JQwBag-Et/">Færslan á Instagram</a>, 19. maí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/prjonavel/2024-05-20_C7LznxOo96o_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-20_C7LznxOo96o_01.jpg" alt="Djúphreinsun: allar nálar (180 á hverju nálarbeði) teknar úr og hreinsaðar með ísóprópanóli. Það tók 2–4 manns tvo vinnudaga." loading="lazy"></a><figcaption>Djúphreinsun: allar nálar (180 á hverju nálarbeði) teknar úr og hreinsaðar með ísóprópanóli. Það tók 2–4 manns tvo vinnudaga. <a href="https://www.instagram.com/p/C7LznxOo96o/">Færslan á Instagram</a>, 20. maí 2024.</figcaption></figure>
+<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-05-19_C7JShzsgfhF_01.jpg"><source src="../img/instagram/prjonavel/2024-05-19_C7JShzsgfhF_01.mp4" type="video/mp4"></video><figcaption>Fyrstu kynni: fyrirstaða á aftari lásnum reyndist vera of stutt lykkjustærð miðað við garnið. <a href="https://www.instagram.com/p/C7JShzsgfhF/">Færslan á Instagram</a>, 19. maí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/prjonavel/2024-05-29_C7kIplBgBXF_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-29_C7kIplBgBXF_01.jpg" alt="Þýsk áhrif: Passap var svissneskt og helsti opni hugbúnaðurinn er eftir Þjóðverja." loading="lazy"></a><figcaption>Þýsk áhrif: Passap var svissneskt og helsti opni hugbúnaðurinn er eftir Þjóðverja. <a href="https://www.instagram.com/p/C7kIplBgBXF/">Færslan á Instagram</a>, 29. maí 2024.</figcaption></figure>
+</div>
+```
+
+<!-- instagram:end -->
+
 ::: {.hofundur}
 Elías Lúðvíksson. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

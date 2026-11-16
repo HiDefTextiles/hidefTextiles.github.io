@@ -33,6 +33,27 @@ Ragnheiður „yngri" Jónsdóttir safnaði í sjónabók sem notuð var í fyrs
 
 ![Prjónamynstur af Ragnheiði Jónsdóttur með mynstur úr *Sjónabók* sem bakgrunn.](../img/passap-e6000/mynstur-ragnheidur.png){.pixel fig-alt="Mynstur af konu með hatt og mynstraðan bakgrunn"}
 
+<!-- instagram:start -->
+
+## Af Instagram
+
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+
+```{=html}
+<div class="instagram">
+<figure><video controls preload="none" playsinline poster="../img/instagram/sjonabok/2024-07-05_C9Cf8FFgDZZ_01.jpg"><source src="../img/instagram/sjonabok/2024-07-05_C9Cf8FFgDZZ_01.mp4" type="video/mp4"></video><figcaption>Fyrsta myndin sem heppnaðist vel, tekin úr Íslensku Sjónabókinni. <a href="https://www.instagram.com/p/C9Cf8FFgDZZ/">Færslan á Instagram</a>, 5. júlí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_01.jpg" alt="Forritið speglaði myndirnar, en því var kippt í lag í hvelli." loading="lazy"></a><figcaption>Forritið speglaði myndirnar, en því var kippt í lag í hvelli. <a href="https://www.instagram.com/p/C9KbfzDI1Wo/">Færslan á Instagram</a>, 8. júlí 2024.</figcaption></figure>
+<figure><video controls preload="none" playsinline poster="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_02.jpg"><source src="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_02.mp4" type="video/mp4"></video><figcaption><a href="https://www.instagram.com/p/C9KbfzDI1Wo/">Færslan á Instagram</a>, 8. júlí 2024.</figcaption></figure>
+<figure><video controls preload="none" playsinline poster="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_03.jpg"><source src="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_03.mp4" type="video/mp4"></video><figcaption><a href="https://www.instagram.com/p/C9KbfzDI1Wo/">Færslan á Instagram</a>, 8. júlí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_01.jpg" alt="Ýmislegt prjónað." loading="lazy"></a><figcaption>Ýmislegt prjónað. <a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
+<figure><a href="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_02.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_02.jpg" alt="Ýmislegt prjónað." loading="lazy"></a><figcaption><a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
+<figure><a href="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_03.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_03.jpg" alt="Ýmislegt prjónað." loading="lazy"></a><figcaption><a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
+<figure><video controls preload="none" playsinline poster="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_04.jpg"><source src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_04.mp4" type="video/mp4"></video><figcaption><a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
+</div>
+```
+
+<!-- instagram:end -->
+
 ::: {.hofundur}
 Nemendur verkefnisins. Úr lokaskýrslu verkefnisins [@nsn2024]. Mynstursíðurnar eru úr @Sjonabok (Þjms. 5898).
 :::
