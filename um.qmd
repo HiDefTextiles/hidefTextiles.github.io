@@ -24,7 +24,7 @@ Hugmyndin er handbók sem aðrir geta fylgt til að endurgera það sem hér var
 
 ## Fólkið
 
-**Verkefnisstjóri og ábyrgðaraðili:** Helga Ingimundardóttir, lektor í iðnaðarverkfræði við Háskóla Íslands, [hi.is/starfsfolk/helgaingim](https://hi.is/starfsfolk/helgaingim).
+**Verkefnisstjóri og ábyrgðaraðili:** [Helga Ingimundardóttir](https://hi.is/starfsfolk/helgaingim), lektor í iðnaðarverkfræði við Háskóla Íslands.
 
 Nemendur og kennarar hvers verkefnis eru taldir upp á síðu verkefnisins, sjá [Fólkið og samstarfið](verkefnid/teymi.qmd).
 
