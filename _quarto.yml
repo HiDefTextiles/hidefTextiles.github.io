@@ -150,6 +150,9 @@ website:
       - icon: instagram
         href: https://www.instagram.com/hideftextiles/
         aria-label: Instagram
+      - icon: facebook
+        href: https://www.facebook.com/profile.php?id=61561112782546
+        aria-label: Facebook
       - icon: github
         href: https://github.com/HiDefTextiles
         aria-label: GitHub
