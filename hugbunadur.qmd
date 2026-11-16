@@ -109,6 +109,6 @@ latexmk -pdf main.tex && mv main.pdf NSN-report.pdf
 ```
 :::
 
-::: {.heimild}
+::: {.hofundur}
 Elías Lúðvíksson og Snæfríður Ebba Ásgeirsdóttir. Kóði í [passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi], [passapnext](https://github.com/tungufoss/passapnext) [@repo-passapnext], [mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd] og [Sjonabok](https://github.com/HiDefTextiles/Sjonabok) [@repo-sjonabok]. Skýrslan [@nsn2024] vísar á mynsturgerðina hjá `snaefi/mynsturgerd`, en hér er notuð `HiDefTextiles/mynsturgerd`.
 :::

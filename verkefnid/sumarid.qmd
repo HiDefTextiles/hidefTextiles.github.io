@@ -155,6 +155,6 @@ Skýrslugerð og kynning. Fyrstu kynningar á verkefninu fóru fram á Vísindav
 Skýrslan er dagsett 26. september 2024 og lýsir stöðunni þá. Þessi síða segir aðeins frá því sem stendur í skýrslunni.
 :::
 
-::: {.heimild}
+::: {.hofundur}
 Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024]; dagbókarfærslur nemenda endursagðar í þriðju persónu.
 :::

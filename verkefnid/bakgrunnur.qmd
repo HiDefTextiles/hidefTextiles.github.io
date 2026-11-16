@@ -83,6 +83,6 @@ Vélarnar eru samt vel gerðar og enn í notkun hjá áhugafólki. Virk netsamf�
 
 Forkönnun á tæknilegum og markaðslegum þáttum sýndi að þörf er á hagkvæmum lausnum fyrir minni hönnuði sem vilja nýta þessar vélar. Þar sem fyrirtækið er hætt er engin áframhaldandi þróun á þeim. Verkefnið miðar því að því að snjallvæða vélarnar, nýta þær á nýjan hátt, auka sjálfbærni og minnka óþarfa sóun.
 
-::: {.heimild}
+::: {.hofundur}
 Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024]. Kostnaðarmatið á Kniterate er ekki úr skýrslunni.
 :::

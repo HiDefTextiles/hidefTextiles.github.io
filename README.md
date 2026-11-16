@@ -37,7 +37,7 @@ Requires Quarto 1.5+. ImageMagick is optional (photos are resized when it is ins
 ## Content rules
 
 - Nothing is invented. All content comes from the project reports and repositories.
-- Every page ends with a `.heimild` box naming the report sections or repository it is based on.
+- Every page ends with a `.hofundur` ("Unnið af") box naming the student who did the work and the report section or repository it is based on. General pages use a `.heimild` box instead.
 - New topics follow `nytt-vidfangsefni.qmd`.
 
 ## Deploy

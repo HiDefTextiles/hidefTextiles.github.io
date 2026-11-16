@@ -46,6 +46,6 @@ Fallið `patternMatrixToJson(A, start, file)` skrifar sama form í JSON skrá. F
 
 Einn af áföngum verkefnisins var samskiptastaðall fyrir prjónavélina. Mynstur frá notendum eru sett á miðlægan gagnagrunn. Þaðan er lesið hvaða mynstur eru í bið og seglum og mótor stýrt eftir þeirri forskrift. Mynstrin í gagnagrunninum koma frá [opna vefviðmótinu](vefvidmot.qmd).
 
-::: {.heimild}
+::: {.hofundur}
 Elías Lúðvíksson (stýringin) og Snæfríður Ebba Ásgeirsdóttir (mynsturkóðinn). Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi] og [mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd].
 :::

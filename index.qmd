@@ -129,6 +129,6 @@ Prjónavélin er bara byrjunin. Svona bætist nýtt textílverkefni við.
 :::
 :::
 
-::: {.heimild}
+::: {.hofundur}
 Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Ábyrgðaraðili: [Helga Ingimundardóttir](https://hi.is/starfsfolk/helgaingim), lektor í iðnaðarverkfræði, Háskóla Íslands. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

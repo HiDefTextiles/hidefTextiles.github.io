@@ -44,6 +44,6 @@ Leiðbeinendur komu úr frumgerðarsmiðju HÍ, tölvunarfræði, iðnaðarverkf
 Markmið verkefnisins er að tengja það við kennsluskrá Háskóla Íslands og Listaháskóla Íslands [@nsn2024, kafli *Markmið*]. Skýrslan nefnir þó engin einstök námskeið og því eru þau ekki talin upp hér. Listi yfir námskeið verður settur inn þegar hann hefur verið staðfestur í kennsluskrám skólanna, sjá [verkbeiðnir vefsins](https://github.com/HiDefTextiles/hidefTextiles.github.io/issues).
 :::
 
-::: {.heimild .heimild-almenn}
+::: {.heimild}
 Námsgreinar nemenda og hlutverk kennara: @nsn2024, kaflinn *Stjórnun*. Fræðin í hverjum hluta: kaflarnir *Aðferðafræði* og *Framkvæmd verkefnisins*. Hlekkirnir vísa á vefi Háskóla Íslands og Listaháskóla Íslands.
 :::

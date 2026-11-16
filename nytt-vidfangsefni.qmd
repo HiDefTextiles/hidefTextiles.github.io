@@ -8,7 +8,7 @@ Vefurinn er gerður fyrir mörg textílverkefni. Prjónavélin, Sjónabók og my
 ## Reglurnar
 
 1. **Ekkert er fundið upp.** Allt efni kemur úr skýrslu, kóða eða annarri heimild sem hægt er að vísa í.
-2. **Heimild á hverri síðu.** Neðst er kassi sem segir úr hvaða kafla eða geymslu efnið er.
+2. **„Unnið af“ á hverri síðu.** Neðst er kassi með nafni nemandans sem vann verkið og úr hvaða kafla eða geymslu efnið er. Heimildir eru í texta og í heimildaskrá.
 3. **Opnar geymslur.** Vísað er skýrt í kóðann og sagt hvernig á að nota hann.
 4. **Einfalt mál.** Skrifað fyrir almenning: stuttar setningar, skref fyrir skref.
 5. **Sjálfstætt en tengt.** Hvert viðfangsefni stendur eitt og sér, með hlekkjum í tengd viðfangsefni.
@@ -76,7 +76,7 @@ Tvær til þrjár setningar um aðalatriðin.
 
 Hlekkur á geymslu og skipanir til að keyra.
 
-::: {.heimild}
+::: {.hofundur}
 Nafn nemandans sem vann verkið. Úr skýrslu verkefnisins [@lykill-i-heimildaskra]; kóði í [geymsla](https://github.com/...).
 :::
 ````

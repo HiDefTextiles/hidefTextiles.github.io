@@ -52,6 +52,6 @@ Fallið `write` í `Write.py` skrifar texta með leturgerðum úr Sjónabók. Te
 ![*Halló heimur* skrifað með letri úr *Sjónabók*.](../img/passap-e6000/mynstur-hallo-heimur.png){.pixel fig-alt="Textinn HALLO HEIMUR í rúðuletri" style="max-width:100%"}
 :::
 
-::: {.heimild}
+::: {.hofundur}
 Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd].
 :::

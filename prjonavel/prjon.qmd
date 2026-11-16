@@ -45,6 +45,6 @@ Prófaðar voru mismunandi prjónaáferðir til að finna lausn sem hentar einba
 
 Prufurnar heppnuðust misvel og í ljós kom að vélarnar eru ekki mjög notendavænar. Fylgt var kennslumyndböndum frá framleiðanda á YouTube til að gera prufur á tölvunni sem fylgdi *Passap E6000*, en þá kom oft upp `ERROR` og þurfti að byrja upp á nýtt.
 
-::: {.heimild}
+::: {.hofundur}
 Guðrún Ísafold Hilmarsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::

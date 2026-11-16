@@ -50,6 +50,6 @@ Svona lestu myndina:
 Margar prufur sumarsins voru prjónaðar með handafli og það var tímafrekt. Með mótornum verður átakið á prjónið jafnara. Sjá [Prjónaðu](prjon.qmd).
 :::
 
-::: {.heimild}
+::: {.hofundur}
 Elías Lúðvíksson. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Skýrslan segir „tengdur í jörð (GRND)“; Helga Ingimundardóttir leiðrétti orðalagið.
 :::

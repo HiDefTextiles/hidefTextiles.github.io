@@ -66,6 +66,6 @@ Kóðinn er í [HiDefTextiles/passAPI](https://github.com/HiDefTextiles/passAPI)
 - Í README er uppsetningin gerð með Node v23.5.0. Skýrslan segir Node.js 20+.
 :::
 
-::: {.heimild}
+::: {.hofundur}
 Elías Lúðvíksson. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði og uppsetning í [passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi].
 :::

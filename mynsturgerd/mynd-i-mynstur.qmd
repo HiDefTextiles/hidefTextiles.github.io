@@ -61,6 +61,6 @@ Kóðinn er í [HiDefTextiles/mynsturgerd](https://github.com/HiDefTextiles/myns
 - [Skreyttu mynstrið](../sjonabok/skreyta.qmd) með borða, bakgrunni eða letri úr Sjónabók.
 - [Sendu það á vélina](../prjonavel/senda-mynstur.qmd).
 
-::: {.heimild}
+::: {.hofundur}
 Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [mynsturgerd](https://github.com/HiDefTextiles/mynsturgerd) [@repo-mynsturgerd].
 :::

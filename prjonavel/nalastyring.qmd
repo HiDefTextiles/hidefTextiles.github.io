@@ -84,6 +84,6 @@ Strengurinn byrjar á formerki, plús eða mínus. Næst koma tveir tölustafir 
 - [**Upphafspunkturinn**]{style="color:#10099F"} er númer nálarinnar sem mynstrið byrjar á.
 - **Mynstrið** er alltaf skrifað frá vinstri til hægri. Strengurinn hefur núll fyrir hverja nál sem á að prjóna lykkju.
 
-::: {.heimild}
+::: {.hofundur}
 Elías Lúðvíksson. Úr lokaskýrslu verkefnisins [@nsn2024]; kóði í [passAPI](https://github.com/HiDefTextiles/passAPI) [@repo-passapi]. Teikningar af DIN-6 tengingunni frá [Backspace í Bamberg](https://www.hackerspace-bamberg.de/Passap_pfaff_e6000) [@bamberg].
 :::

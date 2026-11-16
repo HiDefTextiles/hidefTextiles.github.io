@@ -52,6 +52,6 @@ Kennsluefni sem tengir saman STEAM greinar eykur vitund og áhuga á þverfagleg
 
 Þannig er verðmætasköpunin ekki bundin við tekjur af einstökum afurðum, heldur við fjölþættan stuðning við sjálfbærni, nýsköpun, menntun og varðveislu íslenskrar menningararfleifðar.
 
-::: {.heimild}
+::: {.hofundur}
 Elías Lúðvíksson, Guðrún Ísafold Hilmarsdóttir og Snæfríður Ebba Ásgeirsdóttir. Úr lokaskýrslu verkefnisins [@nsn2024].
 :::
