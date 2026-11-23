@@ -109,6 +109,7 @@ website:
         - sjonabok/nota.qmd
         - sjonabok/skreyta.qmd
         - sjonabok/prjonad.qmd
+        - sjonabok/mynstursafn.qmd
     - id: mynsturgerd
       title: "Mynsturgerð"
       style: docked
