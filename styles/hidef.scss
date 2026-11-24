@@ -447,6 +447,9 @@ nav.page-navigation {
   grid-column: body-content-start / page-end-inset !important;
 }
 
+// Manuscript map: height follows the width (timeline + map inside the frame)
+.handritakort iframe { height: auto; aspect-ratio: 1.4; min-height: 520px; }
+
 // Teaser on the Sjónabók landing page: picture beside the text on wide screens
 .mynstursafn-kynning {
   margin: 0 0 2rem;
