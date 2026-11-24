@@ -154,6 +154,7 @@ m <- m_is |>
      .timeline { flex: 0 0 100%; }
      .timeline h4, .dk-panel h4 { font: 600 13px sans-serif; color: #10099F; margin: 0 0 4px; }
      #map-is { flex: 4; min-width: 0; }
+     .leaflet-tile-pane { filter: grayscale(1) sepia(0.2) hue-rotate(190deg) saturate(1.3) brightness(1.12) contrast(0.72); opacity: 0.85; }
      .dk-panel { flex: 1; min-width: 0; }
      .dk-panel p { font: 12px sans-serif; color: #444; margin: 4px 0 0; }
      #map-is { width: auto !important; height: min(92vh, 50vw) !important; }
