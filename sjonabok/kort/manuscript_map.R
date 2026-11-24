@@ -71,7 +71,8 @@ add_numbers <- function(map, data) {
 # Base map: tiles plus an offline coastline
 base_map <- function(region, ...) {
   leaflet(options = leafletOptions(...)) |>
-    addProviderTiles(providers$CartoDB.Positron) |>
+    # OpenStreetMap's own tiles: no API key (CARTO now answers "API key required")
+    addTiles(attribution = '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors') |>
     addPolygons(data = map("worldHires", region, fill = TRUE, plot = FALSE),
                 color = "#10099F", weight = 1, opacity = 0.5,
                 fillColor = "#10099F", fillOpacity = 0.05)
