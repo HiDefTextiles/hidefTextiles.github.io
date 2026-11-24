@@ -38,7 +38,7 @@ Skýringarnar eru teknar úr lokaskýrslunni [@nsn2024]. Smelltu á hlekkinn til
 
 | Orð | Skýring |
 |---|---|
-| ***Sjónabók*** | *Íslensk sjónabók*: safn tíu handrita frá 16.–18. öld með íslenskum útsaumsmynstrum. [Stafræn Sjónabók](sjonabok/index.qmd) |
+| ***Sjónabók*** | *Íslensk sjónabók*: safn tíu handrita frá 17.–19. öld með íslenskum útsaumsmynstrum. [Stafræn Sjónabók](sjonabok/index.qmd) |
 | **STEAM** | *Science, Technology, Engineering, Arts, and Mathematics*. |
 | **FOSS** | *Free and Open Source Software*, frjáls og opinn hugbúnaður. [Nýnæmi](verkefnid/nynaemi.qmd#hugverkastefna) |
 | **Hönnunarhugsun** (e. *Design Thinking*) | Hönnunarferli í fimm stigum: samkennd, þarfir, hugmyndir, frumgerð og prófun. [Hönnun úr prufum](prjonavel/honnun.qmd) |
