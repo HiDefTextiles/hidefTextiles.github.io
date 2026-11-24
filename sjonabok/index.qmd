@@ -10,6 +10,19 @@ toc: false
 *Íslensk sjónabók* geymir útsaumsmynstur úr handritum frá 16.–18. öld. Hér eru mynstrin sem einföld fylki af núllum og einum, tilbúin til notkunar í prjóni og annarri hönnun. Þetta er sjálfstætt verkefni sem tengist [prjónavélinni](../prjonavel/index.qmd) og [mynsturgerðinni](../mynsturgerd/index.qmd).
 :::
 
+::: {.topic .mynstursafn-kynning}
+[![](../img/sjonabok/mynstursafn.webp){fig-alt="Mynstursafnið: síur til vinstri og mynstur í reitum"}](mynstursafn.qmd)
+
+::: {.topic-body}
+[Nýtt · Mynstursafnið]{.num}
+
+### [Skoðaðu öll 600 mynstrin](mynstursafn.qmd)
+Flettu í gegnum mynstrin, síaðu eftir gerð, samhverfu og handriti og stækkaðu hvert mynstur reit fyrir reit.
+
+[Opna mynstursafnið →](mynstursafn.qmd)
+:::
+:::
+
 ::: {.par}
 ![Mynstur úr *Sjónabók*, bls. 246 (Þjms. 5898).](../img/passap-e6000/sjonabok-pafugl.webp){.pixel fig-alt="Rúðumynstur af páfugli"}
 
@@ -57,6 +70,13 @@ Skreyttu prjónamynstur með Sjónabók.
 
 #### [Frá bók í band](prjonad.qmd)
 Mynstrin, prjónuð.
+:::
+
+::: {.card-hi}
+[5]{.num}
+
+#### [Mynstursafnið](mynstursafn.qmd)
+Öll mynstrin á einum stað, með síum.
 :::
 :::
 

@@ -1,0 +1,28 @@
+---
+title: "Mynstursafnið"
+subtitle: "Öll 600 mynstrin úr Sjónabók, til að fletta, sía og skoða reit fyrir reit"
+toc: false
+page-layout: article
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Mynstursafnið er vefur þar sem hægt er að skoða öll stafrænu mynstrin úr *Sjónabók* [@Sjonabok]. Mynstrin má sía eftir gerð (borði, rós, stakt mynstur), samhverfu og handriti. Smelltu á mynstur til að stækka það, sjá rúðunetið, prófa liti HÍ og sækja það sem `.txt` fylki eða PNG mynd. Safnið er á ensku svo það nýtist líka erlendum hönnuðum.
+:::
+
+[Opna mynstursafnið í nýjum glugga →](https://hideftextiles.github.io/Sjonabok/){.btn .btn-primary .mynstursafn-takki}
+
+::: {.mynstursafn}
+```{=html}
+<iframe src="https://hideftextiles.github.io/Sjonabok/" title="Mynstursafn Sjónabókar (á ensku)" loading="lazy"></iframe>
+```
+:::
+
+## Hvernig er safnið búið til?
+
+Mynstrin eru geymd sem fylki af núllum og einum í [Sjonabok](https://github.com/HiDefTextiles/Sjonabok) safninu á GitHub. Í hvert sinn sem safnið breytist teiknar GitHub Action myndir af öllum mynstrunum í litum HÍ, reiknar eiginleika þeirra (stærð, þéttleika, samhverfu og endurtekningu borða) og birtir vefinn. Eiginleikarnir eru reiknaðir sjálfvirkt og geta skeikað þar sem mynstur var klippt illa af síðu. Nánar um fylkin í kaflanum [Frá rúðupappír í fylki](stafraening.qmd).
+
+::: {.heimild}
+Mynstrin eru úr *Íslenskri sjónabók* [@Sjonabok]. Kóði og vefur í [Sjonabok](https://github.com/HiDefTextiles/Sjonabok) [@repo-sjonabok].
+:::
