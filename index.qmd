@@ -46,7 +46,7 @@ Gömul *Passap E6000* prjónavél snjallvædd með Arduino og opnum hugbúnaði.
 [Opin mynstur · Menningararfur]{.num}
 
 ### [Stafræn Sjónabók](sjonabok/index.qmd)
-Íslensk útsaumsmynstur frá 16.–18. öld sem fylki af núllum og einum. Sæktu þau og notaðu í eigin hönnun.
+Íslensk útsaumsmynstur frá 17.–19. öld sem fylki af núllum og einum. Sæktu þau og notaðu í eigin hönnun.
 
 [Skoða mynstursafnið →](sjonabok/mynstursafn.qmd)
 :::

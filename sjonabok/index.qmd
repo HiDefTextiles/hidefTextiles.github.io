@@ -7,7 +7,7 @@ toc: false
 ::: {.hnotskurn}
 **Í hnotskurn**
 
-*Íslensk sjónabók* geymir útsaumsmynstur úr handritum frá 16.–18. öld. Hér eru mynstrin sem einföld fylki af núllum og einum, tilbúin til notkunar í prjóni og annarri hönnun. Þetta er sjálfstætt verkefni sem tengist [prjónavélinni](../prjonavel/index.qmd) og [mynsturgerðinni](../mynsturgerd/index.qmd).
+*Íslensk sjónabók* geymir útsaumsmynstur úr handritum frá 17.–19. öld. Hér eru mynstrin sem einföld fylki af núllum og einum, tilbúin til notkunar í prjóni og annarri hönnun. Þetta er sjálfstætt verkefni sem tengist [prjónavélinni](../prjonavel/index.qmd) og [mynsturgerðinni](../mynsturgerd/index.qmd).
 :::
 
 ::: {.topic .mynstursafn-kynning}
@@ -31,7 +31,20 @@ Flettu í gegnum mynstrin, síaðu eftir gerð, samhverfu og handriti og stækka
 
 ## Hvað er Sjónabók?
 
-*Íslensk Sjónabók* [@Sjonabok] er tímamótaverk sem [Heimilisiðnaðarfélagið](https://www.heimilisidnadur.is/) og [Þjóðminjasafn Íslands](https://www.thjodminjasafn.is/) gáfu út. Hún inniheldur safn tíu handrita frá 16.–18. öld sem varðveitt hafa íslensk útsaumsmynstur.
+*Íslensk Sjónabók* [@Sjonabok] er tímamótaverk sem [Heimilisiðnaðarfélagið](https://www.heimilisidnadur.is/) og [Þjóðminjasafn Íslands](https://www.thjodminjasafn.is/) gáfu út. Hún inniheldur safn tíu handrita frá 17.–19. öld sem varðveitt hafa íslensk útsaumsmynstur.
+
+::: {.topic .mynstursafn-kynning .handritakort-kynning}
+[![](../img/sjonabok/handritakort.webp){fig-alt="Kort af Íslandi með tíu númeruðum handritum og tímalínu"}](handritin.qmd)
+
+::: {.topic-body}
+[Nýtt · Handritin tíu]{.num}
+
+### [Hver, hvenær, hvar og hvar nú](handritin.qmd)
+Kort og tímalína handritanna sem mynstrin koma úr: hver gerði þau eða átti, hvenær og hvar, og hvar þau eru varðveitt í dag.
+
+[Skoða kortið →](handritin.qmd)
+:::
+:::
 
 Þegar skýrslan var skrifuð árið 2024 var bókin komin úr prentun og ekki stóð til að endurprenta hana sökum kostnaðar [@nsn2024]. Hún var lengi ófáanleg og dýr í prentun. Árið 2026 safnaði Heimilisiðnaðarfélagið fyrir endurprentun á [Karolina Fund](https://www.karolinafund.com/project/view/6666) og söfnunin tókst [@heimilisidnadur2026; @sjonabok-karolina]. Bókin er um 700 blaðsíður, á íslensku og ensku [@heimilisidnadur-utgafa]. Endurprentunina má forpanta í [vefverslun Heimilisiðnaðarfélagsins](https://www.heimilisidnadur.is/is/verslun/verslun/utsaumur/index/baekur/islensk-sjonabok-ornaments-and-pattern-found-in-iceland) á 28.900 kr. (sótt 16. nóvember 2026) [@sjonabok-forpontun].
 
@@ -77,6 +90,13 @@ Mynstrin, prjónuð.
 
 #### [Mynstursafnið](mynstursafn.qmd)
 Öll mynstrin á einum stað, með síum.
+:::
+
+::: {.card-hi .teal}
+[6]{.num}
+
+#### [Handritin tíu](handritin.qmd)
+Hver, hvenær, hvar og hvar nú.
 :::
 :::
 

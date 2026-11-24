@@ -14,6 +14,8 @@ project:
     - img/instagram/**
     - skjol/NSN-2024-lokaskyrsla.pdf
     - skjol/NSN-2024-lokaskyrsla-undirritud.pdf
+    # Self-contained leaflet map (built with make handritakort)
+    - sjonabok/kort/manuscript_map.html
 
 lang: is
 language:
@@ -110,6 +112,7 @@ website:
         - sjonabok/skreyta.qmd
         - sjonabok/prjonad.qmd
         - sjonabok/mynstursafn.qmd
+        - sjonabok/handritin.qmd
     - id: mynsturgerd
       title: "Mynsturgerð"
       style: docked
