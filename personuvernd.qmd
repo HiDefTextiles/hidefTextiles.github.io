@@ -9,7 +9,7 @@ um þig á netþjóni.
 
 Þegar þú kemur fyrst á vefinn birtist borði þar sem þú velur hvaða ytri þjónustur vefurinn má nota.
 Hann virkar eins og borðinn á hi.is og notar sama opna hugbúnað,
-[Klaro!](https://github.com/KIProtect/klaro). Þjónusturnar eru í tveimur flokkum:
+[Klaro!](https://github.com/KIProtect/klaro). Þær eru allar í einum flokki:
 
 - **Vefmælingar** (óvirkar þar til þú leyfir þær):
   - [Google Analytics](https://policies.google.com/technologies/partner-sites), sett upp í gegnum
@@ -20,7 +20,8 @@ Hann virkar eins og borðinn á hi.is og notar sama opna hugbúnað,
   - **YouTube**: myndbönd á vefnum eru felld inn frá `youtube-nocookie.com`. Þau hlaðast ekki fyrr
     en þú leyfir YouTube, annaðhvort í borðanum eða með því að smella á **Já** eða **Alltaf** þar sem
     myndbandið á að vera.
-- **Útlit** (nauðsynlegt): leturgerðin Jost er sótt frá Google Fonts.
+
+Leturgerðin Jost er hýst á vefnum sjálfum, svo ekkert er sótt frá Google Fonts.
 
 Valið er geymt í þínum eigin vafra og gildir líka fyrir
 [Sjónabókarsafnið](https://hideftextiles.github.io/Sjonabok/) og
