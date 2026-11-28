@@ -16,6 +16,8 @@ project:
     - skjol/NSN-2024-lokaskyrsla-undirritud.pdf
     # Self-contained leaflet map (built with make handritakort)
     - sjonabok/kort/manuscript_map.html
+    # Cookie consent (Klaro!), loaded by _includes/consent.html
+    - consent/**
 
 lang: is
 language:
@@ -169,6 +171,7 @@ website:
 
 filters:
   - filters/lazy-images.lua
+  - filters/consent-embeds.lua
 
 format:
   html:
@@ -178,17 +181,15 @@ format:
       - styles/hidef.scss
     css:
       - styles/hi-watermark.css
-      - styles/analytics.css
     include-in-header:
-      # Google Tag Manager container (GTM-...) or GA4 Measurement ID (G-...)
-      # for vafrakökuborðann, see _includes/analytics.html. Nothing loads until
-      # the visitor accepts. A placeholder (GTM-XXXXXXX) switches it off.
+      # Vafrakökur (Klaro!, eins og á hi.is) og Google Tag Manager gámurinn
+      # sem HiDef vefirnir deila. Ekkert er sent til Google Analytics og
+      # YouTube myndbönd hlaðast ekki fyrr en gestur samþykkir.
+      # Sjá consent/consent.js og filters/consent-embeds.lua.
       - text: |
-          <meta name="ga-measurement-id" content="GTM-5XPW89B4"
-            data-privacy-href="/personuvernd.html" data-privacy-label="Persónuvernd"
-            data-text="Megum við telja heimsóknir með Google Analytics? Það setur vafrakökur og sýnir okkur hvaða síður eru skoðaðar, ekkert annað. Ekkert er sent fyrr en þú samþykkir."
-            data-accept="Samþykkja" data-decline="Nei takk">
-      - file: _includes/analytics.html
+          <meta name="ga-measurement-id" content="GTM-5XPW89B4" data-langs="is"
+            data-services="youtube" data-privacy-href="/personuvernd.html">
+      - file: _includes/consent.html
       - text: |
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
