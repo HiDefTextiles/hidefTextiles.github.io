@@ -33,7 +33,7 @@ Stjórnborð með innbyggðri *Form* tölvu sem gat gert alls kyns mynstur. Stj�
 
 Takkarnir virka þannig að þeir eru alltaf með 5V straum á *high*. Þegar takki er tengdur í *ground* (merkt GRND á myndinni) er hann virkur, eins og ýtt hafi verið á hann. 7407N kubburinn hermir eftir því.
 
-![Rafrás sem tengir Arduino við 7407N kubb, sem tengist svo við 6 pinna RJ12 tengi til að stýra mótor.](../img/passap-e6000/rafras-motor.png){fig-alt="Teikning af rafrás með merkingum D10 til D13, GRND, COL, GOSTOP, END og V5"}
+![Rafrás sem tengir Arduino við 7407N kubb, sem tengist svo við 6 pinna RJ12 tengi til að stýra mótor.](../img/passap-e6000/rafras-motor.webp){fig-alt="Teikning af rafrás með merkingum D10 til D13, GRND, COL, GOSTOP, END og V5"}
 
 Svona lestu myndina:
 
@@ -54,12 +54,12 @@ Margar prufur sumarsins voru prjónaðar með handafli og það var tímafrekt. 
 
 ## Af Instagram
 
-Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð. Öll myndböndin eru líka í [spilunarlistanum HiDEF textiles á YouTube](https://www.youtube.com/playlist?list=PLcHERjMhsyhA).
 
 ```{=html}
 <div class="instagram">
-<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-05-29_C7kVoW4AIAt_01.jpg"><source src="../img/instagram/prjonavel/2024-05-29_C7kVoW4AIAt_01.mp4" type="video/mp4"></video><figcaption>Ástandsskoðun á Electra 4600 mótornum. Lásinn var ekki festur í færibandið og segulskynjari skaust af. <a href="https://www.instagram.com/p/C7kVoW4AIAt/">Færslan á Instagram</a>, 29. maí 2024.</figcaption></figure>
-<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-08-20_C-5BftiAt-R_01.jpg"><source src="../img/instagram/prjonavel/2024-08-20_C-5BftiAt-R_01.mp4" type="video/mp4"></video><figcaption>Prufa með mótor. <a href="https://www.instagram.com/p/C-5BftiAt-R/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
+<figure><iframe src="https://www.youtube-nocookie.com/embed/ea3GYfEOE38" title="Ástandsskoðun á Electra 4600 mótornum. Lásinn var ekki festur í færibandið og segulskynjari skaust af." loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><figcaption>Ástandsskoðun á Electra 4600 mótornum. Lásinn var ekki festur í færibandið og segulskynjari skaust af. <a href="https://www.instagram.com/p/C7kVoW4AIAt/">Færslan á Instagram</a>, 29. maí 2024.</figcaption></figure>
+<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-08-20_C-5BftiAt-R_01.webp"><source src="../img/instagram/prjonavel/2024-08-20_C-5BftiAt-R_01.mp4" type="video/mp4"></video><figcaption>Prufa með mótor. <a href="https://www.instagram.com/p/C-5BftiAt-R/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
 </div>
 ```
 

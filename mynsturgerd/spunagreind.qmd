@@ -20,9 +20,9 @@ Teymið vildi tryggja fallegt flæði milli ólíkra mynstra og skoðaði því 
 WFC reikniritið var sett upp með hnútum sem finna má á mörgum stöðum í *Íslenskri sjónabók*. Ákveðið var að þessi mynsturgerð hentaði ekki í hönnunarvinnuna að svo stöddu og því var ekki kafað dýpra.
 
 ::: {.par}
-![Útkoma úr *Wave Function Collapse* reikniritinu.](../img/passap-e6000/mynstur-wfc.png){.pixel fig-alt="Svarthvítt völundarhúsamynstur"}
+![Útkoma úr *Wave Function Collapse* reikniritinu.](../img/passap-e6000/mynstur-wfc.webp){.pixel fig-alt="Svarthvítt völundarhúsamynstur"}
 
-![Hnúturinn í mynstrinu finnst víða í *Íslenskri sjónabók*. Hér er dæmi um hann.](../img/passap-e6000/sjonabok-eftir.png){.pixel fig-alt="Mynstur úr Sjónabók með hnútum í hornunum"}
+![Hnúturinn í mynstrinu finnst víða í *Íslenskri sjónabók*. Hér er dæmi um hann.](../img/passap-e6000/sjonabok-eftir.webp){.pixel fig-alt="Mynstur úr Sjónabók með hnútum í hornunum"}
 :::
 
 ## Það sem varð ofan á

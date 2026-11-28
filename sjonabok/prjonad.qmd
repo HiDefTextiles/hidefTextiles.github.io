@@ -6,21 +6,21 @@ subtitle: "Mynstrin úr Sjónabók, prjónuð"
 Þrjár af fyrstu prufum sumarsins. Mynstrið úr *Sjónabók* (Þjms. 5898) og sama mynstur prjónað.
 
 ::: {.par}
-![Páfugl, bls. 246.](../img/passap-e6000/sjonabok-pafugl.png){.pixel fig-alt="Rúðumynstur af páfugli"}
+![Páfugl, bls. 246.](../img/passap-e6000/sjonabok-pafugl.webp){.pixel fig-alt="Rúðumynstur af páfugli"}
 
-![](../img/passap-e6000/prjon-pafugl.jpg){fig-alt="Prjónaður páfugl"}
+![](../img/passap-e6000/prjon-pafugl.webp){fig-alt="Prjónaður páfugl"}
 :::
 
 ::: {.par}
-![Blóm, bls. 210.](../img/passap-e6000/sjonabok-blom.png){.pixel fig-alt="Rúðumynstur af blómi"}
+![Blóm, bls. 210.](../img/passap-e6000/sjonabok-blom.webp){.pixel fig-alt="Rúðumynstur af blómi"}
 
-![](../img/passap-e6000/prjon-blom.jpg){fig-alt="Prjónað blóm"}
+![](../img/passap-e6000/prjon-blom.webp){fig-alt="Prjónað blóm"}
 :::
 
 ::: {.par}
-![Endurtekið mótíf, bls. 268.](../img/passap-e6000/sjonabok-endurtekning.png){.pixel fig-alt="Ferningslaga rúðumynstur"}
+![Endurtekið mótíf, bls. 268.](../img/passap-e6000/sjonabok-endurtekning.webp){.pixel fig-alt="Ferningslaga rúðumynstur"}
 
-![](../img/passap-e6000/prjon-endurtekning.jpg){fig-alt="Prjónað stykki með endurteknu mynstri"}
+![](../img/passap-e6000/prjon-endurtekning.webp){fig-alt="Prjónað stykki með endurteknu mynstri"}
 :::
 
 ::: {.callout-tip title="Ekki bara fyrir prjón"}
@@ -31,24 +31,24 @@ Mynstrin eru ekki einskorðuð við prjónaskap. Grafískir hönnuðir geta nýt
 
 Ragnheiður „yngri" Jónsdóttir safnaði í sjónabók sem notuð var í fyrsta kafla *Sjónabókar*. Til að heiðra framlag hennar var mynd af henni fyrsta myndin sem prjónuð var á vélinni. Síðan var farið að blanda saman myndum og mynstrum. Sjá [Hönnun úr prufum](../prjonavel/honnun.qmd).
 
-![Prjónamynstur af Ragnheiði Jónsdóttur með mynstur úr *Sjónabók* sem bakgrunn.](../img/passap-e6000/mynstur-ragnheidur.png){.pixel fig-alt="Mynstur af konu með hatt og mynstraðan bakgrunn"}
+![Prjónamynstur af Ragnheiði Jónsdóttur með mynstur úr *Sjónabók* sem bakgrunn.](../img/passap-e6000/mynstur-ragnheidur.webp){.pixel fig-alt="Mynstur af konu með hatt og mynstraðan bakgrunn"}
 
 <!-- instagram:start -->
 
 ## Af Instagram
 
-Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð. Öll myndböndin eru líka í [spilunarlistanum HiDEF textiles á YouTube](https://www.youtube.com/playlist?list=PLcHERjMhsyhA).
 
 ```{=html}
 <div class="instagram">
-<figure><video controls preload="none" playsinline poster="../img/instagram/sjonabok/2024-07-05_C9Cf8FFgDZZ_01.jpg"><source src="../img/instagram/sjonabok/2024-07-05_C9Cf8FFgDZZ_01.mp4" type="video/mp4"></video><figcaption>Fyrsta myndin sem heppnaðist vel, tekin úr Íslensku Sjónabókinni. <a href="https://www.instagram.com/p/C9Cf8FFgDZZ/">Færslan á Instagram</a>, 5. júlí 2024.</figcaption></figure>
-<figure><a href="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_01.jpg" alt="Forritið speglaði myndirnar, en því var kippt í lag í hvelli." loading="lazy"></a><figcaption>Forritið speglaði myndirnar, en því var kippt í lag í hvelli. <a href="https://www.instagram.com/p/C9KbfzDI1Wo/">Færslan á Instagram</a>, 8. júlí 2024.</figcaption></figure>
-<figure><video controls preload="none" playsinline poster="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_02.jpg"><source src="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_02.mp4" type="video/mp4"></video><figcaption><a href="https://www.instagram.com/p/C9KbfzDI1Wo/">Færslan á Instagram</a>, 8. júlí 2024.</figcaption></figure>
-<figure><video controls preload="none" playsinline poster="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_03.jpg"><source src="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_03.mp4" type="video/mp4"></video><figcaption><a href="https://www.instagram.com/p/C9KbfzDI1Wo/">Færslan á Instagram</a>, 8. júlí 2024.</figcaption></figure>
-<figure><a href="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_01.jpg" alt="Ýmislegt prjónað." loading="lazy"></a><figcaption>Ýmislegt prjónað. <a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
-<figure><a href="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_02.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_02.jpg" alt="Ýmislegt prjónað." loading="lazy"></a><figcaption><a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
-<figure><a href="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_03.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_03.jpg" alt="Ýmislegt prjónað." loading="lazy"></a><figcaption><a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
-<figure><video controls preload="none" playsinline poster="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_04.jpg"><source src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_04.mp4" type="video/mp4"></video><figcaption><a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
+<figure><video controls preload="none" playsinline poster="../img/instagram/sjonabok/2024-07-05_C9Cf8FFgDZZ_01.webp"><source src="../img/instagram/sjonabok/2024-07-05_C9Cf8FFgDZZ_01.mp4" type="video/mp4"></video><figcaption>Fyrsta myndin sem heppnaðist vel, tekin úr Íslensku Sjónabókinni. <a href="https://www.instagram.com/p/C9Cf8FFgDZZ/">Færslan á Instagram</a>, 5. júlí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_01.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_01.webp" alt="Forritið speglaði myndirnar, en því var kippt í lag í hvelli." loading="lazy"></a><figcaption>Forritið speglaði myndirnar, en því var kippt í lag í hvelli. <a href="https://www.instagram.com/p/C9KbfzDI1Wo/">Færslan á Instagram</a>, 8. júlí 2024.</figcaption></figure>
+<figure><video controls preload="none" playsinline poster="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_02.webp"><source src="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_02.mp4" type="video/mp4"></video><figcaption><a href="https://www.instagram.com/p/C9KbfzDI1Wo/">Færslan á Instagram</a>, 8. júlí 2024.</figcaption></figure>
+<figure><video controls preload="none" playsinline poster="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_03.webp"><source src="../img/instagram/sjonabok/2024-07-08_C9KbfzDI1Wo_03.mp4" type="video/mp4"></video><figcaption><a href="https://www.instagram.com/p/C9KbfzDI1Wo/">Færslan á Instagram</a>, 8. júlí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_01.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_01.webp" alt="Ýmislegt prjónað." loading="lazy"></a><figcaption>Ýmislegt prjónað. <a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
+<figure><a href="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_02.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_02.webp" alt="Ýmislegt prjónað." loading="lazy"></a><figcaption><a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
+<figure><a href="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_03.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/sjonabok/2024-08-20_C-5CF7KAgNj_03.webp" alt="Ýmislegt prjónað." loading="lazy"></a><figcaption><a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
+<figure><iframe src="https://www.youtube-nocookie.com/embed/Ozf-9MO2r8M" title="Ýmislegt prjónað." loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><figcaption><a href="https://www.instagram.com/p/C-5CF7KAgNj/">Færslan á Instagram</a>, 20. ágúst 2024.</figcaption></figure>
 </div>
 ```
 

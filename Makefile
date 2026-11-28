@@ -1,5 +1,5 @@
 # HiDef textíll website. Requires Quarto (https://quarto.org) and git.
-.PHONY: all sync render preview clean
+.PHONY: all sync render preview images handritakort clean
 
 all: render
 
@@ -15,6 +15,14 @@ render: sync
 # Live preview while writing
 preview: sync
 	quarto preview
+
+# Compress new images to WebP before committing: make images FILES="a.jpg b.png"
+images:
+	sh scripts/compress-images.sh $(FILES)
+
+# Manuscript map (needs R with readr, dplyr, leaflet, htmlwidgets, maps, mapdata)
+handritakort:
+	cd sjonabok/kort && LC_ALL=C.UTF-8 Rscript manuscript_map.R
 
 clean:
 	rm -rf _site .quarto img/passap-e6000 skjol

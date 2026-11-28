@@ -27,7 +27,7 @@ Hvert viðfangsefni er sjálfstætt verkefni með eigin köflum. Þau tengjast: 
 
 ::: {.topics}
 ::: {.topic}
-![](img/passap-e6000/mbl-passap-e6000.jpg){fig-alt="Passap E6000 prjónavél"}
+![](img/passap-e6000/mbl-passap-e6000.webp){fig-alt="Passap E6000 prjónavél"}
 
 ::: {.topic-body}
 [Vélbúnaður · Hugbúnaður · Notkun]{.num}
@@ -40,20 +40,20 @@ Gömul *Passap E6000* prjónavél snjallvædd með Arduino og opnum hugbúnaði.
 :::
 
 ::: {.topic}
-![](img/passap-e6000/sjonabok-eftir.png){.pixel fig-alt="Mynstur úr Sjónabók"}
+![](img/passap-e6000/sjonabok-eftir.webp){.pixel fig-alt="Mynstur úr Sjónabók"}
 
 ::: {.topic-body}
 [Opin mynstur · Menningararfur]{.num}
 
 ### [Stafræn Sjónabók](sjonabok/index.qmd)
-Íslensk útsaumsmynstur frá 16.–18. öld sem fylki af núllum og einum. Sæktu þau og notaðu í eigin hönnun.
+Íslensk útsaumsmynstur frá 17.–19. öld sem fylki af núllum og einum. Sæktu þau og notaðu í eigin hönnun.
 
-[Skoða mynstrin →](sjonabok/index.qmd)
+[Skoða mynstursafnið →](sjonabok/mynstursafn.qmd)
 :::
 :::
 
 ::: {.topic}
-![](img/passap-e6000/mynstur-bordi.png){.pixel fig-alt="Prjónamynstur í fjórum litum"}
+![](img/passap-e6000/mynstur-bordi.webp){.pixel fig-alt="Prjónamynstur í fjórum litum"}
 
 ::: {.topic-body}
 [Reiknirit · Gervigreind]{.num}
@@ -93,11 +93,11 @@ Sumarið 2024 tóku þrír nemendur úr vélaverkfræði, hagnýttri stærðfræ
 :::
 
 ::: {.par}
-![Mynstur úr *Sjónabók*, bls. 246 (Þjms. 5898).](img/passap-e6000/sjonabok-pafugl.png){.pixel fig-alt="Svarthvítt rúðumynstur af páfugli"}
+![Mynstur úr *Sjónabók*, bls. 246 (Þjms. 5898).](img/passap-e6000/sjonabok-pafugl.webp){.pixel fig-alt="Svarthvítt rúðumynstur af páfugli"}
 
-![Sama mynstur prjónað á vélinni.](img/passap-e6000/prjon-pafugl.jpg){fig-alt="Prjónað stykki með páfugli í gulu og bláu"}
+![Sama mynstur prjónað á vélinni.](img/passap-e6000/prjon-pafugl.webp){fig-alt="Prjónað stykki með páfugli í gulu og bláu"}
 
-![Ragnheiður Jónsdóttir, 120 lykkjur á breidd.](img/passap-e6000/prjon-ragnheidur-120.jpg){fig-alt="Prjónuð mynd af konu með hatt"}
+![Ragnheiður Jónsdóttir, 120 lykkjur á breidd.](img/passap-e6000/prjon-ragnheidur-120.webp){fig-alt="Prjónuð mynd af konu með hatt"}
 :::
 
 Morgunblaðið fjallaði um verkefnið 2. júní 2024: [*Sjálfvirknivædd prjónavél í bígerð*](https://www.mbl.is/frettir/innlent/2024/06/02/sjalfvirknivaedd_prjonavel_i_bigerd/) [@mbl2024].

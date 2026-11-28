@@ -1,0 +1,45 @@
+---
+title: "Handritin tíu"
+subtitle: "Hver gerði þau, hvenær, hvar, og hvar þau eru varðveitt nú"
+toc: false
+page-layout: article
+---
+
+::: {.hnotskurn}
+**Í hnotskurn**
+
+Mynstrin í *Sjónabók* [@Sjonabok] koma úr tíu handritum. Kortið sýnir hvar þau voru gerð eða í eigu hvers, og tímalínan efst sýnir hvenær. Númerin eru þau sömu á kortinu, tímalínunni og í töflunni. Níu handritanna eru nú í Þjóðminjasafni Íslands í Reykjavík og eitt í Nationalmuseet í Kaupmannahöfn. Kortið er á ensku eins og mynstursafnið.
+:::
+
+::: {.mynstursafn .handritakort}
+```{=html}
+<iframe src="kort/manuscript_map.html" title="Kort og tímalína handritanna (á ensku)" loading="lazy"></iframe>
+```
+:::
+
+[Opna kortið í nýjum glugga →](kort/manuscript_map.html){.btn .btn-primary .mynstursafn-takki}
+
+## Hver, hvenær, hvar og hvar nú
+
+| Nr. | Handrit | Hver | Hvenær | Hvar | Varðveitt nú |
+|---:|---|---|---|---|---|
+| 1 | [Þjms. 1105](https://sarpur.is/is/collection/item/341264/) | Ragnheiður Jónsdóttir (1646–1715), eignuð henni | 17. öld | Hólar í Hjaltadal (eigandi) | Þjóðminjasafn Íslands |
+| 2 | [Þjms. 2007-45](https://sarpur.is/is/collection/item/326745/) | óþekktur; síðari eigandi | blöð dagsett 1747–1824 | Öðrumgarður í Nesjum (ekki staðsett) | Þjóðminjasafn Íslands |
+| 3 | [Þjms. 1997-123](https://sarpur.is/is/collection/item/330863/) | Ingibjörg Eiríksdóttir | 18. öld | Steinsstaðir (óvíst hverjir) | Þjóðminjasafn Íslands |
+| 4 | [Þjms. 6950](https://sarpur.is/is/collection/item/323045/) | Gunnar Filippusson | 1776 | Sandhólaferja (líklegur bústaður) | Þjóðminjasafn Íslands |
+| 5 | [Þjms. 2008-14](https://sarpur.is/is/collection/item/339052/), Fjarðarhornsbók | Katrín Þorvaldsdóttir | um 1780–1800 | Fjarðarhorn í Hrútafirði (gerð þar) | Þjóðminjasafn Íslands |
+| 6 | [Þjms. Þ. og Þ. Th. 116](https://sarpur.is/is/collection/item/491584/), Skaftafellsbók | Jón Einarsson | um 1787 | Skaftafell í Öræfum (gerð þar) | Þjóðminjasafn Íslands |
+| 7 | [Þjms. 5898](https://sarpur.is/is/collection/item/322753/) | Helga Brynjólfsdóttir (1807–1882) | ódagsett | Hruni (eigandi) | Þjóðminjasafn Íslands |
+| 8 | [Þjms. 1960-60](https://sarpur.is/is/collection/item/331642/) | Katrín Jónsdóttir (1828–1889) | ódagsett | Barð í Fljótum (eigandi) | Þjóðminjasafn Íslands |
+| 9 | [Þjms. 1985-235](https://sarpur.is/is/collection/item/318133/) | Guðrún Jónsdóttir á Hóli | 19. öld | Hóll (óvíst hver) | Þjóðminjasafn Íslands |
+| 10 | [N.453.a](https://samlinger.natmus.dk/dnt/object/269655) | óþekkt | 1780 | óþekkt | Nationalmuseet, Kaupmannahöfn |
+
+: Handritin tíu. Staður merktur „eigandi“ segir hvar eigandinn bjó, ekki endilega hvar handritið var gert. {.striped}
+
+## Hversu vissar eru upplýsingarnar?
+
+Aðeins tvö handrit eru tengd stað þar sem þau voru gerð: Fjarðarhorn (5) og Skaftafell (6). Hin eru tengd stað þar sem eigandi bjó eða fjölskyldutengslum. Þrjú eru ekki á kortinu því ekki er vitað hvaða bæ er átt við: Öðrumgarður (2), Steinsstaðir (3) og Hóll (9). Handritið í Kaupmannahöfn er dagsett 1780 í skrá safnsins, en ekki er vitað hvaðan það kom. Í sprettiglugga hvers staðar á kortinu er vissan tilgreind og vísað í heimild. Opnar spurningar eru skráðar í [Sjonabok #15](https://github.com/HiDefTextiles/Sjonabok/issues/15).
+
+::: {.heimild}
+Upplýsingar um handritin eru úr Sarpi, safnaskrá Þjóðminjasafns Íslands, og skrá Nationalmuseet. Hnit eru úr OpenStreetMap og GeoNames. Kortið er gert í R með leaflet; gögn og kóði eru í `sjonabok/kort/` (`make handritakort`).
+:::

@@ -11,9 +11,9 @@ Hvernig verður ljósmynd, texti eða hugmynd að prjónamynstri? Hér er sjálf
 :::
 
 ::: {.par}
-![Mynstur í 4 litum úr ljósmynd af baldursbrám, með borða úr *Sjónabók*.](../img/passap-e6000/mynstur-bordi.png){.pixel fig-alt="Mynstur í fjórum litum með borða í kring"}
+![Mynstur í 4 litum úr ljósmynd af baldursbrám, með borða úr *Sjónabók*.](../img/passap-e6000/mynstur-bordi.webp){.pixel fig-alt="Mynstur í fjórum litum með borða í kring"}
 
-![Mynstur af Ragnheiði Jónsdóttur með bakgrunn úr *Sjónabók*.](../img/passap-e6000/mynstur-ragnheidur.png){.pixel fig-alt="Mynstur af konu með hatt"}
+![Mynstur af Ragnheiði Jónsdóttur með bakgrunn úr *Sjónabók*.](../img/passap-e6000/mynstur-ragnheidur.webp){.pixel fig-alt="Mynstur af konu með hatt"}
 :::
 
 ## Kaflarnir

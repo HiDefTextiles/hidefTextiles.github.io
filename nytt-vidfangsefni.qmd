@@ -22,19 +22,34 @@ Vefurinn er gerður fyrir mörg textílverkefni. Prjónavélin, Sjónabók og my
    git submodule add https://github.com/HiDefTextiles/<geymsla>.git
    ```
 
-2. **Veldu myndir.** Bættu myndunum við `scripts/sync-assets.sh`. Aðeins skrár sem eru taldar upp þar fara á vefinn.
+2. **Veldu myndir og þjappaðu þeim.** Bættu myndunum við `scripts/sync-assets.sh`. Aðeins skrár sem eru taldar upp þar fara á vefinn, og skriftan breytir þeim í WebP, mest 1200 punkta á lengri hliðina.
 
-   Myndir og myndbönd af [Instagram](https://www.instagram.com/hideftextiles/) má sækja auðveldlega með tólinu [instagram-archiver](https://github.com/tungufoss/instagram-archiver). Settu þjappað afrit í `img/instagram/<viðfangsefni>/` og skráðu færslurnar í `scripts/instagram.py`, sem setur myndasafn með hlekk á hverja færslu neðst á síðuna. Upprunalega safnið þarf ekki að geyma.
+   Allar myndir á vefnum eru þjappaðar í WebP áður en þær fara í geymsluna. Myndir sem eru settar beint í `img/` þjappar þú með
 
-3. **Búðu til möppu** fyrir viðfangsefnið, til dæmis `vefnadur/`, með `index.qmd` sem forsíðu: hvað þetta er, kaflarnir sem kort og tengd viðfangsefni. Notaðu `prjonavel/index.qmd` sem fyrirmynd.
+   ```bash
+   make images FILES="img/vefnadur/mynd.jpg"
+   ```
 
-4. **Skrifaðu kaflana** eftir sniðmátinu hér að neðan.
+   sem setur `mynd.webp` í stað frumritsins (mest 1200 punktar, gæði 78). Fyrir skjámyndir, rafrásir og mynsturreiti, þar sem hver punktur skiptir máli, notar þú `LOSSLESS=1 sh scripts/compress-images.sh <skrá>`. Myndir á síðunum hlaðast sjálfkrafa þegar lesandinn nálgast þær (`loading="lazy"`).
 
-5. **Skráðu heimildir** í `heimildir.bib` og vísaðu í þær á hverri síðu.
+   Myndir og myndbönd af [Instagram](https://www.instagram.com/hideftextiles/) má sækja auðveldlega með tólinu [instagram-archiver](https://github.com/tungufoss/instagram-archiver). Þjappaðu myndunum með `MAX=1080 sh scripts/compress-images.sh`, settu þær í `img/instagram/<viðfangsefni>/` og skráðu færslurnar í `scripts/instagram.py`, sem setur myndasafn með hlekk á hverja færslu neðst á síðuna. Upprunalega safnið þarf ekki að geyma.
 
-6. **Bættu viðfangsefninu við valmyndirnar** í `_quarto.yml` (`navbar` og nýtt `sidebar`) og korti á [forsíðuna](index.qmd).
+3. **Settu myndbönd á YouTube, ekki í geymsluna.** Myndbönd eru aldrei vistuð í git. Hladdu þeim upp á YouTube-rásina [@tungufoss](https://www.youtube.com/@tungufoss) og bættu þeim í spilunarlistann *HiDEF textiles*. Í lýsingu myndbandsins kemur textinn úr færslunni og hlekkur á upprunalegu færsluna á Instagram. Skráðu svo auðkenni myndbandsins (11 stafirnir á eftir `v=` eða `shorts/` í slóðinni) í `YOUTUBE` í `scripts/instagram.py`, til dæmis `"C7JRfAQAhQk_01": "abcDEF12345"`. Skriftan fellir myndbandið inn með `iframe` frá `youtube-nocookie.com` með `loading="lazy"`, svo síðan helst létt og engar vafrakökur eru settar fyrr en smellt er á spilun. Myndbönd sem eru ekki á Instagram eru felld inn á sama hátt:
 
-7. **Skoðaðu vefinn** á eigin tölvu og sendu inn breytinguna.
+   ```html
+   <iframe src="https://www.youtube-nocookie.com/embed/<auðkenni>" title="<lýsing>"
+     loading="lazy" allowfullscreen></iframe>
+   ```
+
+4. **Búðu til möppu** fyrir viðfangsefnið, til dæmis `vefnadur/`, með `index.qmd` sem forsíðu: hvað þetta er, kaflarnir sem kort og tengd viðfangsefni. Notaðu `prjonavel/index.qmd` sem fyrirmynd.
+
+5. **Skrifaðu kaflana** eftir sniðmátinu hér að neðan.
+
+6. **Skráðu heimildir** í `heimildir.bib` og vísaðu í þær á hverri síðu.
+
+7. **Bættu viðfangsefninu við valmyndirnar** í `_quarto.yml` (`navbar` og nýtt `sidebar`) og korti á [forsíðuna](index.qmd).
+
+8. **Skoðaðu vefinn** á eigin tölvu og sendu inn breytinguna.
 
    ```bash
    make preview

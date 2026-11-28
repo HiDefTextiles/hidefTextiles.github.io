@@ -9,7 +9,7 @@ subtitle: "Gestir senda inn hugmynd að mynstri í texta"
 Opna vefviðmótið tekur við textabeiðnum frá notendum. Úr textanum verður mynd, úr myndinni mynsturfylki og fylkið er vistað í gagnagrunni. [Stýringin](styring.qmd) sækir svo mynstrin þaðan og prjónar þau.
 :::
 
-![Vefviðmótið sem tekur við hugmyndum notenda að mynstrum.](../img/passap-e6000/skjar-passapnext.png){fig-alt="Vefsíða með reitum fyrir nafn og skilaboð og takkanum Senda" width=75%}
+![Vefviðmótið sem tekur við hugmyndum notenda að mynstrum.](../img/passap-e6000/skjar-passapnext.webp){fig-alt="Vefsíða með reitum fyrir nafn og skilaboð og takkanum Senda" width=75%}
 
 ## Hvað gerist þegar þú ýtir á Senda?
 

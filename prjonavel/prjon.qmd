@@ -49,13 +49,13 @@ Prufurnar heppnuðust misvel og í ljós kom að vélarnar eru ekki mjög notend
 
 ## Af Instagram
 
-Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.
+Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð. Öll myndböndin eru líka í [spilunarlistanum HiDEF textiles á YouTube](https://www.youtube.com/playlist?list=PLcHERjMhsyhA).
 
 ```{=html}
 <div class="instagram">
-<figure><video controls preload="none" playsinline poster="../img/instagram/prjonavel/2024-05-19_C7JRfAQAhQk_01.jpg"><source src="../img/instagram/prjonavel/2024-05-19_C7JRfAQAhQk_01.mp4" type="video/mp4"></video><figcaption>Fyrsta æfingarverkefnið úr Duo80 handbókinni: pottaleppur. <a href="https://www.instagram.com/p/C7JRfAQAhQk/">Færslan á Instagram</a>, 19. maí 2024.</figcaption></figure>
-<figure><a href="../img/instagram/prjonavel/2024-05-30_C7oEX5Zg5L2_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-30_C7oEX5Zg5L2_01.jpg" alt="Fyrstu prufurnar eftir æfingamynstrum í leiðarvísinum fyrir Duo80." loading="lazy"></a><figcaption>Fyrstu prufurnar eftir æfingamynstrum í leiðarvísinum fyrir Duo80. <a href="https://www.instagram.com/p/C7oEX5Zg5L2/">Færslan á Instagram</a>, 30. maí 2024.</figcaption></figure>
-<figure><a href="../img/instagram/prjonavel/2024-05-30_C7oPPEUAERo_01.jpg" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-30_C7oPPEUAERo_01.jpg" alt="Mannleg mistök: hér prjónaðist ekki af nálunum eins og búist var við." loading="lazy"></a><figcaption>Mannleg mistök: hér prjónaðist ekki af nálunum eins og búist var við. <a href="https://www.instagram.com/p/C7oPPEUAERo/">Færslan á Instagram</a>, 30. maí 2024.</figcaption></figure>
+<figure><iframe src="https://www.youtube-nocookie.com/embed/q3RybTmCukQ" title="Fyrsta æfingarverkefnið úr Duo80 handbókinni: pottaleppur." loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><figcaption>Fyrsta æfingarverkefnið úr Duo80 handbókinni: pottaleppur. <a href="https://www.instagram.com/p/C7JRfAQAhQk/">Færslan á Instagram</a>, 19. maí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/prjonavel/2024-05-30_C7oEX5Zg5L2_01.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-30_C7oEX5Zg5L2_01.webp" alt="Fyrstu prufurnar eftir æfingamynstrum í leiðarvísinum fyrir Duo80." loading="lazy"></a><figcaption>Fyrstu prufurnar eftir æfingamynstrum í leiðarvísinum fyrir Duo80. <a href="https://www.instagram.com/p/C7oEX5Zg5L2/">Færslan á Instagram</a>, 30. maí 2024.</figcaption></figure>
+<figure><a href="../img/instagram/prjonavel/2024-05-30_C7oPPEUAERo_01.webp" class="lightbox" data-gallery="instagram"><img src="../img/instagram/prjonavel/2024-05-30_C7oPPEUAERo_01.webp" alt="Mannleg mistök: hér prjónaðist ekki af nálunum eins og búist var við." loading="lazy"></a><figcaption>Mannleg mistök: hér prjónaðist ekki af nálunum eins og búist var við. <a href="https://www.instagram.com/p/C7oPPEUAERo/">Færslan á Instagram</a>, 30. maí 2024.</figcaption></figure>
 </div>
 ```
 

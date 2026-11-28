@@ -5,11 +5,34 @@ Media live in img/instagram/<topic>/ (compressed copies of the
 @hideftextiles archive made with tungufoss/instagram-archiver).
 Each page gets its gallery just before its `::: {.hofundur}` box,
 between the markers below, so the script can be re-run safely.
+
+Videos are hosted on YouTube (https://www.youtube.com/@tungufoss,
+playlist "HiDEF textiles") and embedded with an iframe, never committed.
+Put each video's YouTube ID in YOUTUBE below, keyed by "<post>_<nn>"
+as in the archive file name. A video without an ID falls back to the
+local .mp4, which only exists until it has been uploaded.
 """
 import pathlib, re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 IG = "https://www.instagram.com/p/{}/"
+YT = "https://www.youtube-nocookie.com/embed/{}"
+PLAYLIST = "PLcHERjMhsyhA"  # YouTube playlist ID (PL...) for "HiDEF textiles", once created
+
+# "<post>_<nn>" -> YouTube video ID
+YOUTUBE = {
+  "C7JRfAQAhQk_01": "q3RybTmCukQ",
+  "C7JShzsgfhF_01": "E-YEauBHt4o",
+  "C7kVoW4AIAt_01": "ea3GYfEOE38",
+  "C7kbxeFIKz1_01": "LJIMnjNcIB0",
+  "C7oKGV2AjQK_01": "25q8OGhGbdM",
+  "C766unfoZAJ_01": "oHeMyZ-bNfU",
+  "C8pGS9KIQrP_01": "TiNsSSR-E3A",
+  "C8w0kCxoyt4_01": "X0GN0K7PwQE",
+  "C84sH57IV-Y_01": "eGkWztHbTXQ",
+  "C-5CF7KAgNj_04": "Ozf-9MO2r8M",
+}
+
 START, END = "<!-- instagram:start -->", "<!-- instagram:end -->"
 
 # page -> list of (post id, date, caption). Captions summarise the post text.
@@ -62,24 +85,38 @@ PAGES = {
 }
 
 def media(page, post):
+    """Media of one post, in order: ("youtube", id), ("video", path) or ("image", path).
+
+    Videos listed in YOUTUBE need no local file; their .mp4 and poster .jpg
+    can be deleted once uploaded. Photos are WebP (make images).
+    """
     topic = page.split("/")[0]
     d = ROOT / "img" / "instagram" / topic
-    files = sorted(d.glob(f"*_{post}_*"))
-    vids = {f.stem for f in files if f.suffix == ".mp4"}
-    return [f for f in files if f.suffix == ".mp4" or f.stem not in vids], topic
+    items = {}
+    for f in sorted(d.glob(f"*_{post}_*")):
+        nn = f.stem.rsplit("_", 1)[1]
+        if f.suffix == ".mp4" or nn not in items:
+            items[nn] = ("video" if f.suffix == ".mp4" else "image", f"../img/instagram/{topic}/{f.name}")
+    for k, vid in YOUTUBE.items():
+        if k.rsplit("_", 1)[0] == post:
+            items[k.rsplit("_", 1)[1]] = ("youtube", vid)
+    return [items[nn] for nn in sorted(items)]
 
 def block(page, items):
     out = [START, "", "## Af Instagram", "",
-           "Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð.", "",
+           "Myndir og myndbönd sem teymið birti á [Instagram](https://www.instagram.com/hideftextiles/) meðan á verkefninu stóð."
+           + (f" Öll myndböndin eru líka í [spilunarlistanum HiDEF textiles á YouTube](https://www.youtube.com/playlist?list={PLAYLIST})." if PLAYLIST else ""), "",
            '```{=html}', '<div class="instagram">']
     for post, date, cap in items:
-        files, topic = media(page, post)
-        for n, f in enumerate(files):
-            src = f"../img/instagram/{topic}/{f.name}"
-            if f.suffix == ".mp4":
-                el = f'<video controls preload="none" playsinline poster="../img/instagram/{topic}/{f.stem}.jpg"><source src="{src}" type="video/mp4"></video>'
+        for n, (kind, ref) in enumerate(media(page, post)):
+            if kind == "youtube":
+                el = (f'<iframe src="{YT.format(ref)}" title="{cap}" loading="lazy" '
+                      'allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" '
+                      'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
+            elif kind == "video":
+                el = f'<video controls preload="none" playsinline poster="{ref[:-4]}.webp"><source src="{ref}" type="video/mp4"></video>'
             else:
-                el = f'<a href="{src}" class="lightbox" data-gallery="instagram"><img src="{src}" alt="{cap}" loading="lazy"></a>'
+                el = f'<a href="{ref}" class="lightbox" data-gallery="instagram"><img src="{ref}" alt="{cap}" loading="lazy"></a>'
             text = f'{cap} ' if n == 0 else ''
             out.append(f'<figure>{el}<figcaption>{text}<a href="{IG.format(post)}">Færslan á Instagram</a>, {date}.</figcaption></figure>')
     out += ["</div>", "```", "", END, ""]
