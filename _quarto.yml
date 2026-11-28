@@ -147,11 +147,16 @@ website:
         - um.qmd
         - samband.qmd
         - nytt-vidfangsefni.qmd
+        - personuvernd.qmd
   page-footer:
     left: "© 2026 [Helga Ingimundardóttir](https://hi.is/starfsfolk/helgaingim) · Háskóli Íslands"
     right:
       - text: "Heimildir"
         href: heimildir.qmd
+      - text: "Persónuvernd"
+        href: personuvernd.qmd
+      - text: "Vafrakökur"
+        href: "#analytics-settings"
       - icon: instagram
         href: https://www.instagram.com/hideftextiles/
         aria-label: Instagram
@@ -173,7 +178,17 @@ format:
       - styles/hidef.scss
     css:
       - styles/hi-watermark.css
+      - styles/analytics.css
     include-in-header:
+      # Google Tag Manager container (GTM-...) or GA4 Measurement ID (G-...)
+      # for vafrakökuborðann, see _includes/analytics.html. Nothing loads until
+      # the visitor accepts. A placeholder (GTM-XXXXXXX) switches it off.
+      - text: |
+          <meta name="ga-measurement-id" content="GTM-5XPW89B4"
+            data-privacy-href="/personuvernd.html" data-privacy-label="Persónuvernd"
+            data-text="Megum við telja heimsóknir með Google Analytics? Það setur vafrakökur og sýnir okkur hvaða síður eru skoðaðar, ekkert annað. Ekkert er sent fyrr en þú samþykkir."
+            data-accept="Samþykkja" data-decline="Nei takk">
+      - file: _includes/analytics.html
       - text: |
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

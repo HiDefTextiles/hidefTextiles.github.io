@@ -1,0 +1,30 @@
+---
+title: "Persónuvernd"
+---
+
+Vefurinn HiDef textíll er kyrrstæður vefur á GitHub Pages. Hann er án innskráningar og geymir ekkert
+um þig á netþjóni.
+
+## Vafrakökur og Google Analytics
+
+Til að sjá hvaða síður eru notaðar viljum við telja heimsóknir með
+[Google Analytics](https://policies.google.com/technologies/partner-sites), sem er sett upp í
+gegnum Google Tag Manager. Talningin hefst aðeins eftir að þú smellir á **Samþykkja** í borðanum
+neðst á síðunni. Fram að því er ekkert sent til Google og engar vafrakökur fyrir greiningu eru
+settar. Ef þú samþykkir setur Google Analytics `_ga` vafrakökur og skráir hvaða síður þú opnar,
+tegund vafra og staðsetningu í grófum dráttum (land eða borg). Google Analytics 4 geymir ekki
+IP-tölur og slökkt er á auglýsingaeiginleikum.
+
+Valið er geymt í þínum eigin vafra og gildir líka fyrir
+[Sjónabókarsafnið](https://hideftextiles.github.io/Sjonabok/) og
+[Sjónabókarstafrófið](https://hideftextiles.github.io/Sjonabok-stafrof/), sem eru á sama léni.
+Þú getur breytt því hvenær sem er með [Vafrakökur](#analytics-settings) neðst á síðunni.
+
+## Myndbönd
+
+Myndbönd eru felld inn frá `youtube-nocookie.com`, svo YouTube setur engar vafrakökur fyrr en smellt
+er á spilun.
+
+::: {.heimild}
+Fyrirspurnir um gögnin sendist á HiDef textíl, Háskóla Íslands, sjá [Hafa samband](samband.qmd).
+:::
